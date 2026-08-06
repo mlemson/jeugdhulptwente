@@ -23,37 +23,39 @@ header h1{margin:0 0 4px;font-size:1.45rem}header p{margin:0;opacity:.88}
 .wait{font-weight:800;white-space:nowrap}.wait.short{color:var(--good)}.wait.long{color:var(--bad)}.muted{color:var(--muted)}.details{width:56px;text-align:center}.info-wrap{position:relative;display:inline-flex}.info-btn{width:28px;height:28px;border:1px solid #c7d3d8;border-radius:50%;background:#fff;color:var(--brand2);font-weight:900;cursor:help}.tip{display:none;position:absolute;right:0;top:34px;width:320px;padding:11px 12px;border-radius:10px;background:#17212b;color:#fff;text-align:left;font-weight:400;line-height:1.45;z-index:20;box-shadow:0 10px 30px rgba(0,0,0,.25)}.info-wrap:hover .tip,.info-btn:focus + .tip{display:block}.tip a{color:#bfe8ff}.tip b{display:block;margin-bottom:3px}.tip .tip-section{margin-top:10px}.source a{font-weight:750}.empty{text-align:center;padding:42px;color:var(--muted)}
 dialog{border:0;border-radius:15px;max-width:780px;width:calc(100% - 28px);padding:0;box-shadow:0 25px 75px rgba(0,0,0,.28)}dialog::backdrop{background:rgba(14,29,35,.48)}.modal{padding:20px}.modal h2{margin-top:0}.modal pre{white-space:pre-wrap;background:#f4f7f8;border-radius:10px;padding:12px;max-height:390px;overflow:auto}
 footer{font-size:.77rem;color:var(--muted);line-height:1.45;padding:16px 2px 8px}.maintenance{margin:3px 0 20px;border-top:1px solid #dce4e8;color:var(--muted);font-size:.78rem}.maintenance summary{width:max-content;margin-left:auto;padding:8px 2px;cursor:pointer;opacity:.68;user-select:none}.maintenance summary:hover,.maintenance[open] summary{opacity:1}.maintenance-body{margin-top:4px;padding:12px 14px;background:#f8fafb;border:1px solid var(--line);border-radius:12px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.maintenance-actions{display:flex;gap:8px;flex-wrap:wrap}.maintenance-note{flex-basis:100%;margin:0;color:var(--muted);font-size:.75rem}
-@media(max-width:1050px){
- .controls{grid-template-columns:1fr 1fr}.controls .wide{grid-column:1/-1}.summary{grid-template-columns:repeat(2,1fr)}
+@media(max-width:1250px){
  .wrap{padding:12px}
- .table-scroll{overflow:visible}
- table{min-width:0}
- thead{display:none}
- tbody{display:grid;gap:12px}
- tbody tr{display:block;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 5px 16px rgba(22,45,55,.06)}
- tbody td{display:block;width:100%;border:0;border-bottom:1px solid #edf1f3;padding:10px 12px;min-width:0}
- tbody td::before{content:attr(data-label);display:block;margin-bottom:4px;color:var(--muted);font-size:.66rem;font-weight:800;text-transform:uppercase;letter-spacing:.035em}
- tbody td.provider-cell{background:#f8fafb;padding:12px 14px}
- tbody td.provider-cell::before{display:none}.provider{font-size:1rem}
- tbody td.location-cell,tbody td.target-cell,tbody td.offer-cell,tbody td.expertise-cell,tbody td.wait-for-cell,tbody td.intake-cell,tbody td.start-cell,tbody td.details{display:block}
- tbody td.wait-for-cell{background:#f4f9f8}
- tbody td.wait-for-cell::before{color:var(--brand2)}
- tbody td.intake-cell,tbody td.start-cell{background:#f7fbf8;padding:12px 14px}
- tbody td.intake-cell,tbody td.start-cell{font-size:1.15rem}
- tbody td.offer-cell .chips, tbody td.expertise-cell .chips, tbody td.target-cell .chips{display:block}
- tbody td.offer-cell .chip, tbody td.expertise-cell .chip, tbody td.target-cell .chip{display:block;width:max-content;max-width:100%;margin:0 0 6px 0}
- tbody td.expertise-cell .chip{border-radius:10px}
- tbody td.contract-cell, tbody td.source-cell, tbody td.date-cell{display:none!important}
- tbody td.details{width:auto;text-align:left;border-bottom:0}
- .info-wrap{display:flex}.tip{position:fixed;left:12px;right:12px;top:auto;bottom:12px;width:auto;max-height:70vh;overflow:auto}
+ .controls{grid-template-columns:repeat(3,minmax(150px,1fr))}.controls .wide{grid-column:1/-1}
+ .summary{grid-template-columns:repeat(5,minmax(110px,1fr))}
+ .table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+ table{min-width:940px;table-layout:fixed}
+ th,td{padding:9px 7px}
+ th{font-size:.65rem}
+ td{font-size:.76rem}
+ th:nth-child(1),td:nth-child(1){width:16%}
+ th:nth-child(2),td:nth-child(2){width:12%}
+ th:nth-child(3),td:nth-child(3){width:8%}
+ th:nth-child(4),td:nth-child(4){width:11%}
+ th:nth-child(5),td:nth-child(5){width:25%}
+ th:nth-child(6),td:nth-child(6){width:13%}
+ th:nth-child(7),td:nth-child(7){width:6%}
+ th:nth-child(8),td:nth-child(8){width:7%}
+ th:nth-child(10),td:nth-child(10){width:42px}
+ th:nth-child(9),td:nth-child(9),th:nth-child(11),td:nth-child(11),th:nth-child(12),td:nth-child(12){display:none}
+ .offer-cell .chips,.expertise-cell .chips,.target-cell .chips{display:block}
+ .offer-cell .chip,.expertise-cell .chip,.target-cell .chip{display:block;width:max-content;max-width:100%;margin:0 0 4px 0;white-space:normal}
+ .wait-for-cell>div{display:block;margin-bottom:3px}
+ .details{width:42px}
 }
-@media(max-width:570px){
- header{padding:17px 16px}header h1{font-size:1.2rem}.wrap{padding:9px}
- .controls,.summary{grid-template-columns:1fr}.controls{padding:11px}
- .meta{justify-content:flex-end}.metric{padding:10px 12px}
- tbody td.location-cell,tbody td.target-cell{font-size:.82rem}
- tbody td.intake-cell,tbody td.start-cell{padding:12px}
- .chip{font-size:.66rem;padding:3px 6px}
+@media(max-width:760px){
+ header{padding:17px 16px}header h1{font-size:1.15rem}.wrap{padding:8px}
+ .controls{grid-template-columns:1fr}.summary{grid-template-columns:repeat(2,1fr)}
+ .meta{justify-content:flex-end}
+ table{min-width:820px}
+ th,td{padding:8px 6px}
+ td{font-size:.72rem}
+ .provider{font-size:.78rem}
+ .chip{font-size:.62rem;padding:3px 5px}
  .maintenance summary{margin-left:0}
 }
 </style>
@@ -287,7 +289,8 @@ groepdag:"Groeps- & dagbehandeling",begeleiding:"Ambulante begeleiding",
 schooldag:"School & daginvulling",wonen:"Wonen & verblijf"
 };
 function targetsOf(x){return Array.isArray(x.d)?x.d:[x.d]}
-function targetHtml(x){return targetsOf(x).map(t=>`<span class="chip contract">${t}</span>`).join(" ")}
+function targetLabel(t){return t==="Volwassenen"?"18+":t}
+function targetHtml(x){return targetsOf(x).map(t=>`<span class="chip contract" title="${t}">${targetLabel(t)}</span>`).join("")}
 function groupedExpertise(x){
  const text=(x.e||[]).join(" ").toLowerCase();
  const types=serviceTypes(x);
@@ -361,7 +364,7 @@ function displayServiceTypes(x,offerFilter=activeOfferFilter()){
  if(offerFilter&&types.includes(offerFilter))return [offerFilter];
  return types;
 }
-function serviceTypeHtml(x,offerFilter=activeOfferFilter()){return displayServiceTypes(x,offerFilter).map(t=>`<span class="chip contract">${t}</span>`).join(" ")}
+function serviceTypeHtml(x,offerFilter=activeOfferFilter()){return displayServiceTypes(x,offerFilter).map(t=>`<span class="chip contract">${t}</span>`).join("")}
 
 const careLevelMap={
 "DOPPA zorg":{"Jeugd":["Basis-GGZ","Specialistische GGZ"],"Volwassenen":["Basis-GGZ","Specialistische GGZ"]},
@@ -504,7 +507,8 @@ function mergeEquivalentResults(rows,offerFilter=null){
 
 function waitForHtml(x,offerFilter=activeOfferFilter()){
  const labels=x.ws?.length?x.ws:[waitFor(x,offerFilter)];
- return labels.map(label=>`<div>${label}</div>`).join("");
+ return labels.flatMap(label=>String(label).split(/\s*\/\s*/).filter(Boolean))
+   .map(label=>`<div>${label}</div>`).join("");
 }
 
 function contractHtml(x){
