@@ -1,0 +1,2450 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-06T11:52:13.701Z",
+  "rows": [
+    {
+      "p": "DOPPA zorg",
+      "w": "Individuele behandeling (o.a. EMDR/schema)",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "EMDR",
+        "Schematherapie",
+        "Trauma / PTSS",
+        "Diagnostiek",
+        "Individuele behandeling"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 30.4,
+      "b": null,
+      "k": "concrete",
+      "s": "Behandeling: circa 9 maanden tot intake; specifieke therapie zoals EMDR kan langer duren.",
+      "u": "https://www.doppazorg.nl/clienten/wachttijden/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "DOPPA zorg",
+      "w": "Diagnostiek",
+      "a": [
+        "Diagnostiek"
+      ],
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "Diagnostiek",
+        "ADHD",
+        "Autisme"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 23.644444444444442,
+      "b": null,
+      "k": "concrete",
+      "s": "Diagnostiek: circa 7 maanden tot intake.",
+      "u": "https://www.doppazorg.nl/clienten/wachttijden/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "DOPPA zorg",
+      "w": "Behandeling en diagnostiek volwassenen",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede",
+      "d": "Volwassenen",
+      "e": [
+        "EMDR",
+        "Schematherapie",
+        "Trauma / PTSS",
+        "Diagnostiek",
+        "Individuele behandeling"
+      ],
+      "c": "Zorgverzekering",
+      "i": 47.8,
+      "b": null,
+      "k": "concrete",
+      "s": "Behandeling/diagnostiek: circa 11 maanden tot intake.",
+      "u": "https://www.doppazorg.nl/clienten/wachttijden/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Youz poli Twente",
+      "w": "Poli Twente jeugd",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "Specialistische jeugd-GGZ",
+        "Trauma / PTSS",
+        "ADHD",
+        "Autisme"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 12,
+      "b": 0,
+      "k": "concrete",
+      "s": "Poli Twente, Hengelosestraat; jonger dan 18 jaar.",
+      "u": "https://youz.nl/wachttijden",
+      "date": "2026-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Youz IMH",
+      "w": "Infant Mental Health (0–5 jaar)",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "Infant Mental Health",
+        "Ouder-kind",
+        "Jonge kind"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 6,
+      "b": 0,
+      "k": "concrete",
+      "s": "IMH, Hengelosestraat; jonger dan 18 jaar.",
+      "u": "https://youz.nl/wachttijden",
+      "date": "2026-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Youz i-psy Jeugd en Gezin",
+      "w": "Culturele psychiatrie jeugd/gezin",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "Culturele psychiatrie",
+        "Systeem",
+        "Migratie"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 14,
+      "b": 0,
+      "k": "concrete",
+      "s": "i-psy culturele psychiatrie, Hengelosestraat.",
+      "u": "https://youz.nl/wachttijden",
+      "date": "2026-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Youz poli Twente",
+      "l": "Enschede",
+      "d": "Volwassenen",
+      "e": [
+        "Jongvolwassenen",
+        "Specialistische GGZ"
+      ],
+      "c": "Zorgverzekering",
+      "i": 8,
+      "b": 0,
+      "k": "concrete",
+      "s": "Gepubliceerde wachttijd voor 18 jaar en ouder.",
+      "u": "https://youz.nl/wachttijden",
+      "date": "2026-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Boncura",
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "Angst",
+        "Depressie / stemming",
+        "Trauma / PTSS",
+        "ADHD / ADD",
+        "Autisme / ASS",
+        "Diagnostiek",
+        "CGT",
+        "ACT",
+        "EMDR",
+        "PMT / psychomotorische therapie",
+        "Groepsbehandeling",
+        "Systeemtherapie",
+        "Psycho-educatie",
+        "Mindfulness",
+        "Medicatie / farmacotherapie"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Openbare wachtlijstpagina gevonden, maar de waarden waren niet betrouwbaar uit de paginaweergave te halen. Open de bron voor de actuele tabel.",
+      "u": "https://boncura.nl/wachttijden/",
+      "date": "2026-06-10",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Boncura",
+      "l": "Enschede",
+      "d": "Volwassenen",
+      "e": [
+        "Angst",
+        "Depressie / stemming",
+        "Trauma / PTSS",
+        "ADHD / ADD",
+        "Autisme / ASS",
+        "Dwang / OCD",
+        "Diagnostiek",
+        "CGT",
+        "ACT",
+        "EMDR",
+        "PMT / psychomotorische therapie",
+        "Groepsbehandeling",
+        "Psycho-educatie",
+        "Mindfulness",
+        "Medicatie / farmacotherapie",
+        "E-health"
+      ],
+      "c": "Zorgverzekering",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Wachttijd tot intake wordt gepubliceerd; behandeling hangt af van het geïndiceerde zorgtype.",
+      "u": "https://boncura.nl/wachttijden/",
+      "date": "2026-06-10",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Accare",
+      "l": "Hengelo",
+      "d": "Jeugd",
+      "e": [
+        "EMDR",
+        "Trauma",
+        "ADHD",
+        "Autisme",
+        "Angst",
+        "Diagnostiek"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 15,
+      "b": 3,
+      "k": "concrete",
+      "s": "Gemiddelde wachttijd per locatie.",
+      "u": "https://www.accare.nl/praktische-informatie/wachttijden-per-locatie",
+      "date": "2026-07-15",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "ZMTwente",
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "EMDR",
+        "CGT",
+        "Trauma / PTSS",
+        "ADHD / ADD",
+        "Autisme / ASS",
+        "Hoogbegaafdheid",
+        "PMT",
+        "Systeemtherapie",
+        "Ouderbegeleiding"
+      ],
+      "c": "Contractstatus controleren",
+      "i": 4,
+      "b": 12,
+      "k": "route",
+      "s": "Intake in principe binnen 4 weken; zorgtraject start in principe binnen 12 weken. Uitgangspunt is werken zonder wachtlijst.",
+      "u": "https://www.zmtwente.nl/werkwijze",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "ZMTwente",
+      "l": "Enschede",
+      "d": "Volwassenen",
+      "e": [
+        "EMDR",
+        "CGT",
+        "ACT",
+        "Trauma / PTSS",
+        "PMT",
+        "Relatietherapie",
+        "Systeemtherapie"
+      ],
+      "c": "Contractstatus controleren",
+      "i": 4,
+      "b": 12,
+      "k": "route",
+      "s": "Gepubliceerde zorgroute, geen actuele gemeten wachtlijst.",
+      "u": "https://www.zmtwente.nl/werkwijze",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Helios / KIDSclinic",
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "Angst",
+        "ADHD",
+        "Autisme",
+        "Stemming",
+        "Hechting",
+        "Gedrag",
+        "Opvoeding",
+        "Dyslexie",
+        "Diagnostiek"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Intake en soms diagnostiek in Enschede; behandeling vaak op de Helios-locatie in Oldenzaal. Geen concrete openbare wachttijd gevonden.",
+      "u": "https://kidsclinic.nl/specialismen/ggz-kind-jeugd/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Karakter",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "Autisme / ASS",
+        "ADHD / ADD",
+        "LVB",
+        "Angst",
+        "Depressie / stemming",
+        "Trauma / PTSS",
+        "Eetproblemen",
+        "Psychose",
+        "Tics",
+        "Persoonlijkheidsproblematiek",
+        "Diagnostiek",
+        "Psychotherapie",
+        "CGT",
+        "Schematherapie",
+        "Systeemtherapie",
+        "Psycho-educatie",
+        "Oudertraining",
+        "PRT / Pivotal Response Treatment",
+        "PMT / psychomotorische therapie",
+        "Ouder-kind bewegingstherapie",
+        "Beeldende therapie",
+        "Muziektherapie",
+        "Mindfulness",
+        "Groepsbehandeling",
+        "Deeltijdbehandeling",
+        "Medicatie / farmacotherapie",
+        "FACT jeugd",
+        "Intensieve gezinsbehandeling"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 10,
+      "b": 10,
+      "k": "concrete",
+      "s": "Gemiddelde wachttijd tot intake en start behandeling voor de reguliere Enschede-route. Karakter Enschede werkt samen met het Coördinatiepunt Spoedhulp Jeugd Twente, maar crisisaanmeldingen lopen via de centrale crisisroute en worden daarom niet als aparte 0-wekenwachttijd van Karakter getoond.",
+      "u": "https://www.karakter.com/wachttijden",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Dimencegroep",
+      "w": "24-uurs crisisbereikbaarheid Jeugd-GGZ",
+      "a": [
+        "Crisis"
+      ],
+      "cr": true,
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Jeugd-GGZ crisisdienst",
+        "Psychiatrische crisis",
+        "Crisisbeoordeling",
+        "24-uurs bereikbaarheid"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 0,
+      "b": 0,
+      "k": "concrete",
+      "s": "Samen14 vermeldt dat Mediant en Dimence gezamenlijk de 24-uurs crisisbereikbaarheid Jeugd-GGZ in Twente uitvoeren. Aanmelding verloopt via het Coördinatiepunt Spoedhulp Jeugd of via huisarts/verwijzer; dit is geen reguliere wachtlijst.",
+      "u": "https://www.samen14.nl/twents%2Bmodel/beschikbaarheidsvoorzieningen/default.aspx",
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Mediant",
+      "w": "Crisis / spoedaanmelding",
+      "a": [
+        "Crisis"
+      ],
+      "cr": true,
+      "l": "Enschede / Twente",
+      "d": [
+        "Jeugd",
+        "Volwassenen"
+      ],
+      "e": [
+        "Crisis / spoedhulp",
+        "Acute psychiatrie",
+        "Crisisbeoordeling"
+      ],
+      "c": "Samen14/Jeugd + zorgverzekering",
+      "i": 0,
+      "b": 0,
+      "k": "concrete",
+      "s": "Bij crisis- en spoedaanmeldingen volgt Mediant een andere procedure en bestaan geen wachttijden. Neem bij crisis altijd contact op met de huisarts; buiten kantooruren met de huisartsenpost. Bij levensgevaar: 112.",
+      "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Mediant Centrum voor Jeugd",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "Autisme / ASS",
+        "ADHD / ADD",
+        "Angst",
+        "Depressie / stemming",
+        "Eetstoornissen",
+        "Trauma / PTSS",
+        "Hechting",
+        "Gedragsproblemen",
+        "Beginnende persoonlijkheidsproblematiek",
+        "Ernstige opvoedproblemen",
+        "Diagnostiek",
+        "Psycho-educatie",
+        "CGT",
+        "Psychotherapie",
+        "PMT / psychomotorische therapie",
+        "EMDR",
+        "Protocollaire behandeling",
+        "Medicatie / farmacotherapie",
+        "Systeembehandeling",
+        "Ouderbegeleiding",
+        "Groepsbehandeling",
+        "FACT jeugd"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Mediant meldt voor jeugd een langere wachttijd en vraagt telefonisch contact voor de actuele stand. Het jeugdteam biedt individuele, systeemgerichte, medicamenteuze, groeps- en vaktherapeutische behandeling.",
+      "u": "https://mediant.nl/jeugd/behandeling",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Mediant",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede/Twente",
+      "d": "Volwassenen",
+      "e": [
+        "Trauma",
+        "EMDR",
+        "Trauma- en stressorgerelateerde stoornissen"
+      ],
+      "c": "Zorgverzekering",
+      "i": 11,
+      "b": 10,
+      "k": "concrete",
+      "s": "Specialisme trauma- en stressorgerelateerde stoornissen.",
+      "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
+      "date": "2026-07-09",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Mediant BalanZ",
+      "w": "Eetstoornissen / BalanZ",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede/Twente",
+      "d": "Volwassenen",
+      "e": [
+        "Eetstoornissen",
+        "Anorexia",
+        "Boulimia",
+        "Binge eating",
+        "ARFID",
+        "Voedingsproblemen"
+      ],
+      "c": "Zorgverzekering",
+      "i": 11,
+      "b": 7,
+      "k": "concrete",
+      "s": "Centrum voor Eetstoornissen BalanZ. Voor de feitelijke actuele situatie kan rechtstreeks contact met het centrum nodig zijn.",
+      "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
+      "date": "2026-07-09",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Mediant",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede/Twente",
+      "d": "Volwassenen",
+      "e": [
+        "Dwang / OCD",
+        "Obsessief-compulsieve klachten"
+      ],
+      "c": "Zorgverzekering",
+      "i": 8,
+      "b": 5,
+      "k": "concrete",
+      "s": "Obsessieve-compulsieve en verwante stoornissen.",
+      "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
+      "date": "2026-07-09",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Mediant",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede/Twente",
+      "d": "Volwassenen",
+      "e": [
+        "Psychose",
+        "Schizofrenie",
+        "Psychotische klachten"
+      ],
+      "c": "Zorgverzekering",
+      "i": 2,
+      "b": 7,
+      "k": "concrete",
+      "s": "Schizofreniespectrum- en andere psychotische stoornissen.",
+      "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
+      "date": "2026-07-09",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Mediant",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede/Twente",
+      "d": "Volwassenen",
+      "e": [
+        "Bipolair",
+        "Manie",
+        "Stemmingsstoornis"
+      ],
+      "c": "Zorgverzekering",
+      "i": 23,
+      "b": 12,
+      "k": "concrete",
+      "s": "Bipolaire-stemmingsstoornissen.",
+      "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
+      "date": "2026-07-09",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Mediant",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede/Twente",
+      "d": "Volwassenen",
+      "e": [
+        "Somatisch-symptoomstoornis",
+        "Aanhoudende lichamelijke klachten",
+        "SOLK / ALK"
+      ],
+      "c": "Zorgverzekering",
+      "i": 9,
+      "b": null,
+      "k": "concrete",
+      "s": "Somatisch-symptoomstoornis en verwante stoornissen; behandelwachttijd niet afzonderlijk gepubliceerd.",
+      "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
+      "date": "2026-07-09",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Mediant",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede/Twente",
+      "d": "Volwassenen",
+      "e": [
+        "Neurocognitief",
+        "Geheugenproblemen",
+        "Cognitieve stoornissen"
+      ],
+      "c": "Zorgverzekering",
+      "i": 3,
+      "b": 34,
+      "k": "concrete",
+      "s": "Neurocognitieve stoornissen.",
+      "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
+      "date": "2026-07-09",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Mediant",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede/Twente",
+      "d": "Volwassenen",
+      "e": [
+        "Autisme",
+        "ADHD",
+        "Ontwikkelingsstoornissen"
+      ],
+      "c": "Zorgverzekering",
+      "i": 18,
+      "b": 12,
+      "k": "concrete",
+      "s": "Neurobiologische ontwikkelingsstoornissen.",
+      "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
+      "date": "2026-07-09",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Mediant",
+      "w": "Depressieve-stemmingsstoornissen",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede",
+      "d": "Volwassenen",
+      "e": [
+        "Depressie / stemming",
+        "Stemmingsstoornissen"
+      ],
+      "c": "Zorgverzekering",
+      "i": 6,
+      "b": 9,
+      "k": "concrete",
+      "s": "Wachttijd per specialisme volgens Mediant.",
+      "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
+      "date": "2026-07-09",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Mediant",
+      "w": "Persoonlijkheidsstoornissen",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede",
+      "d": "Volwassenen",
+      "e": [
+        "Persoonlijkheidsproblematiek",
+        "Schematherapie"
+      ],
+      "c": "Zorgverzekering",
+      "i": 20,
+      "b": 16,
+      "k": "concrete",
+      "s": "Wachttijd per specialisme volgens Mediant.",
+      "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
+      "date": "2026-07-09",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Jarabee",
+      "w": "Individuele behandeling",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Individuele behandeling",
+        "Gedragsproblemen",
+        "Emotionele problematiek",
+        "Psychische klachten"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 8,
+      "b": null,
+      "k": "concrete",
+      "s": "Jarabee publiceert voor individuele behandeling een gemiddelde wachttijd van 8 weken.",
+      "u": "https://www.jarabee.nl/verwijzers/wachttijden",
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Jarabee",
+      "w": "IAG",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "IAG / intensieve ambulante gezinsbehandeling",
+        "Gezinsbehandeling",
+        "Opvoedondersteuning",
+        "Systeemgericht werken"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 8,
+      "b": null,
+      "k": "concrete",
+      "s": "Jarabee publiceert voor IAG een gemiddelde wachttijd van 8 weken.",
+      "u": "https://www.jarabee.nl/verwijzers/wachttijden",
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Jarabee",
+      "w": "Driemilieusvoorziening",
+      "a": [
+        "Behandeling",
+        "Wonen"
+      ],
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Driemilieusvoorziening",
+        "Wonen",
+        "Behandeling",
+        "Onderwijs",
+        "Groepszorg"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Beschikbaarheid wordt als ‘in overleg’ gepubliceerd.",
+      "u": "https://www.jarabee.nl/verwijzers/wachttijden",
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Jarabee",
+      "w": "Gezinshuis",
+      "a": [
+        "Wonen"
+      ],
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Gezinshuis",
+        "Wonen",
+        "Kleinschalig verblijf"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Beschikbaarheid wordt als ‘in overleg’ gepubliceerd.",
+      "u": "https://www.jarabee.nl/verwijzers/wachttijden",
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Jarabee",
+      "w": "Ambulante crisiszorg",
+      "a": [
+        "Crisis"
+      ],
+      "cr": true,
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Ambulante crisiszorg",
+        "Spoedhulp",
+        "Crisis / veiligheid"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 0,
+      "b": 0,
+      "k": "concrete",
+      "s": "Jarabee publiceert hiervoor geen wachtlijst.",
+      "u": "https://www.jarabee.nl/verwijzers/wachttijden",
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Jarabee",
+      "w": "Crisisverblijf",
+      "a": [
+        "Crisis",
+        "Wonen"
+      ],
+      "cr": true,
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Crisisverblijf",
+        "Crisisopvang",
+        "Tijdelijk verblijf"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 0,
+      "b": 0,
+      "k": "concrete",
+      "s": "Jarabee publiceert hiervoor geen wachtlijst.",
+      "u": "https://www.jarabee.nl/verwijzers/wachttijden",
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Jarabee",
+      "w": "Crisispleegzorg",
+      "a": [
+        "Crisis",
+        "Wonen"
+      ],
+      "cr": true,
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Crisispleegzorg",
+        "Pleegzorg",
+        "Crisisopvang"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 0,
+      "b": 0,
+      "k": "concrete",
+      "s": "Jarabee publiceert hiervoor geen wachtlijst.",
+      "u": "https://www.jarabee.nl/verwijzers/wachttijden",
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ambiq",
+      "l": "Enschede/Twente",
+      "d": "Jeugd",
+      "e": [
+        "LVB",
+        "Gezin",
+        "Gedrag",
+        "Ambulante jeugdhulp",
+        "Diagnostiek"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Geen eenduidige openbare actuele wachttijd per locatie/expertise gevonden.",
+      "u": "https://www.ambiq.nl/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Aveleijn",
+      "l": "Enschede / Twente",
+      "d": [
+        "Jeugd",
+        "Wmo"
+      ],
+      "e": [
+        "LVB",
+        "Verstandelijke beperking",
+        "Meervoudige beperking",
+        "Autisme / ASS",
+        "Individuele pedagogische begeleiding",
+        "Individueel ondersteunende begeleiding",
+        "Groepsbegeleiding",
+        "Dagbehandeling / KDC",
+        "IAG / intensieve ambulante gezinsbehandeling",
+        "Diagnostiek",
+        "Behandeling",
+        "Ouderbegeleiding",
+        "Gedragsproblematiek",
+        "Dagbesteding",
+        "Wonen"
+      ],
+      "c": "Samen14/Jeugd + Wmo",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Aveleijn biedt in Twente zorg vanuit onder meer Jeugdwet en Wmo. Voor jeugd zijn individuele en groepsgerichte begeleiding, dagbehandeling/KDC, diagnostiek, behandeling en IAG beschreven. Beschikbaarheid verschilt per voorziening.",
+      "u": "https://www.aveleijn.nl/professionals/zorgaanbod/ondersteuning-voor-kinderen",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "RIBW Overijssel",
+      "l": "Enschede",
+      "d": "Wmo",
+      "e": [
+        "Psychiatrie",
+        "Begeleiding",
+        "Beschermd wonen",
+        "Participatie"
+      ],
+      "c": "Samen14/Wmo",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Wachttijd is afhankelijk van product en locatie; geen uniforme openbare waarde gevonden.",
+      "u": "https://www.ribwoverijssel.nl/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Tactus",
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "Verslaving / middelengebruik",
+        "Alcohol",
+        "Drugs",
+        "Gamen / gokken",
+        "Gezin",
+        "Behandeling"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 10,
+      "b": 7,
+      "k": "concrete",
+      "s": "Locatie Raiffeisenstraat: 10 weken tot intake en 7 weken tot start behandeling. De gepubliceerde tabel is locatiegebonden en kan per behandelvorm afwijken.",
+      "u": "https://www.tactus.nl/behandeltraject/wachttijden/",
+      "date": "2026-07-01",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Tactus",
+      "l": "Enschede",
+      "d": "Volwassenen",
+      "e": [
+        "Verslaving / middelengebruik",
+        "Alcohol",
+        "Drugs",
+        "Gamen / gokken",
+        "LVB",
+        "Behandeling"
+      ],
+      "c": "Zorgverzekering",
+      "i": 10,
+      "b": 7,
+      "k": "concrete",
+      "s": "Locatie Raiffeisenstraat: overige middelen. Voor specifieke behandeling, opname of LVB-zorg kan de wachttijd afwijken.",
+      "u": "https://www.tactus.nl/behandeltraject/wachttijden/",
+      "date": "2026-07-01",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Instituut van der Stam",
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "Diagnostiek",
+        "Behandeling",
+        "Leerproblemen",
+        "Opvoedingsvragen",
+        "Angst",
+        "Stemming",
+        "ADHD / ADD",
+        "Autisme / ASS"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 2,
+      "b": 8,
+      "k": "concrete",
+      "s": "Intake 0-2 weken; start diagnostiek en behandeling voor jeugd circa 8 weken, afhankelijk van de casus.",
+      "u": "https://www.vdstam.nl/regelingen/wachttijdregeling/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Instituut van der Stam",
+      "l": "Enschede",
+      "d": "Volwassenen",
+      "e": [
+        "Behandeling",
+        "Angst",
+        "Stemming",
+        "ADHD / ADD",
+        "Autisme / ASS",
+        "Leerproblemen"
+      ],
+      "c": "Zorgverzekering / particulier",
+      "i": 2,
+      "b": 18,
+      "k": "concrete",
+      "s": "Intake 0-2 weken; start behandeling volwassenen 16-20 weken. Diagnostiek voor volwassenen wordt niet aangeboden.",
+      "u": "https://www.vdstam.nl/regelingen/wachttijdregeling/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Psychologiepraktijk Esther Boonk",
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "EMDR",
+        "Trauma / PTSS",
+        "CGT",
+        "Schematherapie",
+        "ACT",
+        "PMT",
+        "Angst",
+        "Stemming",
+        "Diagnostiek",
+        "Behandeling"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 1,
+      "b": 2,
+      "k": "concrete",
+      "s": "Intake jeugd circa 1 week; behandeling aansluitend aan de intakefase tot enkele weken.",
+      "u": "https://www.ppeb.nl/wachttijden",
+      "date": "2026-05-13",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Psychologiepraktijk Esther Boonk",
+      "l": "Enschede",
+      "d": "Volwassenen",
+      "e": [
+        "EMDR",
+        "Trauma / PTSS",
+        "CGT",
+        "Schematherapie",
+        "ACT",
+        "Angst",
+        "Stemming",
+        "Behandeling"
+      ],
+      "c": "Zorgverzekering / particulier",
+      "i": 2,
+      "b": null,
+      "k": "concrete",
+      "s": "Intake BGGZ 1-2 weken; SGGZ 4-6 weken. Behandeling varieert van enkele weken tot circa 6 maanden.",
+      "u": "https://www.ppeb.nl/wachttijden",
+      "date": "2026-05-13",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "at.zorg",
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "EMDR",
+        "Trauma / PTSS",
+        "ADHD / ADD",
+        "Autisme / ASS",
+        "Angst",
+        "Depressie / stemming",
+        "Diagnostiek",
+        "Kinder- en jeugdpsychiatrie",
+        "Ouderbegeleiding"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 3,
+      "b": 2,
+      "k": "concrete",
+      "s": "Regio OZJT/Samen14: circa 3 weken tot intake; na intake streeft at.zorg naar een vervolgafspraak binnen 2 weken. Richt zich vooral op 6-23 jaar.",
+      "u": "https://at-zorg.nl/wachttijden/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "at.zorg",
+      "l": "Enschede",
+      "d": "Volwassenen",
+      "e": [
+        "EMDR",
+        "Trauma / PTSS",
+        "ADHD / ADD",
+        "Autisme / ASS",
+        "Angst",
+        "Depressie / stemming",
+        "Diagnostiek",
+        "Behandeling"
+      ],
+      "c": "Zorgverzekering",
+      "i": 26,
+      "b": null,
+      "k": "concrete",
+      "s": "Voor 18+ in Enschede wordt meer dan 6 maanden gepubliceerd; wachttijd kan per verzekeraar verschillen.",
+      "u": "https://at-zorg.nl/wachttijden/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "HK Zorg",
+      "w": "Testdiagnostiek, verklarende diagnostiek en behandeling",
+      "a": [
+        "Diagnostiek",
+        "Behandeling"
+      ],
+      "l": "Wierden / regio Twente",
+      "d": "Jeugd",
+      "e": [
+        "ADHD / ADD",
+        "Autisme / ASS",
+        "Testdiagnostiek",
+        "Verklarende diagnostiek",
+        "Behandeling"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 12,
+      "b": null,
+      "k": "concrete",
+      "s": "Gepubliceerde wachttijd tot intake: 12 weken.",
+      "u": "https://www.hkzorg.nl/wachttijden",
+      "date": "2026-05-28",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "HK Zorg",
+      "w": "Medicamenteuze behandeling",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Wierden / regio Twente",
+      "d": "Jeugd",
+      "e": [
+        "Medicatie / farmacotherapie",
+        "Psychiatrie"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 8,
+      "b": null,
+      "k": "concrete",
+      "s": "Gepubliceerde wachttijd tot intake: 8 weken.",
+      "u": "https://www.hkzorg.nl/wachttijden",
+      "date": "2026-05-28",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "HK Zorg",
+      "l": "Wierden / regio Twente",
+      "d": "Wmo",
+      "e": [
+        "Begeleiding",
+        "ADHD / ADD",
+        "Autisme / ASS",
+        "Jongvolwassenen"
+      ],
+      "c": "Samen14/Wmo",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Wmo-wachttijd hangt af van de specifieke hulpvraag; geen uniforme openbare termijn gepubliceerd.",
+      "u": "https://www.hkzorg.nl/wachttijden",
+      "date": "2026-08-04",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Praktijk De Poel",
+      "w": "Begeleiding, behandeling en diagnostiek",
+      "a": [
+        "Begeleiding",
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Twente / Enschede",
+      "d": "Jeugd",
+      "e": [
+        "Hoogbegaafdheid",
+        "Dubbele bijzonderheid",
+        "ADHD / ADD",
+        "Autisme / ASS",
+        "Executieve functies",
+        "Diagnostiek",
+        "Behandeling",
+        "Begeleiding",
+        "Systeem"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 2,
+      "b": 14,
+      "bText": "12–16 wk",
+      "k": "concrete",
+      "s": "Intake circa 2 weken; start begeleiding, behandeling en diagnostiek circa 12–16 weken.",
+      "u": "https://www.praktijkdepoel.nl/werkwijze",
+      "date": "2026-06-02",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Praktijk De Poel",
+      "w": "Thuiszitters en peergroepen",
+      "a": [
+        "Begeleiding"
+      ],
+      "l": "Twente / Enschede",
+      "d": "Jeugd",
+      "e": [
+        "Schooluitval",
+        "Thuiszitters",
+        "Peergroepen",
+        "Dagstructuur"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 1.5,
+      "iText": "1–2 wk",
+      "b": null,
+      "k": "concrete",
+      "s": "Gepubliceerde wachttijd voor thuiszitters en peergroepen: circa 1–2 weken.",
+      "u": "https://www.praktijkdepoel.nl/werkwijze",
+      "date": "2026-06-02",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "De Synergie",
+      "l": "Losser / regio Enschede",
+      "d": "Jeugd",
+      "e": [
+        "Diagnostiek",
+        "Behandeling",
+        "Ambulante begeleiding",
+        "Systeem",
+        "Angst",
+        "Stemming",
+        "Trauma / PTSS",
+        "ADHD / ADD",
+        "Autisme / ASS"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Gecontracteerd voor ambulante jeugdhulp; actuele wachttijden worden op de site genoemd maar zijn niet eenduidig machineleesbaar gevonden.",
+      "u": "https://desynergie.nl/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "De Synergie",
+      "l": "Losser / regio Enschede",
+      "d": "Wmo",
+      "e": [
+        "Ambulante begeleiding",
+        "Psychische klachten",
+        "Autisme / ASS",
+        "ADHD / ADD",
+        "Systeem"
+      ],
+      "c": "Samen14/Wmo",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Ondersteuning vanuit Wmo mogelijk; geen uniforme openbare actuele wachttijd gevonden.",
+      "u": "https://desynergie.nl/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "HSK Enschede",
+      "l": "Enschede",
+      "d": "Volwassenen",
+      "e": [
+        "Angst",
+        "Depressie / stemming",
+        "Trauma / PTSS",
+        "EMDR",
+        "Dwang / OCD",
+        "Persoonlijkheid",
+        "CGT",
+        "Behandeling"
+      ],
+      "c": "Zorgverzekering",
+      "i": 5,
+      "b": 4,
+      "k": "concrete",
+      "s": "Wachttijd verschilt per verzekeraar; voorbeeldwaarde op de locatiepagina 5 weken intake en 4 weken behandeling.",
+      "u": "https://hsk.nl/locaties/enschede/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "InZicht Twente",
+      "w": "Reguliere begeleiding, behandeling en diagnostiek",
+      "a": [
+        "Begeleiding",
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Oldenzaal / heel Twente",
+      "d": "Jeugd",
+      "e": [
+        "Autisme / ASS",
+        "ADHD / ADD",
+        "LVB",
+        "Trauma / PTSS",
+        "EMDR",
+        "Angst",
+        "Depressie / stemming",
+        "Dwang / OCD",
+        "Hechting",
+        "Zelfbeeld / identiteit",
+        "CGT",
+        "NIKA",
+        "Schematherapeutisch werken",
+        "Individuele specialistische therapie",
+        "Gezinsbehandeling",
+        "IMH / infant mental health",
+        "Diagnostiek",
+        "Ambulante begeleiding"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "route",
+      "s": "InZicht meldt ruimte voor aanmeldingen en een korte wachtlijst voor therapie, behandeling en begeleiding. Er is geen concrete termijn in weken gepubliceerd.",
+      "u": "https://www.inzichttwente.nl/bij-inzicht-twente-hebben-wij-op-dit-moment-ruimte-voor-nieuwe-aanmeldingen-voor-therapie/",
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "InZicht Twente",
+      "w": "Ambulante spoedhulp / Families First",
+      "a": [
+        "Crisis"
+      ],
+      "cr": true,
+      "l": "Alle 14 Twentse gemeenten",
+      "d": "Jeugd",
+      "e": [
+        "Ambulante spoedhulp",
+        "Families First",
+        "Crisis / veiligheid",
+        "Intensieve gezinsbegeleiding"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 0,
+      "b": 0,
+      "k": "concrete",
+      "s": "InZicht streeft er bij Ambulante Spoedhulp naar binnen 24 uur te starten. Deze crisisregel staat los van de reguliere behandeling en begeleiding.",
+      "u": "https://www.inzichttwente.nl/ambulante-spoedhulp/",
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Curess",
+      "w": "Reguliere ambulante hulpverlening",
+      "a": [
+        "Begeleiding"
+      ],
+      "l": "Twente / ambulant thuis",
+      "d": "Jeugd",
+      "e": [
+        "Ambulante gezinsbegeleiding",
+        "Systeemgericht werken",
+        "Intensieve systeembegeleiding / ISB",
+        "Complexe scheiding",
+        "Gezamenlijk ouderschap",
+        "Opvoedondersteuning",
+        "Begeleide omgang",
+        "Netwerkgericht werken",
+        "Veiligheids- en risicotaxatie / ARIJ"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 0,
+      "b": null,
+      "k": "concrete",
+      "s": "Curess vermeldt dat de organisatie er is zonder wachttijd. Deze regel betreft reguliere ambulante begeleiding en begeleide omgang.",
+      "u": "https://curess.nl/over-curess",
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Curess",
+      "w": "Ambulante spoedhulp",
+      "a": [
+        "Crisis"
+      ],
+      "cr": true,
+      "l": "Twente / ambulant thuis",
+      "d": "Jeugd",
+      "e": [
+        "Ambulante spoedhulp",
+        "Crisis / veiligheid",
+        "Intensieve begeleiding aan huis"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 0,
+      "b": 0,
+      "k": "concrete",
+      "s": "Curess kan bij ambulante spoedhulp binnen 24 uur bij een gezin thuis zijn. Deze crisisregel staat los van de reguliere begeleiding.",
+      "u": "https://curess.nl/expertises/ambulante-spoedhulp",
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Praktijk Denktank",
+      "l": "Haaksbergen",
+      "d": "Jeugd",
+      "e": [
+        "Diagnostiek",
+        "Behandeling",
+        "Autisme / ASS",
+        "ADHD / ADD",
+        "Angst",
+        "Depressie / stemming",
+        "Trauma / PTSS",
+        "Gezin",
+        "Opvoeding"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 0,
+      "b": 0,
+      "k": "concrete",
+      "s": "Voor jeugd in Haaksbergen wordt 0 weken wachttijd gepubliceerd.",
+      "u": "https://praktijkdenktank.nl/over-ons/formulieren/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Psychologische Dienstverlening IJsselgroep",
+      "w": "Jeugd-GGZ",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede / Twente",
+      "d": "Jeugd",
+      "e": [
+        "Jeugd-GGZ",
+        "Diagnostiek",
+        "Behandeling"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 12,
+      "b": null,
+      "k": "concrete",
+      "s": "Gepubliceerde wachttijd voor jeugd-GGZ.",
+      "u": "https://www.jeugdpraktijkijsselgroep.nl/wachttijden",
+      "date": "2026-07-30",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Psychologische Dienstverlening IJsselgroep",
+      "w": "Dyslexiediagnostiek en -behandeling",
+      "a": [
+        "Diagnostiek",
+        "Behandeling"
+      ],
+      "l": "Enschede / Twente",
+      "d": "Jeugd",
+      "e": [
+        "Ernstige dyslexie",
+        "Dyslexiediagnostiek",
+        "Dyslexiebehandeling"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 8,
+      "iText": "6–10 wk",
+      "b": null,
+      "k": "concrete",
+      "s": "Gepubliceerde bandbreedte voor dyslexiediagnostiek en -behandeling.",
+      "u": "https://www.jeugdpraktijkijsselgroep.nl/wachttijden",
+      "date": "2026-07-30",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Dyslexiecentrum Twente",
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Ernstige dyslexie",
+        "Dyslexiediagnostiek",
+        "Dyslexiebehandeling",
+        "Leesproblemen",
+        "Spellingproblemen"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Gecontracteerd voor ernstige dyslexie. Geen eenduidige openbare actuele wachttijd gevonden.",
+      "u": "https://www.dyslexiecentrumtwente.nl/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Instituut Nijenkamp",
+      "l": "Enschede / Twente",
+      "d": "Jeugd",
+      "e": [
+        "Diagnostiek",
+        "Behandeling",
+        "Autisme / ASS",
+        "ADHD / ADD",
+        "Leerproblemen",
+        "Opvoeding"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Gecontracteerde aanbieder uit het Samen14-overzicht. Geen betrouwbare openbare actuele wachttijd gevonden.",
+      "u": "https://www.instituutnijenkamp.nl/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Pienter&Co",
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Hoogbegaafdheid",
+        "Diagnostiek",
+        "Behandeling",
+        "Begeleiding",
+        "Executieve functies",
+        "Schoolproblemen"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Gecontracteerde aanbieder uit het Samen14-overzicht. Geen betrouwbare openbare actuele wachttijd gevonden.",
+      "u": "https://www.pienterenco.nl/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Jeugdx",
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Ambulante jeugdhulp",
+        "Begeleiding",
+        "Behandeling",
+        "Groepsbehandeling",
+        "Gezin",
+        "Opvoeding"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Gecontracteerde aanbieder met meerdere ambulante jeugdproducten. Geen centrale openbare actuele wachttijd gevonden.",
+      "u": "https://www.jeugdx.nl/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Senzor",
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Begeleiding",
+        "Behandeling",
+        "Gezin",
+        "Opvoeding",
+        "Gedrag"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Gecontracteerde aanbieder uit het Samen14-overzicht. Geen betrouwbare openbare actuele wachttijd gevonden.",
+      "u": "https://www.senzor.nl/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Psychomotorische Therapie Praktijk Enschede",
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "PMT",
+        "Psychomotorische therapie",
+        "Vaktherapie",
+        "Emotieregulatie",
+        "Gedrag",
+        "Trauma / PTSS"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Gecontracteerd voor vaktherapie en aanverwante ambulante producten. Geen actuele openbare wachttijd gevonden.",
+      "u": "https://www.pmte.nl/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Praktijk voor Orthopedagogiek 't Zeggelt",
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "Diagnostiek",
+        "Behandeling",
+        "Begeleiding",
+        "Autisme / ASS",
+        "ADHD / ADD",
+        "Leerproblemen",
+        "Opvoeding"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Gecontracteerde aanbieder uit het Samen14-overzicht. Geen betrouwbare openbare actuele wachttijd gevonden.",
+      "u": "https://www.tzeggelt.nl/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Cuidate Jeugd",
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Ambulante begeleiding",
+        "Behandeling",
+        "Gezin",
+        "Opvoeding",
+        "Gedrag"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Gecontracteerde hoofdaannemer. Geen betrouwbare openbare actuele wachttijd gevonden.",
+      "u": "https://www.cuidate.nl/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "MentalScope",
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Diagnostiek",
+        "Behandeling",
+        "Autisme / ASS",
+        "ADHD / ADD",
+        "Angst",
+        "Depressie / stemming",
+        "Dwang / OCD",
+        "Trauma / PTSS",
+        "EMDR",
+        "CGT",
+        "ACT",
+        "PMT",
+        "MBCT / mindfulness",
+        "RET / rationeel-emotieve therapie",
+        "Psycho-educatie"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "MentalScope beschrijft CGT, ACT, EMDR, PMT, MBCT/mindfulness en RET. Voor het precieze jeugdteam, leeftijdsbereik en de actuele wachttijd moet de aanbieder worden geraadpleegd.",
+      "u": "https://mentalscope.nl/psycholoog/behandeling/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Stichting Pluryn",
+      "a": [
+        "Begeleiding",
+        "Behandeling",
+        "Diagnostiek",
+        "Wonen"
+      ],
+      "l": "Almelo / Twente",
+      "d": [
+        "Jeugd",
+        "Wmo"
+      ],
+      "e": [
+        "Wonen",
+        "Crisisopvang",
+        "Residentiële jeugdhulp",
+        "Open jeugdzorg",
+        "Intensieve jeugdzorg",
+        "JeugdzorgPlus",
+        "Diagnostiek",
+        "Behandeling",
+        "Begeleiding",
+        "Dagbehandeling",
+        "Leren / onderwijs",
+        "Werken / dagbesteding",
+        "LVB",
+        "Gedragsproblematiek",
+        "Complexe meervoudige problematiek"
+      ],
+      "c": "Samen14/Jeugd + mogelijk Wmo",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Pluryn heeft een locatie in Almelo en biedt onder meer wonen met begeleiding, crisisopvang, diagnostiek, behandeling, dagbehandeling en specialistische jeugdzorg. De aanbieder vermeldt dat wachttijden per product fluctueren en via het Klantenbureau moeten worden opgevraagd.",
+      "u": "https://www.pluryn.nl/hoe-helpen-wij/wanneer-start-de-zorg",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Praktijk Forza B.V.",
+      "w": "Diagnostiek",
+      "a": [
+        "Diagnostiek"
+      ],
+      "l": "Hengelo / Hof van Twente",
+      "d": "Jeugd",
+      "e": [
+        "Diagnostiek",
+        "Autisme / ASS",
+        "ADHD / ADD",
+        "DCD",
+        "NAH",
+        "ARFID / eetproblemen"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 6,
+      "b": null,
+      "k": "concrete",
+      "s": "Praktijk Forza publiceert voor diagnostiek een wachttijd van 6 weken.",
+      "u": "https://praktijkforza.info/",
+      "date": "2026-06-03",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Praktijk Forza B.V.",
+      "w": "Individuele behandeling",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Hengelo / Hof van Twente",
+      "d": "Jeugd",
+      "e": [
+        "Individuele behandeling",
+        "Angst",
+        "Faalangst",
+        "Emotieregulatie",
+        "ARFID / eetproblemen",
+        "Zindelijkheidsproblematiek",
+        "Psycho-educatie",
+        "ACT",
+        "CGT",
+        "Oplossingsgerichte therapie",
+        "Traumatherapie",
+        "PRT / Pivotal Response Treatment"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 16,
+      "b": null,
+      "k": "concrete",
+      "s": "Praktijk Forza publiceert voor individuele behandeling een wachttijd van 16 weken.",
+      "u": "https://praktijkforza.info/",
+      "date": "2026-06-03",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Praktijk Forza B.V.",
+      "w": "Gezinsbehandeling",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Hengelo / Hof van Twente",
+      "d": "Jeugd",
+      "e": [
+        "Gezinsbehandeling",
+        "Ouderbegeleiding",
+        "Opvoedondersteuning",
+        "Systeemgericht werken"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 12,
+      "b": null,
+      "k": "concrete",
+      "s": "Praktijk Forza publiceert voor gezinsbehandeling een wachttijd van 12 weken.",
+      "u": "https://praktijkforza.info/",
+      "date": "2026-06-03",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Praktijk Forza B.V.",
+      "w": "Individuele begeleiding",
+      "a": [
+        "Begeleiding"
+      ],
+      "l": "Hengelo / Hof van Twente",
+      "d": "Jeugd",
+      "e": [
+        "Individuele begeleiding",
+        "Autisme / ASS",
+        "ADHD / ADD",
+        "Emotieregulatie",
+        "Zelfredzaamheid"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 6,
+      "b": null,
+      "k": "concrete",
+      "s": "Praktijk Forza publiceert voor individuele begeleiding een wachttijd van 6 weken.",
+      "u": "https://praktijkforza.info/",
+      "date": "2026-06-03",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Reggedok",
+      "w": "Individuele begeleiding",
+      "a": [
+        "Begeleiding"
+      ],
+      "l": "Twente",
+      "d": [
+        "Jeugd",
+        "Wmo"
+      ],
+      "e": [
+        "Individuele begeleiding",
+        "Ambulante begeleiding"
+      ],
+      "c": "Samen14/Jeugd + Wmo",
+      "i": 0,
+      "b": null,
+      "k": "concrete",
+      "s": "Er is geen wachtlijst voor begeleiding.",
+      "u": "https://www.reggedok.nl/aanmelden/",
+      "date": "2026-07-02",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Reggedok",
+      "w": "Psychomotorische therapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Rijssen-Holten",
+      "d": [
+        "Jeugd",
+        "Wmo"
+      ],
+      "e": [
+        "PMT / psychomotorische therapie",
+        "Vaktherapie",
+        "Sport en spel"
+      ],
+      "c": "Samen14/Jeugd + Wmo",
+      "i": 8.7,
+      "iText": "1–3 mnd",
+      "b": null,
+      "k": "concrete",
+      "s": "Gepubliceerde bandbreedte voor Rijssen-Holten.",
+      "u": "https://www.reggedok.nl/aanmelden/",
+      "date": "2026-07-02",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Reggedok",
+      "w": "Psychomotorische therapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Hof van Twente",
+      "d": [
+        "Jeugd",
+        "Wmo"
+      ],
+      "e": [
+        "PMT / psychomotorische therapie",
+        "Vaktherapie",
+        "Sport en spel"
+      ],
+      "c": "Samen14/Jeugd + Wmo",
+      "i": 19.6,
+      "iText": "3–6 mnd",
+      "b": null,
+      "k": "concrete",
+      "s": "Gepubliceerde bandbreedte voor Hof van Twente.",
+      "u": "https://www.reggedok.nl/aanmelden/",
+      "date": "2026-07-02",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Reggedok",
+      "w": "Systeemtherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Twente",
+      "d": [
+        "Jeugd",
+        "Wmo"
+      ],
+      "e": [
+        "Systeemtherapie",
+        "Gezinsbehandeling"
+      ],
+      "c": "Samen14/Jeugd + Wmo",
+      "i": 26.1,
+      "iText": "6 mnd",
+      "b": null,
+      "k": "concrete",
+      "s": "Gepubliceerde wachttijd.",
+      "u": "https://www.reggedok.nl/aanmelden/",
+      "date": "2026-07-02",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Reggedok",
+      "w": "Sensorische integratietherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Twente",
+      "d": [
+        "Jeugd",
+        "Wmo"
+      ],
+      "e": [
+        "Sensorische integratietherapie",
+        "Vaktherapie"
+      ],
+      "c": "Samen14/Jeugd + Wmo",
+      "i": 13,
+      "iText": "2–4 mnd",
+      "b": null,
+      "k": "concrete",
+      "s": "Gepubliceerde bandbreedte.",
+      "u": "https://www.reggedok.nl/aanmelden/",
+      "date": "2026-07-02",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Reggedok",
+      "w": "Muziektherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Twente",
+      "d": [
+        "Jeugd",
+        "Wmo"
+      ],
+      "e": [
+        "Muziektherapie",
+        "Vaktherapie"
+      ],
+      "c": "Samen14/Jeugd + Wmo",
+      "i": 0,
+      "b": null,
+      "k": "concrete",
+      "s": "Er is geen wachtlijst voor muziektherapie.",
+      "u": "https://www.reggedok.nl/aanmelden/",
+      "date": "2026-07-02",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Reggedok",
+      "w": "Beeldende therapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Twente",
+      "d": [
+        "Jeugd",
+        "Wmo"
+      ],
+      "e": [
+        "Beeldende therapie",
+        "Vaktherapie"
+      ],
+      "c": "Samen14/Jeugd + Wmo",
+      "i": 19.6,
+      "iText": "3–6 mnd",
+      "b": null,
+      "k": "concrete",
+      "s": "Gepubliceerde bandbreedte.",
+      "u": "https://www.reggedok.nl/aanmelden/",
+      "date": "2026-07-02",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Reggedok",
+      "w": "Psychologische behandeling",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Twente",
+      "d": [
+        "Jeugd",
+        "Wmo"
+      ],
+      "e": [
+        "Psychologische behandeling",
+        "CGT",
+        "Systeemtherapie"
+      ],
+      "c": "Samen14/Jeugd + Wmo",
+      "i": 23.9,
+      "iText": "5–6 mnd",
+      "b": null,
+      "k": "concrete",
+      "s": "Gepubliceerde bandbreedte.",
+      "u": "https://www.reggedok.nl/aanmelden/",
+      "date": "2026-07-02",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Reggedok",
+      "w": "Diagnostiek",
+      "a": [
+        "Diagnostiek"
+      ],
+      "l": "Twente",
+      "d": [
+        "Jeugd",
+        "Wmo"
+      ],
+      "e": [
+        "Diagnostiek",
+        "Psychologisch onderzoek"
+      ],
+      "c": "Samen14/Jeugd + Wmo",
+      "i": 19.6,
+      "iText": "4–5 mnd",
+      "b": null,
+      "k": "concrete",
+      "s": "Gepubliceerde bandbreedte.",
+      "u": "https://www.reggedok.nl/aanmelden/",
+      "date": "2026-07-02",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "TUORO Zorg B.V.",
+      "l": "Alle 14 Twentse gemeenten",
+      "d": [
+        "Jeugd",
+        "Wmo"
+      ],
+      "e": [
+        "Diagnostiek",
+        "Observatie en analyse",
+        "Behandeling",
+        "Ambulante begeleiding",
+        "Gedragsproblematiek",
+        "Psychische klachten",
+        "LVB",
+        "Autisme / ASS",
+        "ADHD / ADD",
+        "Angst",
+        "Agressie",
+        "Opvoedondersteuning",
+        "Systeemgericht werken",
+        "Jonge jeugd",
+        "Jongeren",
+        "Jongvolwassenen",
+        "Volwassenen"
+      ],
+      "c": "Samen14/Jeugd + Wmo",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "TUORO biedt diagnostiek, behandeling en ambulante begeleiding aan kinderen en volwassenen in alle veertien Twentse gemeenten. Geen concrete openbare actuele wachttijd gevonden.",
+      "u": "https://tuoro.nl/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Helderzorg B.V.",
+      "l": "Enschede / Twente",
+      "d": [
+        "Jeugd",
+        "Wmo"
+      ],
+      "e": [
+        "Ambulante jeugdhulp",
+        "Individuele begeleiding",
+        "Gezinsbegeleiding",
+        "Opvoedondersteuning",
+        "Praktische ondersteuning",
+        "Netwerkgericht werken",
+        "Begeleide omgang",
+        "Complexe scheiding",
+        "Loyaliteitsproblematiek",
+        "Intensieve dagelijkse begeleiding",
+        "Beschermd wonen",
+        "Beschermd thuis",
+        "Zelfredzaamheid"
+      ],
+      "c": "Samen14/Jeugd + Wmo",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Helderzorg beschrijft begeleiding in de leefomgeving, ondersteuning van ouders en jeugdigen, begeleide omgang en intensieve praktische ondersteuning. De website beschrijft geen diagnostiek of GGZ-behandeling.",
+      "u": "https://www.helderzorg.nl/ambulante-jeugdhulp/",
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Het Huis van de Straat B.V.",
+      "l": "Denekamp",
+      "d": "Jeugd",
+      "e": [
+        "Wonen",
+        "24-uurszorg",
+        "Perspectiefgroep",
+        "Observatie- en behandelgroep",
+        "Kleinschalig wonen",
+        "Gezinsgroep",
+        "Complexe meervoudige problematiek",
+        "Pedagogische begeleiding",
+        "Ouderbegeleiding",
+        "Residentiële behandeling"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Kleinschalige 24-uurszorg. Het Huis en De Horizon hebben elk 9 perspectiefplekken; De Brug heeft 8 observatie- en behandelplaatsen. Geen openbare actuele beschikbaarheid gevonden.",
+      "u": "https://hethuisvandestraat.nl/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Stichting Ambiq",
+      "w": "Crisis / ambulante spoedhulp",
+      "a": [
+        "Crisis"
+      ],
+      "cr": true,
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Crisisopvang",
+        "Ambulante crisishulp",
+        "Families First",
+        "Ambulante spoedhulp",
+        "Crisis / veiligheid"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 0,
+      "b": 0,
+      "k": "concrete",
+      "s": "Bij crisis streeft Ambiq ernaar de hulp binnen 24 uur te starten. Deze regel is uitsluitend bedoeld voor crisis- en spoedaanmeldingen.",
+      "u": "https://www.ambiq.nl/verwijzers/snel-hulp-voor-kind-en-gezin-bij-crisis/spoedhulp-jeugd-twente",
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Stichting Ambiq",
+      "w": "Reguliere begeleiding, behandeling en verblijf",
+      "a": [
+        "Begeleiding",
+        "Behandeling",
+        "Diagnostiek",
+        "Wonen"
+      ],
+      "l": "Twente",
+      "d": [
+        "Jeugd",
+        "Wmo"
+      ],
+      "e": [
+        "LVB",
+        "Wonen",
+        "Behandelgroepen",
+        "Ouder-kindbehandeling",
+        "Moeder-kind / ouder-kind wonen",
+        "24-uursbehandeling",
+        "Hechting",
+        "Opvoedvaardigheden",
+        "Zelfstandig wonen",
+        "Gezinsbehandeling",
+        "Diagnostiek",
+        "Behandeling",
+        "Ambulante begeleiding",
+        "Gedragsproblematiek"
+      ],
+      "c": "Samen14/Jeugd + mogelijk Wmo",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Ambiq biedt reguliere begeleiding, behandeling, diagnostiek en woonvormen. Voor deze reguliere trajecten is geen uniforme openbare wachttijd gevonden.",
+      "u": "https://www.ambiq.nl/",
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Stichting Pactum",
+      "a": [
+        "Begeleiding",
+        "Behandeling",
+        "Wonen"
+      ],
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Ambulante jeugdhulp",
+        "Gezinsbehandeling",
+        "Systeemgericht werken",
+        "Wonen",
+        "Residentiële jeugdhulp",
+        "Behandelgroep",
+        "Crisis / veiligheid",
+        "Opvoedondersteuning",
+        "Gedragsproblematiek"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Pactum staat als hoofdaannemer in het Samen14-overzicht. Het actuele Twentse aanbod en de wachttijd verschillen per traject en moeten bij de aanbieder worden gecontroleerd.",
+      "u": "https://www.pactum.org/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Stichting Timon",
+      "l": "Twente / regionaal te controleren",
+      "d": [
+        "Jeugd",
+        "Wmo"
+      ],
+      "e": [
+        "Wonen",
+        "Begeleid wonen",
+        "Gezinshuis",
+        "Jongvolwassenen",
+        "Opvoedondersteuning",
+        "Ambulante begeleiding",
+        "Moeder-kind / ouder-kind wonen",
+        "Zelfstandigheid"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Timon is gecontracteerd voor ambulante jeugdhulp. Welke woon- en begeleidingstrajecten vanuit Twente toegankelijk zijn en wat de wachttijd is, moet per aanmelding worden gecontroleerd.",
+      "u": "https://www.timon.nl/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Stichting Woonbegeleiding Jong Volwassenen",
+      "l": "Twente",
+      "d": [
+        "Jeugd",
+        "Wmo"
+      ],
+      "e": [
+        "Wonen",
+        "Woonbegeleiding",
+        "Begeleid zelfstandig wonen",
+        "Jongvolwassenen",
+        "Zelfredzaamheid",
+        "Dagstructuur",
+        "Participatie",
+        "Ambulante begeleiding"
+      ],
+      "c": "Samen14/Jeugd + mogelijk Wmo",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Gecontracteerde Twentse aanbieder gericht op woonbegeleiding van jongvolwassenen. Geen openbare actuele wachttijd gevonden.",
+      "u": "https://www.samen14.nl/",
+      "date": "2026-08-05",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    }
+  ],
+  "summary": "Initiële ingebouwde gegevens gepubliceerd.",
+  "report": "Nog geen automatische broncontrole uitgevoerd."
+}

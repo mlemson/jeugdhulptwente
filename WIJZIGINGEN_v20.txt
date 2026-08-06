@@ -1,0 +1,9 @@
+WIJZIGINGEN V20
+
+- De knop voor actualiseren staat niet meer opvallend bovenaan, maar onderaan in het ingeklapte onderdeel 'Beheer & actualiteit'.
+- De kolom 'Wachttijd voor' wordt niet meer afgeleid van het eerste woord in de expertise. Daardoor wordt een gecombineerde behandel-/diagnostiekregel niet onterecht als alleen 'Diagnostiek' getoond.
+- Bij filter 'Behandeling' tonen 'Soort aanbod' en 'Wachttijd voor' alleen de behandelingscontext. Hetzelfde geldt voor Diagnostiek, Begeleiding, Wonen en Crisis.
+- Gelijke wachttijden worden alleen samengevoegd wanneer aanbieder, bron, soort aanbod én de specifieke wachttijdomschrijving gelijk zijn. Muziektherapie en individuele begeleiding met allebei 0 weken blijven dus aparte regels.
+- index.html is toegevoegd voor Porkbun Static Hosting.
+- wachtlijsten_data.json wordt op de openbare website ingeladen.
+- GitHub Actions controleert dagelijks de gekoppelde bronnen en commit de nieuwe JSON automatisch.

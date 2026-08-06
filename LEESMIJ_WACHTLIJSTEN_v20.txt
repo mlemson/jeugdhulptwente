@@ -1,0 +1,25 @@
+WACHTLIJSTEN ZORGAANBIEDERS TWENTE - VERSIE 20
+
+BESTANDEN VOOR PORKBUN / GITHUB
+- index.html is de homepage die Porkbun publiceert.
+- wachtlijsten_data.json bevat de laatst automatisch gecontroleerde gegevens.
+- .github/workflows/update-wachttijden.yml voert dagelijks een broncontrole uit en commit de JSON.
+- scripts/update-wachttijden.mjs draait dezelfde parsers als de website via de lokale Python-proxy.
+
+EERSTE KEER OP GITHUB
+1. Upload de HELE inhoud van deze map naar de hoofdmap van de repository.
+2. Controleer dat index.html direct in de hoofdmap staat (niet in een extra submap).
+3. Laat Porkbun GitHub Connect gekoppeld aan repository mlemson/jeugdhulptwente en branch main.
+4. Open GitHub > Actions en start 'Dagelijkse wachttijden-update' eenmalig via Run workflow.
+5. Staat pushen niet toe? Ga naar Settings > Actions > General > Workflow permissions en kies Read and write permissions.
+
+AUTOMATISCHE CONTROLE
+De GitHub-actie draait dagelijks om 06:15 uur Nederlandse tijd. Wanneer gegevens of het rapport veranderen, maakt de actie een commit. Porkbun publiceert commits op main automatisch.
+
+LOKAAL VOLLEDIG CONTROLEREN
+1. Pak de map volledig uit.
+2. Dubbelklik START_WACHTLIJSTEN_TWENTE_v20.bat.
+3. Open onderaan 'Beheer & actualiteit'.
+4. Klik 'Bronnen nu controleren'.
+
+De openbare site heeft geen Python-server. Daarom laadt de knop daar alleen opnieuw de gepubliceerde JSON. De daadwerkelijke broncontrole gebeurt dagelijks in GitHub Actions.
