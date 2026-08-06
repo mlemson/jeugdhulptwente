@@ -1,0 +1,20 @@
+WACHTLIJSTEN ZORGAANBIEDERS TWENTE - VERSIE 19
+
+STARTEN
+1. Pak het ZIP-bestand volledig uit in één map.
+2. Dubbelklik op START_WACHTLIJSTEN_TWENTE_v19.bat.
+3. De pagina opent automatisch in je browser.
+4. Laat het zwarte servervenster open zolang je de pagina gebruikt.
+
+WAAROM NIET RECHTSTREEKS DE HTML OPENEN?
+Een rechtstreeks geopend HTML-bestand gebruikt file://. Browsers blokkeren vanuit die modus het ophalen van websites van zorgaanbieders (CORS / browserbeveiliging). De meegeleverde lokale server haalt de openbare bronpagina's veilig op via dezelfde computer. Er worden geen cliëntgegevens verzonden of opgeslagen.
+
+ONLINE VERVERSEN
+- Klik in de pagina op Online verversen.
+- Alle gekoppelde openbare bronpagina's worden gecontroleerd.
+- Bekende wachttijdtabellen worden automatisch uitgelezen.
+- Pagina's zonder openbaar getal blijven op Onbekend, maar worden wel als gecontroleerd gerapporteerd.
+- Resultaten worden lokaal in de browser bewaard, zodat ze na opnieuw openen beschikbaar blijven.
+
+STOPPEN
+Sluit het zwarte servervenster.
