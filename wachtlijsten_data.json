@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T12:58:36.154Z",
+  "generatedAt": "2026-08-06T13:09:00Z",
   "rows": [
     {
       "p": "DOPPA zorg",
@@ -249,7 +249,8 @@
         "ADHD",
         "Autisme",
         "Angst",
-        "Diagnostiek"
+        "Diagnostiek",
+        "Speltherapie"
       ],
       "c": "Samen14/Jeugd",
       "i": 15,
@@ -1250,7 +1251,8 @@
         "Depressie / stemming",
         "Diagnostiek",
         "Kinder- en jeugdpsychiatrie",
-        "Ouderbegeleiding"
+        "Ouderbegeleiding",
+        "Speltherapie"
       ],
       "c": "Samen14/Jeugd",
       "i": 3,
@@ -3254,8 +3256,183 @@
       "live": false,
       "checked": false,
       "refreshState": "embedded"
+    },
+    {
+      "p": "FamilySupporters Twente",
+      "w": "Jeugdhulp / behandeling",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Oldenzaal / heel Twente",
+      "d": "Jeugd",
+      "e": [
+        "Speltherapie",
+        "PMT / psychomotorische therapie",
+        "Dans- en bewegingstherapie",
+        "Systeemtherapie",
+        "Gezinsbehandeling",
+        "Diagnostiek",
+        "Basis-GGZ",
+        "Specialistische GGZ",
+        "Trauma / PTSS",
+        "EMDR",
+        "CGT",
+        "ACT",
+        "Hechting",
+        "Rouw en verlies"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": 10,
+      "k": "concrete",
+      "s": "FamilySupporters Twente publiceert circa 10 weken wachttijd voor jeugdhulp. Het team biedt diagnostiek, gezins- en systeembehandeling en vaktherapie, waaronder speltherapie, PMT en dans- en bewegingstherapie.",
+      "u": "https://familysupporters.nl/locatie/twente/",
+      "date": "2026-07-24"
+    },
+    {
+      "p": "De Korenschoof Samen Groeien",
+      "w": "Speltherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Almelo",
+      "d": "Jeugd",
+      "e": [
+        "Speltherapie",
+        "Trauma / PTSS",
+        "Hechting",
+        "Rouw en verlies",
+        "Angst",
+        "Emotieregulatie",
+        "Sociale vaardigheden",
+        "Concentratieproblemen"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 12,
+      "b": 0,
+      "k": "concrete",
+      "s": "De Korenschoof publiceerde 12 weken aanmeldwachttijd voor speltherapie in Almelo; na de intake kan behandeling vaak direct starten. De gepubliceerde peildatum is 1 juli 2025 en moet daarom vóór verwijzing worden gecontroleerd.",
+      "u": "https://dkspelentherapie.nl/wachttijden/",
+      "us": [
+        "https://dkspelentherapie.nl/wachttijden/",
+        "https://dekorenschoof.nl/samen-groeien/behandeling-therapie/speltherapie/"
+      ],
+      "date": "2025-07-01"
+    },
+    {
+      "p": "De Korenschoof Samen Groeien",
+      "w": "Speltherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "Speltherapie",
+        "Trauma / PTSS",
+        "Hechting",
+        "Rouw en verlies",
+        "Angst",
+        "Emotieregulatie",
+        "Sociale vaardigheden",
+        "Concentratieproblemen"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 12,
+      "b": 0,
+      "k": "concrete",
+      "s": "De Korenschoof publiceerde 12 weken aanmeldwachttijd voor speltherapie in Enschede; na de intake kan behandeling vaak direct starten. De gepubliceerde peildatum is 1 juli 2025 en moet daarom vóór verwijzing worden gecontroleerd.",
+      "u": "https://dkspelentherapie.nl/wachttijden/",
+      "us": [
+        "https://dkspelentherapie.nl/wachttijden/",
+        "https://dekorenschoof.nl/samen-groeien/behandeling-therapie/speltherapie/"
+      ],
+      "date": "2025-07-01"
+    },
+    {
+      "p": "De Korenschoof Samen Groeien",
+      "w": "Speltherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Oldenzaal",
+      "d": "Jeugd",
+      "e": [
+        "Speltherapie",
+        "Trauma / PTSS",
+        "Hechting",
+        "Rouw en verlies",
+        "Angst",
+        "Emotieregulatie",
+        "Sociale vaardigheden",
+        "Concentratieproblemen"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 12,
+      "b": 0,
+      "k": "concrete",
+      "s": "De Korenschoof publiceerde 12 weken aanmeldwachttijd voor speltherapie in Oldenzaal; na de intake kan behandeling vaak direct starten. De gepubliceerde peildatum is 1 juli 2025 en moet daarom vóór verwijzing worden gecontroleerd.",
+      "u": "https://dkspelentherapie.nl/wachttijden/",
+      "us": [
+        "https://dkspelentherapie.nl/wachttijden/",
+        "https://dekorenschoof.nl/samen-groeien/behandeling-therapie/speltherapie/"
+      ],
+      "date": "2025-07-01"
+    },
+    {
+      "p": "De Korenschoof Samen Groeien",
+      "w": "Psychomotorische therapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Oldenzaal",
+      "d": "Jeugd",
+      "e": [
+        "PMT / psychomotorische therapie",
+        "Emotieregulatie",
+        "Gedrag",
+        "Lichaamsgerichte behandeling"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 12,
+      "b": 0,
+      "k": "concrete",
+      "s": "De Korenschoof publiceerde 12 weken aanmeldwachttijd voor PMT in Oldenzaal; na de intake kan behandeling vaak direct starten. De gepubliceerde peildatum is 1 juli 2025 en moet daarom vóór verwijzing worden gecontroleerd.",
+      "u": "https://dkspelentherapie.nl/wachttijden/",
+      "date": "2025-07-01"
+    },
+    {
+      "p": "De Twentse Zorgcentra",
+      "w": "Speltherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Speltherapie",
+        "LVB",
+        "Verstandelijke beperking",
+        "Rouw en verlies",
+        "Gedragsproblemen",
+        "Communicatie",
+        "Sociaal-emotionele ontwikkeling",
+        "PMT / psychomotorische therapie",
+        "Muziektherapie"
+      ],
+      "c": "Jeugdwet / Wlz",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "De Twentse Zorgcentra biedt speltherapie aan cliënten met een verstandelijke beperking. Daarnaast zijn PMT en muziektherapie beschikbaar. Er is geen openbare uniforme actuele wachttijd gevonden.",
+      "u": "https://www.detwentsezorgcentra.nl/behandeling-en-expertise/speltherapie/",
+      "date": "2026-08-06"
     }
   ],
-  "summary": "Initiële ingebouwde gegevens gepubliceerd.",
+  "summary": {
+    "rows": 120,
+    "providers": 50
+  },
   "report": "Nog geen automatische broncontrole uitgevoerd."
 }

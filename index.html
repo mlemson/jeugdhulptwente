@@ -19,7 +19,7 @@ header h1{margin:0 0 4px;font-size:1.45rem}header p{margin:0;opacity:.88}
 .notice{padding:12px 14px;border-radius:11px;margin:13px 0;font-size:.84rem;line-height:1.48}.notice.warn{background:var(--warnbg);color:#744707}.notice.info{background:var(--soft);color:#245d5a}
 .summary{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:13px 0}.metric{padding:12px 14px}.metric small{display:block;color:var(--muted);margin-bottom:4px}.metric strong{font-size:1.3rem}
 .table-panel{overflow:hidden}.table-scroll{overflow:auto}table{border-collapse:collapse;width:100%;min-width:1700px}th,td{padding:11px 10px;border-bottom:1px solid #e5ebee;text-align:left;vertical-align:top}th{position:sticky;top:0;background:#f8fafb;z-index:1;font-size:.72rem;text-transform:uppercase;letter-spacing:.035em;color:#52636e}td{font-size:.85rem}
-.provider{font-weight:850}.chips{display:flex;gap:4px;flex-wrap:wrap}.chip{display:inline-block;padding:4px 7px;border-radius:999px;background:#edf2f4;font-size:.7rem}.chip.exact{background:var(--soft);color:#205c59}.chip.unknown{background:#fff1d4;color:#7a4a05}.chip.contract{background:#edf0ff;color:#454d86}.offer-wait-cell{line-height:1.3}.cell-section+.cell-section{margin-top:8px;padding-top:7px;border-top:1px dashed #dbe4e7}.cell-kicker{display:block;margin-bottom:4px;color:var(--muted);font-size:.62rem;font-weight:850;text-transform:uppercase;letter-spacing:.04em}.wait-target>div{display:block;margin:0 0 3px}.wait-target>div:last-child{margin-bottom:0}
+.provider{font-weight:850}.chips{display:flex;gap:4px;flex-wrap:wrap}.chip{display:inline-block;padding:4px 7px;border-radius:999px;background:#edf2f4;font-size:.7rem}.chip.exact{background:var(--soft);color:#205c59}.chip.unknown{background:#fff1d4;color:#7a4a05}.chip.contract{background:#edf0ff;color:#454d86}.offer-wait-cell{line-height:1.3}.offer-wait-cell .chip{margin-bottom:4px;white-space:normal}
 .wait{font-weight:800;white-space:nowrap}.wait.short{color:var(--good)}.wait.long{color:var(--bad)}.muted{color:var(--muted)}.details{width:56px;text-align:center}.info-wrap{position:relative;display:inline-flex}.info-btn{width:28px;height:28px;border:1px solid #c7d3d8;border-radius:50%;background:#fff;color:var(--brand2);font-weight:900;cursor:help}.tip{display:none;position:absolute;right:0;top:34px;width:320px;padding:11px 12px;border-radius:10px;background:#17212b;color:#fff;text-align:left;font-weight:400;line-height:1.45;z-index:20;box-shadow:0 10px 30px rgba(0,0,0,.25)}.info-wrap:hover .tip,.info-btn:focus + .tip{display:block}.tip a{color:#bfe8ff}.tip b{display:block;margin-bottom:3px}.tip .tip-section{margin-top:10px}.source a{font-weight:750}.empty{text-align:center;padding:42px;color:var(--muted)}
 dialog{border:0;border-radius:15px;max-width:780px;width:calc(100% - 28px);padding:0;box-shadow:0 25px 75px rgba(0,0,0,.28)}dialog::backdrop{background:rgba(14,29,35,.48)}.modal{padding:20px}.modal h2{margin-top:0}.modal pre{white-space:pre-wrap;background:#f4f7f8;border-radius:10px;padding:12px;max-height:390px;overflow:auto}
 footer{font-size:.77rem;color:var(--muted);line-height:1.45;padding:16px 2px 8px}.maintenance{margin:3px 0 20px;border-top:1px solid #dce4e8;color:var(--muted);font-size:.78rem}.maintenance summary{width:max-content;margin-left:auto;padding:8px 2px;cursor:pointer;opacity:.68;user-select:none}.maintenance summary:hover,.maintenance[open] summary{opacity:1}.maintenance-body{margin-top:4px;padding:12px 14px;background:#f8fafb;border:1px solid var(--line);border-radius:12px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.maintenance-actions{display:flex;gap:8px;flex-wrap:wrap}.maintenance-note{flex-basis:100%;margin:0;color:var(--muted);font-size:.75rem}
@@ -606,6 +606,16 @@ function waitForHtml(x,offerFilter=activeOfferFilter()){
    .map(label=>`<div>${label}</div>`).join("");
 }
 
+function combinedOfferWaitHtml(x,offerFilter=activeOfferFilter()){
+ const offers=displayServiceTypes(x,offerFilter).filter(v=>v!=="Niet vastgesteld");
+ const waits=(x.ws?.length?x.ws:[waitFor(x,offerFilter)])
+   .flatMap(label=>String(label).split(/\s*\/\s*/).filter(Boolean));
+ const generic=new Set(["Behandeling","Diagnostiek","Begeleiding","Wonen","Crisis"]);
+ const specific=uniqueValues(waits.filter(label=>!generic.has(label)));
+ const labels=specific.length?specific:uniqueValues([...offers,...waits]);
+ return labels.map(label=>`<span class="chip contract">${label}</span>`).join("");
+}
+
 function contractHtml(x){
  return uniqueValues(String(x.c||"").split(" · "))
    .map(value=>`<span class="chip contract">${value}</span>`).join(" ");
@@ -643,16 +653,21 @@ function render(){
 
  const list=mergeEquivalentResults(filtered,offerFilter);
  list.sort((a,b)=>{
-   const av=Number.isFinite(a.i)?a.i:999,bv=Number.isFinite(b.i)?b.i:999;
-   const at=Number.isFinite(a.b)?a.b:999,bt=Number.isFinite(b.b)?b.b:999;
-   return av-bv||at-bt||a.p.localeCompare(b.p,"nl");
+   const total=x=>{
+     const vals=[x.i,x.b].filter(Number.isFinite);
+     return vals.length?vals.reduce((sum,v)=>sum+v,0):Number.POSITIVE_INFINITY;
+   };
+   const diff=total(a)-total(b);
+   if(Number.isFinite(diff)&&diff!==0)return diff;
+   if(total(a)!==total(b))return total(a)===Infinity?1:-1;
+   return a.p.localeCompare(b.p,"nl");
  });
 
  els.rows.innerHTML=list.map(x=>`<tr>
    <td class="provider-cell" data-label="Aanbieder"><div class="provider">${x.p}</div>${x.live?'<span class="chip exact">online bijgewerkt</span>':''}</td>
    <td class="location-cell" data-label="Locatie">${x.l}</td>
    <td class="target-cell" data-label="Doelgroep"><div class="chips">${targetHtml(x)}</div></td>
-   <td class="offer-wait-cell" data-label="Aanbod / wachttijd voor"><div class="cell-section"><span class="cell-kicker">Soort aanbod</span><div class="chips">${serviceTypeHtml(x,offerFilter)}</div></div><div class="cell-section wait-target"><span class="cell-kicker">Wachttijd voor</span>${waitForHtml(x,offerFilter)}</div></td>
+   <td class="offer-wait-cell" data-label="Aanbod / wachttijd voor"><div class="chips">${combinedOfferWaitHtml(x,offerFilter)}</div></td>
    <td class="expertise-cell" data-label="Expertise"><div class="chips">${groupedExpertise(x).map(t=>`<span class="chip">${t}</span>`).join("")}</div></td>
    <td class="wait intake-cell ${x.i>20?"long":x.i<=8?"short":""}" data-label="Intake">${textWait(x,"i")}</td>
    <td class="wait start-cell ${x.b>20?"long":x.b<=8?"short":""}" data-label="Behandeling/start">${textWait(x,"b")}</td>
