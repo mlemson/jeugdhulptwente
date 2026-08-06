@@ -550,15 +550,15 @@ function latestDate(values){
 }
 
 function consolidationKey(x,offerFilter=null){
+ // Eén regel per aanbieder wanneer intake én behandeling/start gelijk zijn.
+ // Aanbod, doelgroep, locatie, expertise, contracten en bronnen worden daarna
+ // samengevoegd. Omdat filtering vóór deze stap plaatsvindt, blijft zoeken op
+ // bijvoorbeeld "muziektherapie" of "begeleiding" correct werken.
  return [
    normalizeProviderKey(x.p),
    x.cr===true?"crisis":"regulier",
-   x.k||"unknown",
    x.iText||waitKey(x.i),
-   x.bText||waitKey(x.b),
-   sourceDomain(x.u),
-   displayServiceTypes(x,offerFilter).slice().sort().join("+"),
-   waitFor(x,offerFilter).toLowerCase()
+   x.bText||waitKey(x.b)
  ].join("|");
 }
 
