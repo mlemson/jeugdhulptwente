@@ -23,7 +23,38 @@ header h1{margin:0 0 4px;font-size:1.45rem}header p{margin:0;opacity:.88}
 .wait{font-weight:800;white-space:nowrap}.wait.short{color:var(--good)}.wait.long{color:var(--bad)}.muted{color:var(--muted)}.details{width:56px;text-align:center}.info-wrap{position:relative;display:inline-flex}.info-btn{width:28px;height:28px;border:1px solid #c7d3d8;border-radius:50%;background:#fff;color:var(--brand2);font-weight:900;cursor:help}.tip{display:none;position:absolute;right:0;top:34px;width:300px;padding:10px 11px;border-radius:10px;background:#17212b;color:#fff;text-align:left;font-weight:400;line-height:1.4;z-index:20;box-shadow:0 10px 30px rgba(0,0,0,.25)}.info-wrap:hover .tip,.info-btn:focus + .tip{display:block}.source a{font-weight:750}.empty{text-align:center;padding:42px;color:var(--muted)}
 dialog{border:0;border-radius:15px;max-width:780px;width:calc(100% - 28px);padding:0;box-shadow:0 25px 75px rgba(0,0,0,.28)}dialog::backdrop{background:rgba(14,29,35,.48)}.modal{padding:20px}.modal h2{margin-top:0}.modal pre{white-space:pre-wrap;background:#f4f7f8;border-radius:10px;padding:12px;max-height:390px;overflow:auto}
 footer{font-size:.77rem;color:var(--muted);line-height:1.45;padding:16px 2px 8px}.maintenance{margin:3px 0 20px;border-top:1px solid #dce4e8;color:var(--muted);font-size:.78rem}.maintenance summary{width:max-content;margin-left:auto;padding:8px 2px;cursor:pointer;opacity:.68;user-select:none}.maintenance summary:hover,.maintenance[open] summary{opacity:1}.maintenance-body{margin-top:4px;padding:12px 14px;background:#f8fafb;border:1px solid var(--line);border-radius:12px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.maintenance-actions{display:flex;gap:8px;flex-wrap:wrap}.maintenance-note{flex-basis:100%;margin:0;color:var(--muted);font-size:.75rem}
-@media(max-width:1050px){.controls{grid-template-columns:1fr 1fr}.controls .wide{grid-column:1/-1}.summary{grid-template-columns:repeat(2,1fr)}}@media(max-width:570px){.controls,.summary{grid-template-columns:1fr}}
+@media(max-width:1050px){
+ .controls{grid-template-columns:1fr 1fr}.controls .wide{grid-column:1/-1}.summary{grid-template-columns:repeat(2,1fr)}
+ .wrap{padding:12px}
+ .table-scroll{overflow:visible}
+ table{min-width:0}
+ thead{display:none}
+ tbody,tbody tr,tbody td{display:block;width:100%}
+ tbody{display:grid;gap:12px}
+ tbody tr{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 5px 16px rgba(22,45,55,.06)}
+ tbody td{border:0;border-bottom:1px solid #edf1f3;padding:10px 12px;min-width:0}
+ tbody td::before{content:attr(data-label);display:block;margin-bottom:4px;color:var(--muted);font-size:.66rem;font-weight:800;text-transform:uppercase;letter-spacing:.035em}
+ tbody td.provider-cell{grid-column:1/-1;background:#f8fafb;padding:12px 14px}
+ tbody td.provider-cell::before{display:none}.provider{font-size:1rem}
+ tbody td.wait-for-cell{grid-column:1/-1;background:#f4f9f8}
+ tbody td.wait-for-cell::before{color:var(--brand2)}
+ tbody td.intake-cell,tbody td.start-cell{background:#f7fbf8;padding:12px 14px}
+ tbody td.intake-cell .wait,tbody td.start-cell .wait{font-size:1.15rem}
+ tbody td.expertise-cell,tbody td.offer-cell,tbody td.contract-cell{grid-column:1/-1}
+ tbody td.details{width:auto;text-align:left}
+ .info-wrap{display:flex}.tip{position:fixed;left:12px;right:12px;top:auto;bottom:12px;width:auto;max-height:60vh;overflow:auto}
+ tbody td.source-cell,tbody td.date-cell{border-bottom:0}
+}
+@media(max-width:570px){
+ header{padding:17px 16px}header h1{font-size:1.2rem}.wrap{padding:9px}
+ .controls,.summary{grid-template-columns:1fr}.controls{padding:11px}
+ .meta{justify-content:flex-end}.metric{padding:10px 12px}
+ tbody tr{grid-template-columns:1fr 1fr}
+ tbody td.location-cell,tbody td.target-cell{font-size:.82rem}
+ tbody td.intake-cell,tbody td.start-cell{padding:12px}
+ .chip{font-size:.66rem;padding:3px 6px}
+ .maintenance summary{margin-left:0}
+}
 </style>
 </head>
 <body>
@@ -97,7 +128,7 @@ footer{font-size:.77rem;color:var(--muted);line-height:1.45;padding:16px 2px 8px
 </div>
 
 <section class="panel table-panel"><div class="table-scroll"><table>
-<thead><tr><th>Aanbieder</th><th>Locatie</th><th>Doelgroep</th><th title="Dit geldt voor deze specifieke wachttijdregel, niet automatisch voor alle hulp van de organisatie.">Soort aanbod</th><th>Expertise</th><th>Contract</th><th>Wachttijd voor</th><th>Intake</th><th>Behandeling/start</th><th>Info</th><th>Bron</th><th>Peildatum</th></tr></thead>
+<thead><tr><th>Aanbieder</th><th>Locatie</th><th>Doelgroep</th><th title="Dit geldt voor deze specifieke wachttijdregel, niet automatisch voor alle hulp van de organisatie.">Soort aanbod</th><th>Expertise</th><th>Wachttijd voor</th><th>Intake</th><th>Behandeling/start</th><th>Contract</th><th>Info</th><th>Bron</th><th>Peildatum</th></tr></thead>
 <tbody id="rows"></tbody></table></div><div id="empty" class="empty" hidden>Geen resultaten voor deze filters.</div></section>
 <footer>Wachttijden zijn indicatief. Onzekere of niet eenduidig uitleesbare waarden worden niet overschreven. Alleen inhoudelijk gelijkwaardige wachttijdregels worden automatisch samengevoegd.</footer>
 <details class="maintenance">
@@ -524,21 +555,21 @@ function render(){
  });
 
  els.rows.innerHTML=list.map(x=>`<tr>
-   <td><div class="provider">${x.p}</div>${x.live?'<span class="chip exact">online bijgewerkt</span>':''}</td>
-   <td>${x.l}</td>
-   <td><div class="chips">${targetHtml(x)}</div></td>
-   <td><div class="chips">${serviceTypeHtml(x,offerFilter)}</div></td>
-   <td><div class="chips">${groupedExpertise(x).map(t=>`<span class="chip">${t}</span>`).join("")}</div></td>
-   <td><div class="chips">${contractHtml(x)}</div></td>
-   <td class="wait-for">${waitForHtml(x,offerFilter)}</td>
-   <td class="wait ${x.i>20?"long":x.i<=8?"short":""}">${textWait(x,"i")}</td>
-   <td class="wait ${x.b>20?"long":x.b<=8?"short":""}">${textWait(x,"b")}</td>
-   <td class="details"><span class="info-wrap">
+   <td class="provider-cell" data-label="Aanbieder"><div class="provider">${x.p}</div>${x.live?'<span class="chip exact">online bijgewerkt</span>':''}</td>
+   <td class="location-cell" data-label="Locatie">${x.l}</td>
+   <td class="target-cell" data-label="Doelgroep"><div class="chips">${targetHtml(x)}</div></td>
+   <td class="offer-cell" data-label="Soort aanbod"><div class="chips">${serviceTypeHtml(x,offerFilter)}</div></td>
+   <td class="expertise-cell" data-label="Expertise"><div class="chips">${groupedExpertise(x).map(t=>`<span class="chip">${t}</span>`).join("")}</div></td>
+   <td class="wait-for wait-for-cell" data-label="Wachttijd voor">${waitForHtml(x,offerFilter)}</td>
+   <td class="wait intake-cell ${x.i>20?"long":x.i<=8?"short":""}" data-label="Intake">${textWait(x,"i")}</td>
+   <td class="wait start-cell ${x.b>20?"long":x.b<=8?"short":""}" data-label="Behandeling/start">${textWait(x,"b")}</td>
+   <td class="contract-cell" data-label="Contract"><div class="chips">${contractHtml(x)}</div></td>
+   <td class="details" data-label="Info"><span class="info-wrap">
      <button class="info-btn" type="button" aria-label="Toelichting bij ${x.p}">i</button>
      <span class="tip" role="tooltip">${x.s}${mergedExplanation(x)}<br><br><b>Vormen/expertise binnen deze selectie:</b> ${(x.e||[]).join(", ")}</span>
    </span></td>
-   <td class="source">${sourceHtml(x)}</td>
-   <td>${x.date}</td>
+   <td class="source source-cell" data-label="Bron">${sourceHtml(x)}</td>
+   <td class="date-cell" data-label="Peildatum">${x.date}</td>
  </tr>`).join("");
 
  els.empty.hidden=!!list.length;
