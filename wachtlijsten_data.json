@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T11:52:13.701Z",
+  "generatedAt": "2026-08-06T12:58:36.154Z",
   "rows": [
     {
       "p": "DOPPA zorg",
@@ -739,14 +739,22 @@
         "Individuele behandeling",
         "Gedragsproblemen",
         "Emotionele problematiek",
-        "Psychische klachten"
+        "Psychische klachten",
+        "Gezinsproblematiek",
+        "Ouderschap bij scheiding",
+        "Pro Jonge Moeders",
+        "T-Team 18–27"
       ],
       "c": "Samen14/Jeugd",
-      "i": 8,
-      "b": null,
+      "i": null,
+      "b": 8,
       "k": "concrete",
-      "s": "Jarabee publiceert voor individuele behandeling een gemiddelde wachttijd van 8 weken.",
-      "u": "https://www.jarabee.nl/verwijzers/wachttijden",
+      "s": "Jarabee publiceert voor individuele behandeling een gemiddelde wachttijd van 8 weken. De bron noemt geen afzonderlijke intaketermijn; de waarde staat daarom bij behandeling/start.",
+      "u": "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+      "us": [
+        "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
       "date": "2026-08-06",
       "live": false,
       "checked": false,
@@ -756,7 +764,8 @@
       "p": "Jarabee",
       "w": "IAG",
       "a": [
-        "Behandeling"
+        "Behandeling",
+        "Begeleiding"
       ],
       "l": "Twente",
       "d": "Jeugd",
@@ -764,14 +773,51 @@
         "IAG / intensieve ambulante gezinsbehandeling",
         "Gezinsbehandeling",
         "Opvoedondersteuning",
-        "Systeemgericht werken"
+        "Systeemgericht werken",
+        "Voorkomen uithuisplaatsing"
       ],
       "c": "Samen14/Jeugd",
-      "i": 8,
-      "b": null,
+      "i": null,
+      "b": 8,
       "k": "concrete",
-      "s": "Jarabee publiceert voor IAG een gemiddelde wachttijd van 8 weken.",
-      "u": "https://www.jarabee.nl/verwijzers/wachttijden",
+      "s": "Jarabee publiceert voor IAG een gemiddelde wachttijd van 8 weken. De bron noemt geen afzonderlijke intaketermijn; de waarde staat daarom bij behandeling/start.",
+      "u": "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+      "us": [
+        "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Jarabee",
+      "w": "Behandelgroep",
+      "a": [
+        "Behandeling",
+        "Wonen"
+      ],
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Behandelgroep",
+        "Groepsbehandeling",
+        "Gedragsproblemen",
+        "Emotionele problematiek",
+        "InBalans",
+        "InControl"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": 0,
+      "k": "concrete",
+      "s": "Jarabee vermeldt voor de behandelgroep geen wachtlijst.",
+      "u": "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+      "us": [
+        "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
       "date": "2026-08-06",
       "live": false,
       "checked": false,
@@ -791,14 +837,50 @@
         "Wonen",
         "Behandeling",
         "Onderwijs",
-        "Groepszorg"
+        "Groepszorg",
+        "Residentieel verblijf"
       ],
       "c": "Samen14/Jeugd",
       "i": null,
       "b": null,
-      "k": "unknown",
-      "s": "Beschikbaarheid wordt als ‘in overleg’ gepubliceerd.",
-      "u": "https://www.jarabee.nl/verwijzers/wachttijden",
+      "bText": "In overleg",
+      "k": "route",
+      "s": "Jarabee publiceert de beschikbaarheid van de driemilieusvoorzieningen als ‘in overleg’.",
+      "u": "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+      "us": [
+        "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Jarabee",
+      "w": "Pleeggezin",
+      "a": [
+        "Wonen"
+      ],
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Pleeggezin",
+        "Pleegzorg",
+        "Pleegzorg Dichtbij",
+        "Mockingbird",
+        "Gezinsgericht wonen"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": 0,
+      "k": "concrete",
+      "s": "Jarabee vermeldt voor pleeggezinnen geen wachtlijst.",
+      "u": "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+      "us": [
+        "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
       "date": "2026-08-06",
       "live": false,
       "checked": false,
@@ -820,9 +902,45 @@
       "c": "Samen14/Jeugd",
       "i": null,
       "b": null,
+      "bText": "In overleg",
+      "k": "route",
+      "s": "Jarabee publiceert de beschikbaarheid van gezinshuizen als ‘in overleg’.",
+      "u": "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+      "us": [
+        "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Jarabee",
+      "w": "Onderzoek en diagnostiek",
+      "a": [
+        "Diagnostiek"
+      ],
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Onderzoek",
+        "Diagnostiek",
+        "Jonge-kindonderzoek",
+        "Systeemdiagnostiek",
+        "Ontwikkelingsonderzoek",
+        "Testdiagnostiek"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
       "k": "unknown",
-      "s": "Beschikbaarheid wordt als ‘in overleg’ gepubliceerd.",
-      "u": "https://www.jarabee.nl/verwijzers/wachttijden",
+      "s": "Jarabee beschrijft meerdere vormen van onderzoek en diagnostiek, maar publiceert hiervoor op de openbare wachttijdenpagina geen afzonderlijke termijn.",
+      "u": "https://www.jarabee.nl/behandelaanbod",
+      "us": [
+        "https://www.jarabee.nl/behandelaanbod",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
       "date": "2026-08-06",
       "live": false,
       "checked": false,
@@ -843,11 +961,15 @@
         "Crisis / veiligheid"
       ],
       "c": "Samen14/Jeugd",
-      "i": 0,
+      "i": null,
       "b": 0,
       "k": "concrete",
       "s": "Jarabee publiceert hiervoor geen wachtlijst.",
-      "u": "https://www.jarabee.nl/verwijzers/wachttijden",
+      "u": "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+      "us": [
+        "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
       "date": "2026-08-06",
       "live": false,
       "checked": false,
@@ -869,11 +991,15 @@
         "Tijdelijk verblijf"
       ],
       "c": "Samen14/Jeugd",
-      "i": 0,
+      "i": null,
       "b": 0,
       "k": "concrete",
       "s": "Jarabee publiceert hiervoor geen wachtlijst.",
-      "u": "https://www.jarabee.nl/verwijzers/wachttijden",
+      "u": "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+      "us": [
+        "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
       "date": "2026-08-06",
       "live": false,
       "checked": false,
@@ -895,34 +1021,16 @@
         "Crisisopvang"
       ],
       "c": "Samen14/Jeugd",
-      "i": 0,
+      "i": null,
       "b": 0,
       "k": "concrete",
       "s": "Jarabee publiceert hiervoor geen wachtlijst.",
-      "u": "https://www.jarabee.nl/verwijzers/wachttijden",
-      "date": "2026-08-06",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
-    },
-    {
-      "p": "Ambiq",
-      "l": "Enschede/Twente",
-      "d": "Jeugd",
-      "e": [
-        "LVB",
-        "Gezin",
-        "Gedrag",
-        "Ambulante jeugdhulp",
-        "Diagnostiek"
+      "u": "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+      "us": [
+        "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
       ],
-      "c": "Samen14/Jeugd",
-      "i": null,
-      "b": null,
-      "k": "unknown",
-      "s": "Geen eenduidige openbare actuele wachttijd per locatie/expertise gevonden.",
-      "u": "https://www.ambiq.nl/",
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "live": false,
       "checked": false,
       "refreshState": "embedded"
@@ -957,7 +1065,7 @@
       "k": "unknown",
       "s": "Aveleijn biedt in Twente zorg vanuit onder meer Jeugdwet en Wmo. Voor jeugd zijn individuele en groepsgerichte begeleiding, dagbehandeling/KDC, diagnostiek, behandeling en IAG beschreven. Beschikbaarheid verschilt per voorziening.",
       "u": "https://www.aveleijn.nl/professionals/zorgaanbod/ondersteuning-voor-kinderen",
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "live": false,
       "checked": false,
       "refreshState": "embedded"
@@ -978,7 +1086,7 @@
       "k": "unknown",
       "s": "Wachttijd is afhankelijk van product en locatie; geen uniforme openbare waarde gevonden.",
       "u": "https://www.ribwoverijssel.nl/",
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "live": false,
       "checked": false,
       "refreshState": "embedded"
@@ -1312,13 +1420,18 @@
     },
     {
       "p": "De Synergie",
-      "l": "Losser / regio Enschede",
+      "w": "Behandeling jeugd",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Losser",
       "d": "Jeugd",
       "e": [
-        "Diagnostiek",
-        "Behandeling",
-        "Ambulante begeleiding",
-        "Systeem",
+        "Kortdurende behandeling",
+        "CGT",
+        "EMDR",
+        "Oplossingsgericht werken",
+        "Systeemgericht werken",
         "Angst",
         "Stemming",
         "Trauma / PTSS",
@@ -1327,33 +1440,255 @@
       ],
       "c": "Samen14/Jeugd",
       "i": null,
-      "b": null,
-      "k": "unknown",
-      "s": "Gecontracteerd voor ambulante jeugdhulp; actuele wachttijden worden op de site genoemd maar zijn niet eenduidig machineleesbaar gevonden.",
-      "u": "https://desynergie.nl/",
-      "date": "2026-08-05",
+      "b": 7,
+      "bText": "6–8 wk",
+      "k": "concrete",
+      "s": "De Synergie publiceert voor jeugd in Losser een algemene wachttijd van 6–8 weken. De website splitst deze termijn niet apart uit in intake en start; daarom staat hij bij behandeling/start.",
+      "u": "https://desynergie.nl/wachttijden/",
+      "us": [
+        "https://desynergie.nl/wachttijden/",
+        "https://beschikbaarheidswijzer.nl/jeugdhulp/twente/de-synergie-psychologie?sort=refreshedAt",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-06",
       "live": false,
       "checked": false,
       "refreshState": "embedded"
     },
     {
       "p": "De Synergie",
-      "l": "Losser / regio Enschede",
+      "w": "Behandeling jeugd",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Vriezenveen",
+      "d": "Jeugd",
+      "e": [
+        "Kortdurende behandeling",
+        "CGT",
+        "EMDR",
+        "Oplossingsgericht werken",
+        "Systeemgericht werken",
+        "Angst",
+        "Stemming",
+        "Trauma / PTSS",
+        "ADHD / ADD",
+        "Autisme / ASS"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": 19.6,
+      "bText": "4–5 mnd",
+      "k": "concrete",
+      "s": "De Synergie publiceert voor jeugd in Vriezenveen een algemene wachttijd van 4–5 maanden. De website splitst deze termijn niet apart uit in intake en start; daarom staat hij bij behandeling/start.",
+      "u": "https://desynergie.nl/wachttijden/",
+      "us": [
+        "https://desynergie.nl/wachttijden/",
+        "https://beschikbaarheidswijzer.nl/jeugdhulp/twente/de-synergie-psychologie?sort=refreshedAt",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "De Synergie",
+      "w": "Diagnostiek",
+      "a": [
+        "Diagnostiek"
+      ],
+      "l": "Losser",
+      "d": "Jeugd",
+      "e": [
+        "Diagnostiek",
+        "Psychodiagnostiek",
+        "Ontwikkelingsvragen",
+        "ADHD / ADD",
+        "Autisme / ASS"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": 9,
+      "bText": "8–10 wk",
+      "k": "concrete",
+      "s": "De Synergie publiceert voor diagnostiek in Losser een wachttijd van 8–10 weken. De bron noemt geen afzonderlijke intaketermijn.",
+      "u": "https://desynergie.nl/wachttijden/",
+      "us": [
+        "https://desynergie.nl/wachttijden/",
+        "https://beschikbaarheidswijzer.nl/jeugdhulp/twente/de-synergie-psychologie?sort=refreshedAt",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "De Synergie",
+      "w": "Diagnostiek",
+      "a": [
+        "Diagnostiek"
+      ],
+      "l": "Vriezenveen",
+      "d": "Jeugd",
+      "e": [
+        "Diagnostiek",
+        "Psychodiagnostiek",
+        "Ontwikkelingsvragen",
+        "ADHD / ADD",
+        "Autisme / ASS"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": 15.2,
+      "bText": "2–5 mnd",
+      "k": "concrete",
+      "s": "De Synergie publiceert voor diagnostiek in Vriezenveen een wachttijd van 2–5 maanden. De bron noemt geen afzonderlijke intaketermijn.",
+      "u": "https://desynergie.nl/wachttijden/",
+      "us": [
+        "https://desynergie.nl/wachttijden/",
+        "https://beschikbaarheidswijzer.nl/jeugdhulp/twente/de-synergie-psychologie?sort=refreshedAt",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "De Synergie",
+      "w": "Behandeling volwassenen",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Losser",
+      "d": "Volwassenen",
+      "e": [
+        "Basis-GGZ",
+        "Kortdurende behandeling",
+        "CGT",
+        "EMDR",
+        "Schematherapie",
+        "PMT",
+        "E-health",
+        "Online behandeling",
+        "Angst",
+        "Stemming",
+        "Trauma / PTSS"
+      ],
+      "c": "Zorgverzekering / particulier",
+      "i": null,
+      "b": 10,
+      "bText": "8–12 wk",
+      "k": "concrete",
+      "s": "De Synergie publiceert voor volwassenen in Losser 8–12 weken. Online behandeling heeft volgens de bron een kortere wachttijd. Er geldt momenteel een aanmeldstop voor traumatherapie en schematherapie.",
+      "u": "https://desynergie.nl/wachttijden/",
+      "us": [
+        "https://desynergie.nl/wachttijden/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "De Synergie",
+      "w": "Behandeling volwassenen",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Vriezenveen",
+      "d": "Volwassenen",
+      "e": [
+        "Basis-GGZ",
+        "Kortdurende behandeling",
+        "CGT",
+        "EMDR",
+        "Schematherapie",
+        "PMT",
+        "E-health",
+        "Online behandeling",
+        "Angst",
+        "Stemming",
+        "Trauma / PTSS"
+      ],
+      "c": "Zorgverzekering / particulier",
+      "i": null,
+      "b": 10,
+      "bText": "8–12 wk",
+      "k": "concrete",
+      "s": "De Synergie publiceert voor volwassenen in Vriezenveen 8–12 weken. Online behandeling heeft volgens de bron een kortere wachttijd. Er geldt momenteel een aanmeldstop voor traumatherapie en schematherapie.",
+      "u": "https://desynergie.nl/wachttijden/",
+      "us": [
+        "https://desynergie.nl/wachttijden/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "De Synergie",
+      "w": "Ambulante begeleiding Jeugdwet",
+      "a": [
+        "Begeleiding"
+      ],
+      "l": "Twente / ambulant thuis",
+      "d": "Jeugd",
+      "e": [
+        "Ambulante begeleiding",
+        "Dagplanning",
+        "Sociale vaardigheden",
+        "Zelfredzaamheid",
+        "Systeemgericht werken"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": 10,
+      "k": "concrete",
+      "s": "De Synergie publiceert voor ambulante begeleiding vanuit de Jeugdwet een wachttijd van 10 weken.",
+      "u": "https://desynergie.nl/wachttijden/",
+      "us": [
+        "https://desynergie.nl/wachttijden/",
+        "https://beschikbaarheidswijzer.nl/jeugdhulp/twente/de-synergie-psychologie?sort=refreshedAt",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-06",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "De Synergie",
+      "w": "Ambulante begeleiding Wmo",
+      "a": [
+        "Begeleiding"
+      ],
+      "l": "Twente / ambulant thuis",
       "d": "Wmo",
       "e": [
         "Ambulante begeleiding",
         "Psychische klachten",
         "Autisme / ASS",
         "ADHD / ADD",
-        "Systeem"
+        "Dagstructuur",
+        "Zelfredzaamheid",
+        "Systeemgericht werken"
       ],
       "c": "Samen14/Wmo",
       "i": null,
-      "b": null,
-      "k": "unknown",
-      "s": "Ondersteuning vanuit Wmo mogelijk; geen uniforme openbare actuele wachttijd gevonden.",
-      "u": "https://desynergie.nl/",
-      "date": "2026-08-05",
+      "b": 10,
+      "k": "concrete",
+      "s": "De Synergie publiceert voor ambulante begeleiding vanuit de Wmo een wachttijd van 10 weken.",
+      "u": "https://desynergie.nl/wachttijden/",
+      "us": [
+        "https://desynergie.nl/wachttijden/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-06",
       "live": false,
       "checked": false,
       "refreshState": "embedded"
@@ -1599,7 +1934,7 @@
       "k": "unknown",
       "s": "Gecontracteerd voor ernstige dyslexie. Geen eenduidige openbare actuele wachttijd gevonden.",
       "u": "https://www.dyslexiecentrumtwente.nl/",
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "live": false,
       "checked": false,
       "refreshState": "embedded"
@@ -1622,7 +1957,7 @@
       "k": "unknown",
       "s": "Gecontracteerde aanbieder uit het Samen14-overzicht. Geen betrouwbare openbare actuele wachttijd gevonden.",
       "u": "https://www.instituutnijenkamp.nl/",
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "live": false,
       "checked": false,
       "refreshState": "embedded"
@@ -1645,7 +1980,7 @@
       "k": "unknown",
       "s": "Gecontracteerde aanbieder uit het Samen14-overzicht. Geen betrouwbare openbare actuele wachttijd gevonden.",
       "u": "https://www.pienterenco.nl/",
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "live": false,
       "checked": false,
       "refreshState": "embedded"
@@ -1668,7 +2003,7 @@
       "k": "unknown",
       "s": "Gecontracteerde aanbieder met meerdere ambulante jeugdproducten. Geen centrale openbare actuele wachttijd gevonden.",
       "u": "https://www.jeugdx.nl/",
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "live": false,
       "checked": false,
       "refreshState": "embedded"
@@ -1690,7 +2025,7 @@
       "k": "unknown",
       "s": "Gecontracteerde aanbieder uit het Samen14-overzicht. Geen betrouwbare openbare actuele wachttijd gevonden.",
       "u": "https://www.senzor.nl/",
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "live": false,
       "checked": false,
       "refreshState": "embedded"
@@ -1713,7 +2048,7 @@
       "k": "unknown",
       "s": "Gecontracteerd voor vaktherapie en aanverwante ambulante producten. Geen actuele openbare wachttijd gevonden.",
       "u": "https://www.pmte.nl/",
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "live": false,
       "checked": false,
       "refreshState": "embedded"
@@ -1737,7 +2072,7 @@
       "k": "unknown",
       "s": "Gecontracteerde aanbieder uit het Samen14-overzicht. Geen betrouwbare openbare actuele wachttijd gevonden.",
       "u": "https://www.tzeggelt.nl/",
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "live": false,
       "checked": false,
       "refreshState": "embedded"
@@ -1759,7 +2094,7 @@
       "k": "unknown",
       "s": "Gecontracteerde hoofdaannemer. Geen betrouwbare openbare actuele wachttijd gevonden.",
       "u": "https://www.cuidate.nl/",
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "live": false,
       "checked": false,
       "refreshState": "embedded"
@@ -1791,7 +2126,7 @@
       "k": "unknown",
       "s": "MentalScope beschrijft CGT, ACT, EMDR, PMT, MBCT/mindfulness en RET. Voor het precieze jeugdteam, leeftijdsbereik en de actuele wachttijd moet de aanbieder worden geraadpleegd.",
       "u": "https://mentalscope.nl/psycholoog/behandeling/",
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "live": false,
       "checked": false,
       "refreshState": "embedded"
@@ -2290,7 +2625,7 @@
       "refreshState": "embedded"
     },
     {
-      "p": "Stichting Ambiq",
+      "p": "Ambiq",
       "w": "Crisis / ambulante spoedhulp",
       "a": [
         "Crisis"
@@ -2306,52 +2641,528 @@
         "Crisis / veiligheid"
       ],
       "c": "Samen14/Jeugd",
-      "i": 0,
+      "i": null,
       "b": 0,
+      "bText": "Binnen 24 uur",
       "k": "concrete",
       "s": "Bij crisis streeft Ambiq ernaar de hulp binnen 24 uur te starten. Deze regel is uitsluitend bedoeld voor crisis- en spoedaanmeldingen.",
-      "u": "https://www.ambiq.nl/verwijzers/snel-hulp-voor-kind-en-gezin-bij-crisis/spoedhulp-jeugd-twente",
+      "u": "https://www.ambiq.nl/wat-we-doen/5/crisis-ambulant",
+      "us": [
+        "https://www.ambiq.nl/wat-we-doen/5/crisis-ambulant",
+        "https://www.ambiq.nl/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
       "date": "2026-08-06",
       "live": false,
       "checked": false,
       "refreshState": "embedded"
     },
     {
-      "p": "Stichting Ambiq",
-      "w": "Reguliere begeleiding, behandeling en verblijf",
+      "p": "Ambiq",
+      "w": "Diagnostiek",
       "a": [
-        "Begeleiding",
+        "Diagnostiek"
+      ],
+      "l": "Enschede / Twente",
+      "d": "Jeugd",
+      "e": [
+        "LVB",
+        "Diagnostiek",
+        "Onderzoek",
+        "Observatie en diagnostiek",
+        "Ontwikkelingsonderzoek"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Ambiq biedt diagnostiek en observatie/diagnostiek. De openbare wachttijdenpagina toont dynamische productwaarden, maar de uitgelezen tekst koppelt het getal niet betrouwbaar aan dit specifieke product; daarom wordt geen termijn gegokt.",
+      "u": "https://www.ambiq.nl/verwijzers/wachttijden",
+      "us": [
+        "https://www.ambiq.nl/verwijzers/wachttijden",
+        "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-04-22",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ambiq",
+      "w": "Speltherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Enschede / Twente",
+      "d": "Jeugd",
+      "e": [
+        "LVB",
+        "Speltherapie",
+        "Spel en therapie",
+        "Emotieregulatie",
+        "Gedragsproblemen"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Speltherapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "u": "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
+      "us": [
+        "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
+        "https://www.ambiq.nl/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-04-22",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ambiq",
+      "w": "Beeldende therapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Enschede / Twente",
+      "d": "Jeugd",
+      "e": [
+        "LVB",
+        "Beeldende therapie",
+        "Vaktherapie",
+        "Emotieregulatie",
+        "Gedragsproblemen"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Beeldende therapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "u": "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
+      "us": [
+        "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
+        "https://www.ambiq.nl/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-04-22",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ambiq",
+      "w": "Cognitieve gedragstherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Enschede / Twente",
+      "d": "Jeugd",
+      "e": [
+        "LVB",
+        "CGT",
+        "Cognitieve gedragstherapie",
+        "Gedragsproblemen",
+        "Angst",
+        "Stemming"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Cognitieve gedragstherapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "u": "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
+      "us": [
+        "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
+        "https://www.ambiq.nl/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-04-22",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ambiq",
+      "w": "EMDR",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Enschede / Twente",
+      "d": "Jeugd",
+      "e": [
+        "LVB",
+        "EMDR",
+        "Trauma / PTSS",
+        "Traumabehandeling",
+        "ZIT"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "EMDR en intensieve traumabehandeling staan in het Ambiq-aanbod. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "u": "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
+      "us": [
+        "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
+        "https://www.ambiq.nl/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-04-22",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ambiq",
+      "w": "Psychomotorische therapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Enschede / Twente",
+      "d": "Jeugd",
+      "e": [
+        "LVB",
+        "Psychomotorische therapie",
+        "PMT",
+        "Vaktherapie",
+        "Lichaamsgericht werken"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Psychomotorische therapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "u": "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
+      "us": [
+        "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
+        "https://www.ambiq.nl/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-04-22",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ambiq",
+      "w": "Systeemtherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Enschede / Twente",
+      "d": "Jeugd",
+      "e": [
+        "LVB",
+        "Systeemtherapie",
+        "Gezinsbehandeling",
+        "Ouderbegeleiding",
+        "Systeemgericht werken"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Systeemtherapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "u": "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
+      "us": [
+        "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
+        "https://www.ambiq.nl/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-04-22",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ambiq",
+      "w": "IAG / intensieve gezinsbehandeling",
+      "a": [
         "Behandeling",
+        "Begeleiding"
+      ],
+      "l": "Twente / ambulant thuis",
+      "d": "Jeugd",
+      "e": [
+        "LVB",
+        "IAG",
+        "IAG Jonge Kind",
+        "ZIAG",
+        "ZIG",
+        "MDFT",
+        "KINGS",
+        "CSI",
+        "Gezinsbehandeling",
+        "Voorkomen uithuisplaatsing"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Ambiq publiceert meerdere intensieve ambulante systeem- en gezinsinterventies. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "u": "https://www.ambiq.nl/verwijzers/wachttijden",
+      "us": [
+        "https://www.ambiq.nl/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-04-22",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ambiq",
+      "w": "Naschoolse dagbehandeling",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Hengelo / Twente",
+      "d": "Jeugd",
+      "e": [
+        "LVB",
+        "Naschoolse dagbehandeling",
+        "Dagbehandeling",
+        "Groepsbehandeling",
+        "School",
+        "Gedrag"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Ambiq biedt naschoolse dagbehandeling in Twente. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "u": "https://www.ambiq.nl/wat-we-doen",
+      "us": [
+        "https://www.ambiq.nl/wat-we-doen",
+        "https://www.ambiq.nl/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-04-22",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ambiq",
+      "w": "Observatie en diagnostiek met opname",
+      "a": [
         "Diagnostiek",
         "Wonen"
       ],
       "l": "Twente",
-      "d": [
-        "Jeugd",
-        "Wmo"
-      ],
+      "d": "Jeugd",
       "e": [
         "LVB",
-        "Wonen",
-        "Behandelgroepen",
-        "Ouder-kindbehandeling",
-        "Moeder-kind / ouder-kind wonen",
-        "24-uursbehandeling",
-        "Hechting",
-        "Opvoedvaardigheden",
-        "Zelfstandig wonen",
-        "Gezinsbehandeling",
-        "Diagnostiek",
-        "Behandeling",
-        "Ambulante begeleiding",
-        "Gedragsproblematiek"
+        "Observatie en diagnostiek",
+        "Diagnostiek met opname",
+        "Verblijf",
+        "Behandelgroep"
       ],
-      "c": "Samen14/Jeugd + mogelijk Wmo",
+      "c": "Samen14/Jeugd",
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Ambiq biedt reguliere begeleiding, behandeling, diagnostiek en woonvormen. Voor deze reguliere trajecten is geen uniforme openbare wachttijd gevonden.",
-      "u": "https://www.ambiq.nl/",
+      "s": "Ambiq vermeldt observatie en diagnostiek met opname als product. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "u": "https://www.ambiq.nl/verwijzers/wachttijden",
+      "us": [
+        "https://www.ambiq.nl/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-04-22",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ambiq",
+      "w": "FACT-jeugd",
+      "a": [
+        "Behandeling",
+        "Begeleiding"
+      ],
+      "l": "Twente / ambulant",
+      "d": "Jeugd",
+      "e": [
+        "LVB",
+        "FACT",
+        "FACT-jeugd",
+        "Ernstige psychiatrische problematiek",
+        "Outreachende behandeling",
+        "Jongvolwassenen"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "FACT staat als intensieve ambulante behandelvorm in de Twentse productindeling en het Ambiq-aanbod. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "u": "https://www.ambiq.nl/verwijzers/wachttijden",
+      "us": [
+        "https://www.ambiq.nl/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-04-22",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ambiq",
+      "w": "Specialistische LVB-behandeling en training",
+      "a": [
+        "Behandeling",
+        "Begeleiding"
+      ],
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "LVB",
+        "J-SGLVB",
+        "ZIB",
+        "NIKA",
+        "Make a Move+",
+        "Girls Talk+",
+        "Mediawijsheid",
+        "Weerbaarheid",
+        "School Thuis Ambiq / STA",
+        "Gedragsproblemen",
+        "Seksuele ontwikkeling"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Ambiq publiceert meerdere specialistische LVB-behandelingen en trainingen. Deze termen zijn afzonderlijk doorzoekbaar; er is geen veilig uitleesbare productspecifieke wachttijd gevonden.",
+      "u": "https://www.ambiq.nl/verwijzers/wachttijden",
+      "us": [
+        "https://www.ambiq.nl/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-04-22",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ambiq",
+      "w": "Ouder-kindbehandeling",
+      "a": [
+        "Behandeling",
+        "Wonen"
+      ],
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "LVB",
+        "Ouder-kindbehandeling",
+        "Ouder-kindgroep",
+        "Hechting",
+        "Opvoedvaardigheden",
+        "24-uursbehandeling"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Ouder-kindbehandeling staat als Ambiq-product vermeld. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "u": "https://www.ambiq.nl/verwijzers/wachttijden",
+      "us": [
+        "https://www.ambiq.nl/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-04-22",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ambiq",
+      "w": "Trainingshuis / kamertraining",
+      "a": [
+        "Wonen",
+        "Begeleiding"
+      ],
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "LVB",
+        "Trainingshuis",
+        "Kamertraining",
+        "Begeleid zelfstandig wonen",
+        "Zelfredzaamheid",
+        "Jongvolwassenen"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Trainingshuis staat als Ambiq-product vermeld. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "u": "https://www.ambiq.nl/verwijzers/wachttijden",
+      "us": [
+        "https://www.ambiq.nl/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-04-22",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ambiq",
+      "w": "Specialistisch gezinshuis",
+      "a": [
+        "Wonen"
+      ],
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "LVB",
+        "Specialistisch gezinshuis",
+        "Gezinshuis",
+        "Wonen",
+        "Kleinschalig verblijf"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Specialistisch gezinshuis staat als Ambiq-product vermeld. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "u": "https://www.ambiq.nl/verwijzers/wachttijden",
+      "us": [
+        "https://www.ambiq.nl/verwijzers/wachttijden",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-04-22",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ambiq",
+      "w": "Ambulante begeleiding en wonen 18+",
+      "a": [
+        "Begeleiding",
+        "Wonen"
+      ],
+      "l": "Twente",
+      "d": "Wmo",
+      "e": [
+        "LVB",
+        "Volwassenenzorg",
+        "Ambulante begeleiding",
+        "Wonen",
+        "Dagbesteding",
+        "Zelfredzaamheid"
+      ],
+      "c": "Samen14/Wmo / nader controleren",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Ambiq biedt ook volwassenenzorg en woon-/begeleidingsvormen in Twente. Een uniforme openbare actuele wachttijd is niet gevonden.",
+      "u": "https://www.ambiq.nl/wat-we-doen/12/volwassenenzorg",
+      "us": [
+        "https://www.ambiq.nl/wat-we-doen/12/volwassenenzorg"
+      ],
       "date": "2026-08-06",
       "live": false,
       "checked": false,

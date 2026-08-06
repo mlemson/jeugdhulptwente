@@ -19,7 +19,7 @@ header h1{margin:0 0 4px;font-size:1.45rem}header p{margin:0;opacity:.88}
 .notice{padding:12px 14px;border-radius:11px;margin:13px 0;font-size:.84rem;line-height:1.48}.notice.warn{background:var(--warnbg);color:#744707}.notice.info{background:var(--soft);color:#245d5a}
 .summary{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:13px 0}.metric{padding:12px 14px}.metric small{display:block;color:var(--muted);margin-bottom:4px}.metric strong{font-size:1.3rem}
 .table-panel{overflow:hidden}.table-scroll{overflow:auto}table{border-collapse:collapse;width:100%;min-width:1700px}th,td{padding:11px 10px;border-bottom:1px solid #e5ebee;text-align:left;vertical-align:top}th{position:sticky;top:0;background:#f8fafb;z-index:1;font-size:.72rem;text-transform:uppercase;letter-spacing:.035em;color:#52636e}td{font-size:.85rem}
-.provider{font-weight:850}.chips{display:flex;gap:4px;flex-wrap:wrap}.chip{display:inline-block;padding:4px 7px;border-radius:999px;background:#edf2f4;font-size:.7rem}.chip.exact{background:var(--soft);color:#205c59}.chip.unknown{background:#fff1d4;color:#7a4a05}.chip.contract{background:#edf0ff;color:#454d86}
+.provider{font-weight:850}.chips{display:flex;gap:4px;flex-wrap:wrap}.chip{display:inline-block;padding:4px 7px;border-radius:999px;background:#edf2f4;font-size:.7rem}.chip.exact{background:var(--soft);color:#205c59}.chip.unknown{background:#fff1d4;color:#7a4a05}.chip.contract{background:#edf0ff;color:#454d86}.offer-wait-cell{line-height:1.3}.cell-section+.cell-section{margin-top:8px;padding-top:7px;border-top:1px dashed #dbe4e7}.cell-kicker{display:block;margin-bottom:4px;color:var(--muted);font-size:.62rem;font-weight:850;text-transform:uppercase;letter-spacing:.04em}.wait-target>div{display:block;margin:0 0 3px}.wait-target>div:last-child{margin-bottom:0}
 .wait{font-weight:800;white-space:nowrap}.wait.short{color:var(--good)}.wait.long{color:var(--bad)}.muted{color:var(--muted)}.details{width:56px;text-align:center}.info-wrap{position:relative;display:inline-flex}.info-btn{width:28px;height:28px;border:1px solid #c7d3d8;border-radius:50%;background:#fff;color:var(--brand2);font-weight:900;cursor:help}.tip{display:none;position:absolute;right:0;top:34px;width:320px;padding:11px 12px;border-radius:10px;background:#17212b;color:#fff;text-align:left;font-weight:400;line-height:1.45;z-index:20;box-shadow:0 10px 30px rgba(0,0,0,.25)}.info-wrap:hover .tip,.info-btn:focus + .tip{display:block}.tip a{color:#bfe8ff}.tip b{display:block;margin-bottom:3px}.tip .tip-section{margin-top:10px}.source a{font-weight:750}.empty{text-align:center;padding:42px;color:var(--muted)}
 dialog{border:0;border-radius:15px;max-width:780px;width:calc(100% - 28px);padding:0;box-shadow:0 25px 75px rgba(0,0,0,.28)}dialog::backdrop{background:rgba(14,29,35,.48)}.modal{padding:20px}.modal h2{margin-top:0}.modal pre{white-space:pre-wrap;background:#f4f7f8;border-radius:10px;padding:12px;max-height:390px;overflow:auto}
 footer{font-size:.77rem;color:var(--muted);line-height:1.45;padding:16px 2px 8px}.maintenance{margin:3px 0 20px;border-top:1px solid #dce4e8;color:var(--muted);font-size:.78rem}.maintenance summary{width:max-content;margin-left:auto;padding:8px 2px;cursor:pointer;opacity:.68;user-select:none}.maintenance summary:hover,.maintenance[open] summary{opacity:1}.maintenance-body{margin-top:4px;padding:12px 14px;background:#f8fafb;border:1px solid var(--line);border-radius:12px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.maintenance-actions{display:flex;gap:8px;flex-wrap:wrap}.maintenance-note{flex-basis:100%;margin:0;color:var(--muted);font-size:.75rem}
@@ -28,30 +28,28 @@ footer{font-size:.77rem;color:var(--muted);line-height:1.45;padding:16px 2px 8px
  .controls{grid-template-columns:repeat(3,minmax(150px,1fr))}.controls .wide{grid-column:1/-1}
  .summary{grid-template-columns:repeat(5,minmax(110px,1fr))}
  .table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
- table{min-width:940px;table-layout:fixed}
+ table{min-width:900px;table-layout:fixed}
  th,td{padding:9px 7px}
  th{font-size:.65rem}
  td{font-size:.76rem}
- th:nth-child(1),td:nth-child(1){width:16%}
+ th:nth-child(1),td:nth-child(1){width:17%}
  th:nth-child(2),td:nth-child(2){width:12%}
- th:nth-child(3),td:nth-child(3){width:8%}
- th:nth-child(4),td:nth-child(4){width:11%}
- th:nth-child(5),td:nth-child(5){width:25%}
- th:nth-child(6),td:nth-child(6){width:13%}
- th:nth-child(7),td:nth-child(7){width:6%}
- th:nth-child(8),td:nth-child(8){width:7%}
- th:nth-child(10),td:nth-child(10){width:42px}
- th:nth-child(9),td:nth-child(9),th:nth-child(11),td:nth-child(11),th:nth-child(12),td:nth-child(12){display:none}
- .offer-cell .chips,.expertise-cell .chips,.target-cell .chips{display:block}
- .offer-cell .chip,.expertise-cell .chip,.target-cell .chip{display:block;width:max-content;max-width:100%;margin:0 0 4px 0;white-space:normal}
- .wait-for-cell>div{display:block;margin-bottom:3px}
+ th:nth-child(3),td:nth-child(3){width:7%}
+ th:nth-child(4),td:nth-child(4){width:23%}
+ th:nth-child(5),td:nth-child(5){width:27%}
+ th:nth-child(6),td:nth-child(6){width:6%}
+ th:nth-child(7),td:nth-child(7){width:8%}
+ th:nth-child(9),td:nth-child(9){width:42px}
+ th:nth-child(8),td:nth-child(8),th:nth-child(10),td:nth-child(10),th:nth-child(11),td:nth-child(11){display:none}
+ .offer-wait-cell .chips,.expertise-cell .chips,.target-cell .chips{display:block}
+ .offer-wait-cell .chip,.expertise-cell .chip,.target-cell .chip{display:block;width:max-content;max-width:100%;margin:0 0 4px 0;white-space:normal}
  .details{width:42px}
 }
 @media(max-width:760px){
  header{padding:17px 16px}header h1{font-size:1.15rem}.wrap{padding:8px}
  .controls{grid-template-columns:1fr}.summary{grid-template-columns:repeat(2,1fr)}
  .meta{justify-content:flex-end}
- table{min-width:820px}
+ table{min-width:790px}
  th,td{padding:8px 6px}
  td{font-size:.72rem}
  .provider{font-size:.78rem}
@@ -72,13 +70,37 @@ footer{font-size:.77rem;color:var(--muted);line-height:1.45;padding:16px 2px 8px
 <option value="Specialistische GGZ">Specialistische GGZ</option>
 <option value="Niet vastgesteld">Niet vastgesteld / geen GGZ-indeling</option>
 </select></div>
-<div class="field"><label for="offerType">Soort aanbod</label><select id="offerType">
+<div class="field"><label for="offerType">Aanbod</label><select id="offerType">
 <option value="__regular__">Regulier aanbod</option>
+<optgroup label="Hoofdcategorie">
 <option value="Begeleiding">Begeleiding / ondersteuning</option>
 <option value="Behandeling">Behandeling / therapie</option>
 <option value="Diagnostiek">Diagnostiek / onderzoek</option>
 <option value="Wonen">Wonen / verblijf</option>
 <option value="Crisis">Crisis / spoedhulp</option>
+</optgroup>
+<optgroup label="Therapievorm">
+<option value="detail:speltherapie">Speltherapie</option>
+<option value="detail:pmt">Psychomotorische therapie / PMT</option>
+<option value="detail:beeldend">Beeldende therapie</option>
+<option value="detail:muziektherapie">Muziektherapie</option>
+<option value="detail:dansdrama">Dans- of dramatherapie</option>
+<option value="detail:systeemtherapie">Systeemtherapie</option>
+<option value="detail:emdr">EMDR</option>
+<option value="detail:cgt">CGT / gedragstherapie</option>
+</optgroup>
+<optgroup label="Traject of setting">
+<option value="detail:individueel">Individuele behandeling</option>
+<option value="detail:groepsbehandeling">Groepsbehandeling / behandelgroep</option>
+<option value="detail:iag">IAG / intensieve gezinsbehandeling</option>
+<option value="detail:dagbehandeling">Dagbehandeling / KDC</option>
+<option value="detail:medicatie">Medicatiecontrole</option>
+<option value="detail:pleegzorg">Pleegzorg / pleeggezin</option>
+<option value="detail:gezinshuis">Gezinshuis</option>
+<option value="detail:logeren">Logeren / deeltijdverblijf</option>
+<option value="detail:kamertraining">Kamertraining / trainingshuis</option>
+<option value="detail:residentieel">Behandelgroep / residentieel verblijf</option>
+</optgroup>
 <option value="__all__">Alles inclusief crisis/spoed</option>
 </select></div>
 <div class="field"><label for="location">Locatie</label><select id="location"><option value="">Heel Twente</option></select></div>
@@ -89,6 +111,7 @@ footer{font-size:.77rem;color:var(--muted);line-height:1.45;padding:16px 2px 8px
 <option value="adhd">ADHD / ADD</option>
 <option value="lvb">LVB / verstandelijke beperking</option>
 <option value="leren">Leren, intelligentie en hoogbegaafdheid</option>
+<option value="dyslexie">Dyslexie</option>
 <option value="diagnostiek">Diagnostiek en onderzoek</option>
 </optgroup>
 <optgroup label="Klachten en problematiek">
@@ -104,7 +127,12 @@ footer{font-size:.77rem;color:var(--muted);line-height:1.45;padding:16px 2px 8px
 <option value="gedragstherapie">CGT / ACT / RET / mindfulness</option>
 <option value="schema">Schema- en psychotherapie</option>
 <option value="systeem">Systeem-, gezins- en ouderbehandeling</option>
-<option value="vaktherapie">Vaktherapie: PMT, sport, spel, beeldend en muziek</option>
+<option value="vaktherapie">Alle vaktherapie</option>
+<option value="speltherapie">Speltherapie</option>
+<option value="pmt">Psychomotorische therapie / PMT</option>
+<option value="beeldend">Beeldende therapie</option>
+<option value="muziektherapie">Muziektherapie</option>
+<option value="dansdrama">Dans- of dramatherapie</option>
 <option value="medicatie">Medicatie / psychiatrie</option>
 <option value="groepdag">Groeps-, deeltijd- en dagbehandeling</option>
 </optgroup>
@@ -131,7 +159,7 @@ footer{font-size:.77rem;color:var(--muted);line-height:1.45;padding:16px 2px 8px
 </div>
 
 <section class="panel table-panel"><div class="table-scroll"><table>
-<thead><tr><th>Aanbieder</th><th>Locatie</th><th>Doelgroep</th><th title="Dit geldt voor deze specifieke wachttijdregel, niet automatisch voor alle hulp van de organisatie.">Soort aanbod</th><th>Expertise</th><th>Wachttijd voor</th><th>Intake</th><th>Behandeling/start</th><th>Contract</th><th>Info</th><th>Bron</th><th>Peildatum</th></tr></thead>
+<thead><tr><th>Aanbieder</th><th>Locatie</th><th>Doelgroep</th><th title="Het soort aanbod en de specifieke hulpvorm waarop de wachttijd betrekking heeft.">Aanbod / wachttijd voor</th><th>Expertise</th><th>Intake</th><th>Behandeling/start</th><th>Contract</th><th>Info</th><th>Bron</th><th>Peildatum</th></tr></thead>
 <tbody id="rows"></tbody></table></div><div id="empty" class="empty" hidden>Geen resultaten voor deze filters.</div></section>
 <footer>Wachttijden zijn indicatief. Onzekere of niet eenduidig uitleesbare waarden worden niet overschreven. Alleen inhoudelijk gelijkwaardige wachttijdregels worden automatisch samengevoegd.</footer>
 <details class="maintenance">
@@ -147,11 +175,12 @@ footer{font-size:.77rem;color:var(--muted);line-height:1.45;padding:16px 2px 8px
 <dialog id="refreshDialog"><div class="modal"><h2>Laatste verversrapport</h2><p id="refreshSummary">Nog niet online ververst.</p><pre id="refreshReport">Nog geen automatisch verversrapport geladen.</pre><button id="closeRefreshDialog" class="btn primary">Sluiten</button></div></dialog>
 
 <dialog id="sourcesDialog"><div class="modal"><h2>Dekking en brongebruik</h2>
-<p>Bronnen en peildata staan per aanbieder in de tabel. Per aanbieder staat een website en peildatum vermeld. De dagelijkse controle controleert alle gekoppelde openbare websites. Bekende wachttijdtabellen worden automatisch uitgelezen; bronnen zonder openbaar getal blijven als onbekend vermeld. Gelijke wachttijdresultaten worden na toepassing van de filters automatisch samengevoegd.</p>
+<p>De aanbiederswebsite is de primaire bron; waar beschikbaar is de Beschikbaarheidswijzer Twente als tweede bron gekoppeld. In de Beschikbaarheidswijzer betekent de wachttijd de termijn tot de daadwerkelijke start van de zorg; een intaketermijn is een afzonderlijk, optioneel gegeven. Daarom worden waarden alleen in Intake of Behandeling/start geplaatst wanneer de betekenis voldoende duidelijk is. Niet eenduidig uitleesbare waarden blijven een streepje. Gelijke wachttijdresultaten worden pas na toepassing van de filters samengevoegd.</p>
 <pre id="sourceList"></pre><button id="closeDialog" class="btn primary">Sluiten</button></div></dialog>
 
 <script>
-const CHECKED="2026-08-05";
+const CHECKED="2026-08-06";
+const AVAILABILITY_TWENTE="https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe";
 const rowsData=[
 {p:"DOPPA zorg",w:"Individuele behandeling (o.a. EMDR/schema)",a:["Behandeling"],l:"Enschede",d:"Jeugd",e:["EMDR","Schematherapie","Trauma / PTSS","Diagnostiek","Individuele behandeling"],c:"Samen14/Jeugd",i:30.4,b:null,k:"concrete",s:"Behandeling: circa 9 maanden tot intake; specifieke therapie zoals EMDR kan langer duren.",u:"https://www.doppazorg.nl/clienten/wachttijden/",date:"2026-08-05"},
 {p:"DOPPA zorg",w:"Diagnostiek",a:["Diagnostiek"],l:"Enschede",d:"Jeugd",e:["Diagnostiek","ADHD","Autisme"],c:"Samen14/Jeugd",i:30.4*7/9,b:null,k:"concrete",s:"Diagnostiek: circa 7 maanden tot intake.",u:"https://www.doppazorg.nl/clienten/wachttijden/",date:"2026-08-05"},
@@ -180,14 +209,16 @@ const rowsData=[
 {p:"Mediant",a:["Behandeling","Diagnostiek"],l:"Enschede/Twente",d:"Volwassenen",e:["Autisme","ADHD","Ontwikkelingsstoornissen"],c:"Zorgverzekering",i:18,b:12,k:"concrete",s:"Neurobiologische ontwikkelingsstoornissen.",u:"https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",date:"2026-07-09"},
 {p:"Mediant",w:"Depressieve-stemmingsstoornissen",a:["Behandeling","Diagnostiek"],l:"Enschede",d:"Volwassenen",e:["Depressie / stemming","Stemmingsstoornissen"],c:"Zorgverzekering",i:6,b:9,k:"concrete",s:"Wachttijd per specialisme volgens Mediant.",u:"https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",date:"2026-07-09"},
 {p:"Mediant",w:"Persoonlijkheidsstoornissen",a:["Behandeling","Diagnostiek"],l:"Enschede",d:"Volwassenen",e:["Persoonlijkheidsproblematiek","Schematherapie"],c:"Zorgverzekering",i:20,b:16,k:"concrete",s:"Wachttijd per specialisme volgens Mediant.",u:"https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",date:"2026-07-09"},
-{p:"Jarabee",w:"Individuele behandeling",a:["Behandeling"],l:"Twente",d:"Jeugd",e:["Individuele behandeling","Gedragsproblemen","Emotionele problematiek","Psychische klachten"],c:"Samen14/Jeugd",i:8,b:null,k:"concrete",s:"Jarabee publiceert voor individuele behandeling een gemiddelde wachttijd van 8 weken.",u:"https://www.jarabee.nl/verwijzers/wachttijden",date:"2026-08-06"},
-{p:"Jarabee",w:"IAG",a:["Behandeling"],l:"Twente",d:"Jeugd",e:["IAG / intensieve ambulante gezinsbehandeling","Gezinsbehandeling","Opvoedondersteuning","Systeemgericht werken"],c:"Samen14/Jeugd",i:8,b:null,k:"concrete",s:"Jarabee publiceert voor IAG een gemiddelde wachttijd van 8 weken.",u:"https://www.jarabee.nl/verwijzers/wachttijden",date:"2026-08-06"},
-{p:"Jarabee",w:"Driemilieusvoorziening",a:["Behandeling","Wonen"],l:"Twente",d:"Jeugd",e:["Driemilieusvoorziening","Wonen","Behandeling","Onderwijs","Groepszorg"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Beschikbaarheid wordt als ‘in overleg’ gepubliceerd.",u:"https://www.jarabee.nl/verwijzers/wachttijden",date:"2026-08-06"},
-{p:"Jarabee",w:"Gezinshuis",a:["Wonen"],l:"Twente",d:"Jeugd",e:["Gezinshuis","Wonen","Kleinschalig verblijf"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Beschikbaarheid wordt als ‘in overleg’ gepubliceerd.",u:"https://www.jarabee.nl/verwijzers/wachttijden",date:"2026-08-06"},
-{p:"Jarabee",w:"Ambulante crisiszorg",a:["Crisis"],cr:true,l:"Twente",d:"Jeugd",e:["Ambulante crisiszorg","Spoedhulp","Crisis / veiligheid"],c:"Samen14/Jeugd",i:0,b:0,k:"concrete",s:"Jarabee publiceert hiervoor geen wachtlijst.",u:"https://www.jarabee.nl/verwijzers/wachttijden",date:"2026-08-06"},
-{p:"Jarabee",w:"Crisisverblijf",a:["Crisis","Wonen"],cr:true,l:"Twente",d:"Jeugd",e:["Crisisverblijf","Crisisopvang","Tijdelijk verblijf"],c:"Samen14/Jeugd",i:0,b:0,k:"concrete",s:"Jarabee publiceert hiervoor geen wachtlijst.",u:"https://www.jarabee.nl/verwijzers/wachttijden",date:"2026-08-06"},
-{p:"Jarabee",w:"Crisispleegzorg",a:["Crisis","Wonen"],cr:true,l:"Twente",d:"Jeugd",e:["Crisispleegzorg","Pleegzorg","Crisisopvang"],c:"Samen14/Jeugd",i:0,b:0,k:"concrete",s:"Jarabee publiceert hiervoor geen wachtlijst.",u:"https://www.jarabee.nl/verwijzers/wachttijden",date:"2026-08-06"},
-{p:"Ambiq",l:"Enschede/Twente",d:"Jeugd",e:["LVB","Gezin","Gedrag","Ambulante jeugdhulp","Diagnostiek"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Geen eenduidige openbare actuele wachttijd per locatie/expertise gevonden.",u:"https://www.ambiq.nl/",date:CHECKED},
+{p:"Jarabee",w:"Individuele behandeling",a:["Behandeling"],l:"Twente",d:"Jeugd",e:["Individuele behandeling","Gedragsproblemen","Emotionele problematiek","Psychische klachten","Gezinsproblematiek","Ouderschap bij scheiding","Pro Jonge Moeders","T-Team 18–27"],c:"Samen14/Jeugd",i:null,b:8,k:"concrete",s:"Jarabee publiceert voor individuele behandeling een gemiddelde wachttijd van 8 weken. De bron noemt geen afzonderlijke intaketermijn; de waarde staat daarom bij behandeling/start.",u:"https://www.jarabee.nl/index.php/verwijzers/wachttijden",us:["https://www.jarabee.nl/index.php/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"Jarabee",w:"IAG",a:["Behandeling","Begeleiding"],l:"Twente",d:"Jeugd",e:["IAG / intensieve ambulante gezinsbehandeling","Gezinsbehandeling","Opvoedondersteuning","Systeemgericht werken","Voorkomen uithuisplaatsing"],c:"Samen14/Jeugd",i:null,b:8,k:"concrete",s:"Jarabee publiceert voor IAG een gemiddelde wachttijd van 8 weken. De bron noemt geen afzonderlijke intaketermijn; de waarde staat daarom bij behandeling/start.",u:"https://www.jarabee.nl/index.php/verwijzers/wachttijden",us:["https://www.jarabee.nl/index.php/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"Jarabee",w:"Behandelgroep",a:["Behandeling","Wonen"],l:"Twente",d:"Jeugd",e:["Behandelgroep","Groepsbehandeling","Gedragsproblemen","Emotionele problematiek","InBalans","InControl"],c:"Samen14/Jeugd",i:null,b:0,k:"concrete",s:"Jarabee vermeldt voor de behandelgroep geen wachtlijst.",u:"https://www.jarabee.nl/index.php/verwijzers/wachttijden",us:["https://www.jarabee.nl/index.php/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"Jarabee",w:"Driemilieusvoorziening",a:["Behandeling","Wonen"],l:"Twente",d:"Jeugd",e:["Driemilieusvoorziening","Wonen","Behandeling","Onderwijs","Groepszorg","Residentieel verblijf"],c:"Samen14/Jeugd",i:null,b:null,bText:"In overleg",k:"route",s:"Jarabee publiceert de beschikbaarheid van de driemilieusvoorzieningen als ‘in overleg’.",u:"https://www.jarabee.nl/index.php/verwijzers/wachttijden",us:["https://www.jarabee.nl/index.php/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"Jarabee",w:"Pleeggezin",a:["Wonen"],l:"Twente",d:"Jeugd",e:["Pleeggezin","Pleegzorg","Pleegzorg Dichtbij","Mockingbird","Gezinsgericht wonen"],c:"Samen14/Jeugd",i:null,b:0,k:"concrete",s:"Jarabee vermeldt voor pleeggezinnen geen wachtlijst.",u:"https://www.jarabee.nl/index.php/verwijzers/wachttijden",us:["https://www.jarabee.nl/index.php/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"Jarabee",w:"Gezinshuis",a:["Wonen"],l:"Twente",d:"Jeugd",e:["Gezinshuis","Wonen","Kleinschalig verblijf"],c:"Samen14/Jeugd",i:null,b:null,bText:"In overleg",k:"route",s:"Jarabee publiceert de beschikbaarheid van gezinshuizen als ‘in overleg’.",u:"https://www.jarabee.nl/index.php/verwijzers/wachttijden",us:["https://www.jarabee.nl/index.php/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"Jarabee",w:"Onderzoek en diagnostiek",a:["Diagnostiek"],l:"Twente",d:"Jeugd",e:["Onderzoek","Diagnostiek","Jonge-kindonderzoek","Systeemdiagnostiek","Ontwikkelingsonderzoek","Testdiagnostiek"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Jarabee beschrijft meerdere vormen van onderzoek en diagnostiek, maar publiceert hiervoor op de openbare wachttijdenpagina geen afzonderlijke termijn.",u:"https://www.jarabee.nl/behandelaanbod",us:["https://www.jarabee.nl/behandelaanbod",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"Jarabee",w:"Ambulante crisiszorg",a:["Crisis"],cr:true,l:"Twente",d:"Jeugd",e:["Ambulante crisiszorg","Spoedhulp","Crisis / veiligheid"],c:"Samen14/Jeugd",i:null,b:0,k:"concrete",s:"Jarabee publiceert hiervoor geen wachtlijst.",u:"https://www.jarabee.nl/index.php/verwijzers/wachttijden",us:["https://www.jarabee.nl/index.php/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"Jarabee",w:"Crisisverblijf",a:["Crisis","Wonen"],cr:true,l:"Twente",d:"Jeugd",e:["Crisisverblijf","Crisisopvang","Tijdelijk verblijf"],c:"Samen14/Jeugd",i:null,b:0,k:"concrete",s:"Jarabee publiceert hiervoor geen wachtlijst.",u:"https://www.jarabee.nl/index.php/verwijzers/wachttijden",us:["https://www.jarabee.nl/index.php/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"Jarabee",w:"Crisispleegzorg",a:["Crisis","Wonen"],cr:true,l:"Twente",d:"Jeugd",e:["Crisispleegzorg","Pleegzorg","Crisisopvang"],c:"Samen14/Jeugd",i:null,b:0,k:"concrete",s:"Jarabee publiceert hiervoor geen wachtlijst.",u:"https://www.jarabee.nl/index.php/verwijzers/wachttijden",us:["https://www.jarabee.nl/index.php/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-08-06"},
 {p:"Aveleijn",l:"Enschede / Twente",d:["Jeugd","Wmo"],e:["LVB","Verstandelijke beperking","Meervoudige beperking","Autisme / ASS","Individuele pedagogische begeleiding","Individueel ondersteunende begeleiding","Groepsbegeleiding","Dagbehandeling / KDC","IAG / intensieve ambulante gezinsbehandeling","Diagnostiek","Behandeling","Ouderbegeleiding","Gedragsproblematiek","Dagbesteding","Wonen"],c:"Samen14/Jeugd + Wmo",i:null,b:null,k:"unknown",s:"Aveleijn biedt in Twente zorg vanuit onder meer Jeugdwet en Wmo. Voor jeugd zijn individuele en groepsgerichte begeleiding, dagbehandeling/KDC, diagnostiek, behandeling en IAG beschreven. Beschikbaarheid verschilt per voorziening.",u:"https://www.aveleijn.nl/professionals/zorgaanbod/ondersteuning-voor-kinderen",date:CHECKED},
 {p:"RIBW Overijssel",l:"Enschede",d:"Wmo",e:["Psychiatrie","Begeleiding","Beschermd wonen","Participatie"],c:"Samen14/Wmo",i:null,b:null,k:"unknown",s:"Wachttijd is afhankelijk van product en locatie; geen uniforme openbare waarde gevonden.",u:"https://www.ribwoverijssel.nl/",date:CHECKED},
 {p:"Tactus",l:"Enschede",d:"Jeugd",e:["Verslaving / middelengebruik","Alcohol","Drugs","Gamen / gokken","Gezin","Behandeling"],c:"Samen14/Jeugd",i:10,b:7,k:"concrete",s:"Locatie Raiffeisenstraat: 10 weken tot intake en 7 weken tot start behandeling. De gepubliceerde tabel is locatiegebonden en kan per behandelvorm afwijken.",u:"https://www.tactus.nl/behandeltraject/wachttijden/",date:"2026-07-01"},
@@ -204,8 +235,14 @@ const rowsData=[
 {p:"HK Zorg",l:"Wierden / regio Twente",d:"Wmo",e:["Begeleiding","ADHD / ADD","Autisme / ASS","Jongvolwassenen"],c:"Samen14/Wmo",i:null,b:null,k:"unknown",s:"Wmo-wachttijd hangt af van de specifieke hulpvraag; geen uniforme openbare termijn gepubliceerd.",u:"https://www.hkzorg.nl/wachttijden",date:"2026-08-04"},
 {p:"Praktijk De Poel",w:"Begeleiding, behandeling en diagnostiek",a:["Begeleiding","Behandeling","Diagnostiek"],l:"Twente / Enschede",d:"Jeugd",e:["Hoogbegaafdheid","Dubbele bijzonderheid","ADHD / ADD","Autisme / ASS","Executieve functies","Diagnostiek","Behandeling","Begeleiding","Systeem"],c:"Samen14/Jeugd",i:2,b:14,bText:"12–16 wk",k:"concrete",s:"Intake circa 2 weken; start begeleiding, behandeling en diagnostiek circa 12–16 weken.",u:"https://www.praktijkdepoel.nl/werkwijze",date:"2026-06-02"},
 {p:"Praktijk De Poel",w:"Thuiszitters en peergroepen",a:["Begeleiding"],l:"Twente / Enschede",d:"Jeugd",e:["Schooluitval","Thuiszitters","Peergroepen","Dagstructuur"],c:"Samen14/Jeugd",i:1.5,iText:"1–2 wk",b:null,k:"concrete",s:"Gepubliceerde wachttijd voor thuiszitters en peergroepen: circa 1–2 weken.",u:"https://www.praktijkdepoel.nl/werkwijze",date:"2026-06-02"},
-{p:"De Synergie",l:"Losser / regio Enschede",d:"Jeugd",e:["Diagnostiek","Behandeling","Ambulante begeleiding","Systeem","Angst","Stemming","Trauma / PTSS","ADHD / ADD","Autisme / ASS"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Gecontracteerd voor ambulante jeugdhulp; actuele wachttijden worden op de site genoemd maar zijn niet eenduidig machineleesbaar gevonden.",u:"https://desynergie.nl/",date:"2026-08-05"},
-{p:"De Synergie",l:"Losser / regio Enschede",d:"Wmo",e:["Ambulante begeleiding","Psychische klachten","Autisme / ASS","ADHD / ADD","Systeem"],c:"Samen14/Wmo",i:null,b:null,k:"unknown",s:"Ondersteuning vanuit Wmo mogelijk; geen uniforme openbare actuele wachttijd gevonden.",u:"https://desynergie.nl/",date:"2026-08-05"},
+{p:"De Synergie",w:"Behandeling jeugd",a:["Behandeling"],l:"Losser",d:"Jeugd",e:["Kortdurende behandeling","CGT","EMDR","Oplossingsgericht werken","Systeemgericht werken","Angst","Stemming","Trauma / PTSS","ADHD / ADD","Autisme / ASS"],c:"Samen14/Jeugd",i:null,b:7,bText:"6–8 wk",k:"concrete",s:"De Synergie publiceert voor jeugd in Losser een algemene wachttijd van 6–8 weken. De website splitst deze termijn niet apart uit in intake en start; daarom staat hij bij behandeling/start.",u:"https://desynergie.nl/wachttijden/",us:["https://desynergie.nl/wachttijden/","https://beschikbaarheidswijzer.nl/jeugdhulp/twente/de-synergie-psychologie?sort=refreshedAt",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"De Synergie",w:"Behandeling jeugd",a:["Behandeling"],l:"Vriezenveen",d:"Jeugd",e:["Kortdurende behandeling","CGT","EMDR","Oplossingsgericht werken","Systeemgericht werken","Angst","Stemming","Trauma / PTSS","ADHD / ADD","Autisme / ASS"],c:"Samen14/Jeugd",i:null,b:19.6,bText:"4–5 mnd",k:"concrete",s:"De Synergie publiceert voor jeugd in Vriezenveen een algemene wachttijd van 4–5 maanden. De website splitst deze termijn niet apart uit in intake en start; daarom staat hij bij behandeling/start.",u:"https://desynergie.nl/wachttijden/",us:["https://desynergie.nl/wachttijden/","https://beschikbaarheidswijzer.nl/jeugdhulp/twente/de-synergie-psychologie?sort=refreshedAt",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"De Synergie",w:"Diagnostiek",a:["Diagnostiek"],l:"Losser",d:"Jeugd",e:["Diagnostiek","Psychodiagnostiek","Ontwikkelingsvragen","ADHD / ADD","Autisme / ASS"],c:"Samen14/Jeugd",i:null,b:9,bText:"8–10 wk",k:"concrete",s:"De Synergie publiceert voor diagnostiek in Losser een wachttijd van 8–10 weken. De bron noemt geen afzonderlijke intaketermijn.",u:"https://desynergie.nl/wachttijden/",us:["https://desynergie.nl/wachttijden/","https://beschikbaarheidswijzer.nl/jeugdhulp/twente/de-synergie-psychologie?sort=refreshedAt",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"De Synergie",w:"Diagnostiek",a:["Diagnostiek"],l:"Vriezenveen",d:"Jeugd",e:["Diagnostiek","Psychodiagnostiek","Ontwikkelingsvragen","ADHD / ADD","Autisme / ASS"],c:"Samen14/Jeugd",i:null,b:15.2,bText:"2–5 mnd",k:"concrete",s:"De Synergie publiceert voor diagnostiek in Vriezenveen een wachttijd van 2–5 maanden. De bron noemt geen afzonderlijke intaketermijn.",u:"https://desynergie.nl/wachttijden/",us:["https://desynergie.nl/wachttijden/","https://beschikbaarheidswijzer.nl/jeugdhulp/twente/de-synergie-psychologie?sort=refreshedAt",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"De Synergie",w:"Behandeling volwassenen",a:["Behandeling"],l:"Losser",d:"Volwassenen",e:["Basis-GGZ","Kortdurende behandeling","CGT","EMDR","Schematherapie","PMT","E-health","Online behandeling","Angst","Stemming","Trauma / PTSS"],c:"Zorgverzekering / particulier",i:null,b:10,bText:"8–12 wk",k:"concrete",s:"De Synergie publiceert voor volwassenen in Losser 8–12 weken. Online behandeling heeft volgens de bron een kortere wachttijd. Er geldt momenteel een aanmeldstop voor traumatherapie en schematherapie.",u:"https://desynergie.nl/wachttijden/",us:["https://desynergie.nl/wachttijden/",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"De Synergie",w:"Behandeling volwassenen",a:["Behandeling"],l:"Vriezenveen",d:"Volwassenen",e:["Basis-GGZ","Kortdurende behandeling","CGT","EMDR","Schematherapie","PMT","E-health","Online behandeling","Angst","Stemming","Trauma / PTSS"],c:"Zorgverzekering / particulier",i:null,b:10,bText:"8–12 wk",k:"concrete",s:"De Synergie publiceert voor volwassenen in Vriezenveen 8–12 weken. Online behandeling heeft volgens de bron een kortere wachttijd. Er geldt momenteel een aanmeldstop voor traumatherapie en schematherapie.",u:"https://desynergie.nl/wachttijden/",us:["https://desynergie.nl/wachttijden/",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"De Synergie",w:"Ambulante begeleiding Jeugdwet",a:["Begeleiding"],l:"Twente / ambulant thuis",d:"Jeugd",e:["Ambulante begeleiding","Dagplanning","Sociale vaardigheden","Zelfredzaamheid","Systeemgericht werken"],c:"Samen14/Jeugd",i:null,b:10,k:"concrete",s:"De Synergie publiceert voor ambulante begeleiding vanuit de Jeugdwet een wachttijd van 10 weken.",u:"https://desynergie.nl/wachttijden/",us:["https://desynergie.nl/wachttijden/","https://beschikbaarheidswijzer.nl/jeugdhulp/twente/de-synergie-psychologie?sort=refreshedAt",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"De Synergie",w:"Ambulante begeleiding Wmo",a:["Begeleiding"],l:"Twente / ambulant thuis",d:"Wmo",e:["Ambulante begeleiding","Psychische klachten","Autisme / ASS","ADHD / ADD","Dagstructuur","Zelfredzaamheid","Systeemgericht werken"],c:"Samen14/Wmo",i:null,b:10,k:"concrete",s:"De Synergie publiceert voor ambulante begeleiding vanuit de Wmo een wachttijd van 10 weken.",u:"https://desynergie.nl/wachttijden/",us:["https://desynergie.nl/wachttijden/",AVAILABILITY_TWENTE],date:"2026-08-06"},
 {p:"HSK Enschede",l:"Enschede",d:"Volwassenen",e:["Angst","Depressie / stemming","Trauma / PTSS","EMDR","Dwang / OCD","Persoonlijkheid","CGT","Behandeling"],c:"Zorgverzekering",i:5,b:4,k:"concrete",s:"Wachttijd verschilt per verzekeraar; voorbeeldwaarde op de locatiepagina 5 weken intake en 4 weken behandeling.",u:"https://hsk.nl/locaties/enschede/",date:"2026-08-05"},
 
 {p:"InZicht Twente",w:"Reguliere begeleiding, behandeling en diagnostiek",a:["Begeleiding","Behandeling","Diagnostiek"],l:"Oldenzaal / heel Twente",d:"Jeugd",e:["Autisme / ASS","ADHD / ADD","LVB","Trauma / PTSS","EMDR","Angst","Depressie / stemming","Dwang / OCD","Hechting","Zelfbeeld / identiteit","CGT","NIKA","Schematherapeutisch werken","Individuele specialistische therapie","Gezinsbehandeling","IMH / infant mental health","Diagnostiek","Ambulante begeleiding"],c:"Samen14/Jeugd",i:null,b:null,k:"route",s:"InZicht meldt ruimte voor aanmeldingen en een korte wachtlijst voor therapie, behandeling en begeleiding. Er is geen concrete termijn in weken gepubliceerd.",u:"https://www.inzichttwente.nl/bij-inzicht-twente-hebben-wij-op-dit-moment-ruimte-voor-nieuwe-aanmeldingen-voor-therapie/",date:"2026-08-06"},
@@ -243,8 +280,23 @@ const rowsData=[
 
 {p:"Helderzorg B.V.",l:"Enschede / Twente",d:["Jeugd","Wmo"],e:["Ambulante jeugdhulp","Individuele begeleiding","Gezinsbegeleiding","Opvoedondersteuning","Praktische ondersteuning","Netwerkgericht werken","Begeleide omgang","Complexe scheiding","Loyaliteitsproblematiek","Intensieve dagelijkse begeleiding","Beschermd wonen","Beschermd thuis","Zelfredzaamheid"],c:"Samen14/Jeugd + Wmo",i:null,b:null,k:"unknown",s:"Helderzorg beschrijft begeleiding in de leefomgeving, ondersteuning van ouders en jeugdigen, begeleide omgang en intensieve praktische ondersteuning. De website beschrijft geen diagnostiek of GGZ-behandeling.",u:"https://www.helderzorg.nl/ambulante-jeugdhulp/",date:"2026-08-06"},
 {p:"Het Huis van de Straat B.V.",l:"Denekamp",d:"Jeugd",e:["Wonen","24-uurszorg","Perspectiefgroep","Observatie- en behandelgroep","Kleinschalig wonen","Gezinsgroep","Complexe meervoudige problematiek","Pedagogische begeleiding","Ouderbegeleiding","Residentiële behandeling"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Kleinschalige 24-uurszorg. Het Huis en De Horizon hebben elk 9 perspectiefplekken; De Brug heeft 8 observatie- en behandelplaatsen. Geen openbare actuele beschikbaarheid gevonden.",u:"https://hethuisvandestraat.nl/",date:"2026-08-05"},
-{p:"Stichting Ambiq",w:"Crisis / ambulante spoedhulp",a:["Crisis"],cr:true,l:"Twente",d:"Jeugd",e:["Crisisopvang","Ambulante crisishulp","Families First","Ambulante spoedhulp","Crisis / veiligheid"],c:"Samen14/Jeugd",i:0,b:0,k:"concrete",s:"Bij crisis streeft Ambiq ernaar de hulp binnen 24 uur te starten. Deze regel is uitsluitend bedoeld voor crisis- en spoedaanmeldingen.",u:"https://www.ambiq.nl/verwijzers/snel-hulp-voor-kind-en-gezin-bij-crisis/spoedhulp-jeugd-twente",date:"2026-08-06"},
-{p:"Stichting Ambiq",w:"Reguliere begeleiding, behandeling en verblijf",a:["Begeleiding","Behandeling","Diagnostiek","Wonen"],l:"Twente",d:["Jeugd","Wmo"],e:["LVB","Wonen","Behandelgroepen","Ouder-kindbehandeling","Moeder-kind / ouder-kind wonen","24-uursbehandeling","Hechting","Opvoedvaardigheden","Zelfstandig wonen","Gezinsbehandeling","Diagnostiek","Behandeling","Ambulante begeleiding","Gedragsproblematiek"],c:"Samen14/Jeugd + mogelijk Wmo",i:null,b:null,k:"unknown",s:"Ambiq biedt reguliere begeleiding, behandeling, diagnostiek en woonvormen. Voor deze reguliere trajecten is geen uniforme openbare wachttijd gevonden.",u:"https://www.ambiq.nl/",date:"2026-08-06"},
+{p:"Ambiq",w:"Crisis / ambulante spoedhulp",a:["Crisis"],cr:true,l:"Twente",d:"Jeugd",e:["Crisisopvang","Ambulante crisishulp","Families First","Ambulante spoedhulp","Crisis / veiligheid"],c:"Samen14/Jeugd",i:null,b:0,bText:"Binnen 24 uur",k:"concrete",s:"Bij crisis streeft Ambiq ernaar de hulp binnen 24 uur te starten. Deze regel is uitsluitend bedoeld voor crisis- en spoedaanmeldingen.",u:"https://www.ambiq.nl/wat-we-doen/5/crisis-ambulant",us:["https://www.ambiq.nl/wat-we-doen/5/crisis-ambulant","https://www.ambiq.nl/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-08-06"},
+{p:"Ambiq",w:"Diagnostiek",a:["Diagnostiek"],l:"Enschede / Twente",d:"Jeugd",e:["LVB","Diagnostiek","Onderzoek","Observatie en diagnostiek","Ontwikkelingsonderzoek"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Ambiq biedt diagnostiek en observatie/diagnostiek. De openbare wachttijdenpagina toont dynamische productwaarden, maar de uitgelezen tekst koppelt het getal niet betrouwbaar aan dit specifieke product; daarom wordt geen termijn gegokt.",u:"https://www.ambiq.nl/verwijzers/wachttijden",us:["https://www.ambiq.nl/verwijzers/wachttijden","https://www.ambiq.nl/locaties/35/spinnerstraat-31",AVAILABILITY_TWENTE],date:"2026-04-22"},
+{p:"Ambiq",w:"Speltherapie",a:["Behandeling"],l:"Enschede / Twente",d:"Jeugd",e:["LVB","Speltherapie","Spel en therapie","Emotieregulatie","Gedragsproblemen"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Speltherapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",u:"https://www.ambiq.nl/locaties/35/spinnerstraat-31",us:["https://www.ambiq.nl/locaties/35/spinnerstraat-31","https://www.ambiq.nl/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-04-22"},
+{p:"Ambiq",w:"Beeldende therapie",a:["Behandeling"],l:"Enschede / Twente",d:"Jeugd",e:["LVB","Beeldende therapie","Vaktherapie","Emotieregulatie","Gedragsproblemen"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Beeldende therapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",u:"https://www.ambiq.nl/locaties/35/spinnerstraat-31",us:["https://www.ambiq.nl/locaties/35/spinnerstraat-31","https://www.ambiq.nl/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-04-22"},
+{p:"Ambiq",w:"Cognitieve gedragstherapie",a:["Behandeling"],l:"Enschede / Twente",d:"Jeugd",e:["LVB","CGT","Cognitieve gedragstherapie","Gedragsproblemen","Angst","Stemming"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Cognitieve gedragstherapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",u:"https://www.ambiq.nl/locaties/35/spinnerstraat-31",us:["https://www.ambiq.nl/locaties/35/spinnerstraat-31","https://www.ambiq.nl/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-04-22"},
+{p:"Ambiq",w:"EMDR",a:["Behandeling"],l:"Enschede / Twente",d:"Jeugd",e:["LVB","EMDR","Trauma / PTSS","Traumabehandeling","ZIT"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"EMDR en intensieve traumabehandeling staan in het Ambiq-aanbod. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",u:"https://www.ambiq.nl/locaties/35/spinnerstraat-31",us:["https://www.ambiq.nl/locaties/35/spinnerstraat-31","https://www.ambiq.nl/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-04-22"},
+{p:"Ambiq",w:"Psychomotorische therapie",a:["Behandeling"],l:"Enschede / Twente",d:"Jeugd",e:["LVB","Psychomotorische therapie","PMT","Vaktherapie","Lichaamsgericht werken"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Psychomotorische therapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",u:"https://www.ambiq.nl/locaties/35/spinnerstraat-31",us:["https://www.ambiq.nl/locaties/35/spinnerstraat-31","https://www.ambiq.nl/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-04-22"},
+{p:"Ambiq",w:"Systeemtherapie",a:["Behandeling"],l:"Enschede / Twente",d:"Jeugd",e:["LVB","Systeemtherapie","Gezinsbehandeling","Ouderbegeleiding","Systeemgericht werken"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Systeemtherapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",u:"https://www.ambiq.nl/locaties/35/spinnerstraat-31",us:["https://www.ambiq.nl/locaties/35/spinnerstraat-31","https://www.ambiq.nl/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-04-22"},
+{p:"Ambiq",w:"IAG / intensieve gezinsbehandeling",a:["Behandeling","Begeleiding"],l:"Twente / ambulant thuis",d:"Jeugd",e:["LVB","IAG","IAG Jonge Kind","ZIAG","ZIG","MDFT","KINGS","CSI","Gezinsbehandeling","Voorkomen uithuisplaatsing"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Ambiq publiceert meerdere intensieve ambulante systeem- en gezinsinterventies. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",u:"https://www.ambiq.nl/verwijzers/wachttijden",us:["https://www.ambiq.nl/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-04-22"},
+{p:"Ambiq",w:"Naschoolse dagbehandeling",a:["Behandeling"],l:"Hengelo / Twente",d:"Jeugd",e:["LVB","Naschoolse dagbehandeling","Dagbehandeling","Groepsbehandeling","School","Gedrag"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Ambiq biedt naschoolse dagbehandeling in Twente. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",u:"https://www.ambiq.nl/wat-we-doen",us:["https://www.ambiq.nl/wat-we-doen","https://www.ambiq.nl/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-04-22"},
+{p:"Ambiq",w:"Observatie en diagnostiek met opname",a:["Diagnostiek","Wonen"],l:"Twente",d:"Jeugd",e:["LVB","Observatie en diagnostiek","Diagnostiek met opname","Verblijf","Behandelgroep"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Ambiq vermeldt observatie en diagnostiek met opname als product. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",u:"https://www.ambiq.nl/verwijzers/wachttijden",us:["https://www.ambiq.nl/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-04-22"},
+{p:"Ambiq",w:"FACT-jeugd",a:["Behandeling","Begeleiding"],l:"Twente / ambulant",d:"Jeugd",e:["LVB","FACT","FACT-jeugd","Ernstige psychiatrische problematiek","Outreachende behandeling","Jongvolwassenen"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"FACT staat als intensieve ambulante behandelvorm in de Twentse productindeling en het Ambiq-aanbod. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",u:"https://www.ambiq.nl/verwijzers/wachttijden",us:["https://www.ambiq.nl/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-04-22"},
+{p:"Ambiq",w:"Specialistische LVB-behandeling en training",a:["Behandeling","Begeleiding"],l:"Twente",d:"Jeugd",e:["LVB","J-SGLVB","ZIB","NIKA","Make a Move+","Girls Talk+","Mediawijsheid","Weerbaarheid","School Thuis Ambiq / STA","Gedragsproblemen","Seksuele ontwikkeling"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Ambiq publiceert meerdere specialistische LVB-behandelingen en trainingen. Deze termen zijn afzonderlijk doorzoekbaar; er is geen veilig uitleesbare productspecifieke wachttijd gevonden.",u:"https://www.ambiq.nl/verwijzers/wachttijden",us:["https://www.ambiq.nl/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-04-22"},
+{p:"Ambiq",w:"Ouder-kindbehandeling",a:["Behandeling","Wonen"],l:"Twente",d:"Jeugd",e:["LVB","Ouder-kindbehandeling","Ouder-kindgroep","Hechting","Opvoedvaardigheden","24-uursbehandeling"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Ouder-kindbehandeling staat als Ambiq-product vermeld. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",u:"https://www.ambiq.nl/verwijzers/wachttijden",us:["https://www.ambiq.nl/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-04-22"},
+{p:"Ambiq",w:"Trainingshuis / kamertraining",a:["Wonen","Begeleiding"],l:"Twente",d:"Jeugd",e:["LVB","Trainingshuis","Kamertraining","Begeleid zelfstandig wonen","Zelfredzaamheid","Jongvolwassenen"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Trainingshuis staat als Ambiq-product vermeld. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",u:"https://www.ambiq.nl/verwijzers/wachttijden",us:["https://www.ambiq.nl/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-04-22"},
+{p:"Ambiq",w:"Specialistisch gezinshuis",a:["Wonen"],l:"Twente",d:"Jeugd",e:["LVB","Specialistisch gezinshuis","Gezinshuis","Wonen","Kleinschalig verblijf"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Specialistisch gezinshuis staat als Ambiq-product vermeld. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",u:"https://www.ambiq.nl/verwijzers/wachttijden",us:["https://www.ambiq.nl/verwijzers/wachttijden",AVAILABILITY_TWENTE],date:"2026-04-22"},
+{p:"Ambiq",w:"Ambulante begeleiding en wonen 18+",a:["Begeleiding","Wonen"],l:"Twente",d:"Wmo",e:["LVB","Volwassenenzorg","Ambulante begeleiding","Wonen","Dagbesteding","Zelfredzaamheid"],c:"Samen14/Wmo / nader controleren",i:null,b:null,k:"unknown",s:"Ambiq biedt ook volwassenenzorg en woon-/begeleidingsvormen in Twente. Een uniforme openbare actuele wachttijd is niet gevonden.",u:"https://www.ambiq.nl/wat-we-doen/12/volwassenenzorg",us:["https://www.ambiq.nl/wat-we-doen/12/volwassenenzorg"],date:"2026-08-06"},
 {p:"Stichting Pactum",a:["Begeleiding","Behandeling","Wonen"],l:"Twente",d:"Jeugd",e:["Ambulante jeugdhulp","Gezinsbehandeling","Systeemgericht werken","Wonen","Residentiële jeugdhulp","Behandelgroep","Crisis / veiligheid","Opvoedondersteuning","Gedragsproblematiek"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Pactum staat als hoofdaannemer in het Samen14-overzicht. Het actuele Twentse aanbod en de wachttijd verschillen per traject en moeten bij de aanbieder worden gecontroleerd.",u:"https://www.pactum.org/",date:"2026-08-05"},
 {p:"Stichting Timon",l:"Twente / regionaal te controleren",d:["Jeugd","Wmo"],e:["Wonen","Begeleid wonen","Gezinshuis","Jongvolwassenen","Opvoedondersteuning","Ambulante begeleiding","Moeder-kind / ouder-kind wonen","Zelfstandigheid"],c:"Samen14/Jeugd",i:null,b:null,k:"unknown",s:"Timon is gecontracteerd voor ambulante jeugdhulp. Welke woon- en begeleidingstrajecten vanuit Twente toegankelijk zijn en wat de wachttijd is, moet per aanmelding worden gecontroleerd.",u:"https://www.timon.nl/",date:"2026-08-05"},
 {p:"Stichting Woonbegeleiding Jong Volwassenen",l:"Twente",d:["Jeugd","Wmo"],e:["Wonen","Woonbegeleiding","Begeleid zelfstandig wonen","Jongvolwassenen","Zelfredzaamheid","Dagstructuur","Participatie","Ambulante begeleiding"],c:"Samen14/Jeugd + mogelijk Wmo",i:null,b:null,k:"unknown",s:"Gecontracteerde Twentse aanbieder gericht op woonbegeleiding van jongvolwassenen. Geen openbare actuele wachttijd gevonden.",u:"https://www.samen14.nl/",date:"2026-08-05"},
@@ -259,7 +311,8 @@ const expertiseAliases={
 autisme:["autisme","ass","autismespectrum","autistisch","auti"],
 adhd:["adhd","add","ad(h)d","aandacht","concentratie"],
 lvb:["lvb","licht verstandelijk","verstandelijke beperking","intellectuele beperking"],
-leren:["leren","leerproblemen","dyslexie","intelligentie","hoogbegaafd","meerbegaafd","executieve functies","schooluitval","thuiszitter"],
+leren:["leren","leerproblemen","intelligentie","hoogbegaafd","meerbegaafd","executieve functies","schooluitval","thuiszitter"],
+dyslexie:["dyslexie","ernstige dyslexie","dyslexiebehandeling","dyslexiediagnostiek"],
 diagnostiek:["diagnostiek","onderzoek","screening","classificatie","observatie","testdiagnostiek","verklarende diagnostiek"],
 trauma:["trauma","ptss","posttraum","emdr","narrative exposure","imaginaire exposure"],
 angstdwang:["angst","paniek","fobie","dwang","ocd","obsessief","selectief mutisme"],
@@ -271,7 +324,12 @@ ernstigggz:["psychose","psychotisch","schizofrenie","bipolair","manie","persoonl
 gedragstherapie:["cgt","cognitieve gedragstherapie","gedragstherapie","act","acceptance and commitment","ret","rationeel emotieve","mbct","mindfulness","oplossingsgericht","protocollaire behandeling"],
 schema:["schematherapie","schema","psychotherapie","dialectische gedragstherapie","dgt"],
 systeem:["systeem","systeemtherapie","gezin","gezinsbehandeling","gezinstherapie","relatietherapie","ouderbegeleiding","oudertraining","iag","intensieve psychiatrische gezinsbegeleiding","ipg","families first","multidimensionele familie therapie"],
-vaktherapie:["pmt","psychomotor","psychomotore","psycho-motor","psycho motor","sport en spel","sport & spel","bewegingsgericht","bewegingstherapie","lichaamsgericht","vaktherapie","speltherapie","spel en therapie","beeldende therapie","creatieve therapie","muziektherapie","ouder-kind bewegingstherapie","pmst","sensorische integratie"],
+vaktherapie:["pmt","psychomotor","psychomotore","psycho-motor","psycho motor","sport en spel","sport & spel","bewegingsgericht","bewegingstherapie","lichaamsgericht","vaktherapie","speltherapie","spel en therapie","beeldende therapie","creatieve therapie","muziektherapie","danstherapie","dramatherapie","ouder-kind bewegingstherapie","pmst","sensorische integratie"],
+speltherapie:["speltherapie","spel en therapie","theraplay"],
+pmt:["psychomotorische therapie","pmt","psychomotor","psychomotore","psycho-motor","bewegingstherapie"],
+beeldend:["beeldende therapie","creatieve therapie","beeldend"],
+muziektherapie:["muziektherapie","muziektherapeutisch"],
+dansdrama:["danstherapie","dramatherapie","dans- en dramatherapie"],
 medicatie:["medicatie","medicamenteus","farmacotherapie","psychiatrie","psychiater","medicatiecontrole"],
 groepdag:["groep","groepstraining","groepsbehandeling","deeltijdbehandeling","dagbehandeling","kdc","odc","behandelgroep","observatiegroep"],
 begeleiding:["begeleiding","ambulant","ondersteunende begeleiding","pedagogische begeleiding","woonbegeleiding"],
@@ -279,12 +337,12 @@ schooldag:["school","onderwijs","dagbesteding","participatie","werken","leren","
 wonen:["wonen","verblijf","residentieel","24-uurs","24 uurs","crisisopvang","crisisgroep","gezinshuis","ouder-kind wonen","moeder-kind","begeleid wonen","beschermd wonen","perspectiefgroep","jeugdzorgplus"]
 };
 const expertiseThemeLabels={
-autisme:"Autisme / ASS",adhd:"ADHD / ADD",lvb:"LVB",leren:"Leren & ontwikkeling",
+autisme:"Autisme / ASS",adhd:"ADHD / ADD",lvb:"LVB",leren:"Leren & ontwikkeling",dyslexie:"Dyslexie",
 diagnostiek:"Diagnostiek",trauma:"Trauma & EMDR",angstdwang:"Angst & dwang",
 stemming:"Stemming & emotieregulatie",hechting:"Hechting & ouder-kind",
 eetstoornis:"Eetproblemen",verslaving:"Verslaving",ernstigggz:"Ernstige GGZ-problematiek",
 gedragstherapie:"Gedragsgerichte therapie",schema:"Schema- & psychotherapie",
-systeem:"Systeem & gezin",vaktherapie:"Vaktherapie / PMT",medicatie:"Medicatie / psychiatrie",
+systeem:"Systeem & gezin",vaktherapie:"Vaktherapie",speltherapie:"Speltherapie",pmt:"PMT",beeldend:"Beeldende therapie",muziektherapie:"Muziektherapie",dansdrama:"Dans- / dramatherapie",medicatie:"Medicatie / psychiatrie",
 groepdag:"Groeps- & dagbehandeling",begeleiding:"Ambulante begeleiding",
 schooldag:"School & daginvulling",wonen:"Wonen & verblijf"
 };
@@ -294,17 +352,16 @@ function targetHtml(x){return targetsOf(x).map(t=>`<span class="chip contract" t
 function groupedExpertise(x){
  const text=(x.e||[]).join(" ").toLowerCase();
  const types=serviceTypes(x);
- return Object.entries(expertiseAliases)
+ let keys=Object.entries(expertiseAliases)
    .filter(([key,terms])=>{
      if(key==="diagnostiek" && !types.includes("Diagnostiek")) return false;
      if(["trauma","angstdwang","stemming","hechting","eetstoornis","ernstigggz",
-         "gedragstherapie","schema","vaktherapie","medicatie","groepdag"].includes(key)
+         "gedragstherapie","schema","vaktherapie","speltherapie","pmt","beeldend","muziektherapie","dansdrama","medicatie","groepdag"].includes(key)
         && !types.includes("Behandeling")) return false;
      return terms.some(term=>text.includes(term.toLowerCase()));
-   })
-   .map(([key])=>expertiseThemeLabels[key])
-   .filter((v,i,a)=>a.indexOf(v)===i)
-   .slice(0,9);
+   }).map(([key])=>key);
+ if(keys.some(key=>["speltherapie","pmt","beeldend","muziektherapie","dansdrama"].includes(key)))keys=keys.filter(key=>key!=="vaktherapie");
+ return keys.map(key=>expertiseThemeLabels[key]).filter((v,i,a)=>a.indexOf(v)===i).slice(0,12);
 }
 
 const serviceTypeMap={
@@ -358,7 +415,38 @@ const serviceTypeMap={
 };
 function serviceTypes(x){return Array.isArray(x.a)&&x.a.length?x.a:(serviceTypeMap[x.p]||["Niet vastgesteld"])}
 const SPECIFIC_OFFERS=["Begeleiding","Behandeling","Diagnostiek","Wonen","Crisis"];
+const offerDetailAliases={
+ speltherapie:["speltherapie","spel en therapie","theraplay"],
+ pmt:["psychomotorische therapie","pmt","psychomotor","bewegingstherapie"],
+ beeldend:["beeldende therapie","creatieve therapie"],
+ muziektherapie:["muziektherapie"],
+ dansdrama:["danstherapie","dramatherapie","dans- en dramatherapie"],
+ systeemtherapie:["systeemtherapie","gezinstherapie"],
+ emdr:["emdr","traumabehandeling","zit"],
+ cgt:["cgt","cognitieve gedragstherapie","gedragstherapie"],
+ individueel:["individuele behandeling","behandeling individueel"],
+ groepsbehandeling:["groepsbehandeling","behandelgroep","inbalans","incontrol"],
+ iag:["iag","intensieve ambulante gezinsbehandeling","ziag","zig","mdft","kings","families first","csi","mst","zit"],
+ dagbehandeling:["dagbehandeling","naschoolse dagbehandeling","kdc","odc","kinder-orthopedagogisch dagcentrum"],
+ medicatie:["medicatiecontrole","medicatie","medicamenteus"],
+ pleegzorg:["pleegzorg","pleeggezin"],
+ gezinshuis:["gezinshuis","specialistisch gezinshuis"],
+ logeren:["logeren","deeltijdverblijf","deeltijd verblijf","respijt"],
+ kamertraining:["kamertraining","trainingshuis","begeleid zelfstandig wonen"],
+ residentieel:["behandelgroep","residentieel","3 milieu","driemilieu","jeugdzorgplus","24-uursbehandeling","crisisverblijf"]
+};
 function activeOfferFilter(){return SPECIFIC_OFFERS.includes(els.offerType.value)?els.offerType.value:null}
+function matchesOfferSelection(x,value){
+ if(value==="__all__")return true;
+ if(value==="__regular__")return !x.cr;
+ if(value==="Crisis")return x.cr===true;
+ if(SPECIFIC_OFFERS.includes(value))return serviceTypes(x).includes(value);
+ if(value.startsWith("detail:")){
+  const key=value.slice(7);const text=[x.w||"",...(x.e||[]),...serviceTypes(x)].join(" ").toLowerCase();
+  return (offerDetailAliases[key]||[key]).some(term=>text.includes(term.toLowerCase()));
+ }
+ return true;
+}
 function displayServiceTypes(x,offerFilter=activeOfferFilter()){
  const types=serviceTypes(x);
  if(offerFilter&&types.includes(offerFilter))return [offerFilter];
@@ -394,7 +482,7 @@ function matchesExpertise(x,key){
  const types=serviceTypes(x);
  if(key==="diagnostiek" && !types.includes("Diagnostiek")) return false;
  if(["trauma","angstdwang","stemming","hechting","eetstoornis","ernstigggz",
-     "gedragstherapie","schema","vaktherapie","medicatie","groepdag"].includes(key)
+     "gedragstherapie","schema","vaktherapie","speltherapie","pmt","beeldend","muziektherapie","dansdrama","medicatie","groepdag"].includes(key)
     && !types.includes("Behandeling")) return false;
  return (expertiseAliases[key]||[key]).some(term=>text.includes(term.toLowerCase()));
 }
@@ -402,7 +490,7 @@ function textWait(x,field){
  const custom=x[field+"Text"];
  if(custom)return custom;
  const value=x[field];
- return Number.isFinite(value)?`${Math.round(value*10)/10} wk`:"Onbekend";
+ return Number.isFinite(value)?`${Math.round(value*10)/10} wk`:"-";
 }
 
 function waitFor(x,offerFilter=activeOfferFilter()){
@@ -440,6 +528,13 @@ function preferredProviderName(names){
 function sourceDomain(url){
  try{return new URL(url).hostname.replace(/^www\./,"").toLowerCase()}
  catch{return String(url||"").toLowerCase()}
+}
+function sourceUrls(x){return uniqueValues(Array.isArray(x.us)&&x.us.length?x.us:[x.u])}
+function sourceLinkLabel(url,index,total){
+ const domain=sourceDomain(url);
+ if(domain.includes("beschikbaarheidswijzer.nl"))return "Beschikbaarheidswijzer";
+ if(total>1&&index===0)return "Website aanbieder";
+ return total>1?`Bron ${index+1}`:"Website";
 }
 
 function waitKey(value){
@@ -484,7 +579,7 @@ function mergeEquivalentResults(rows,offerFilter=null){
    const locations=uniqueValues(group.map(x=>x.l));
    const contracts=uniqueValues(group.map(x=>x.c));
    const notes=uniqueValues(group.map(x=>x.s));
-   const sources=uniqueValues(group.map(x=>x.u));
+   const sources=uniqueValues(group.flatMap(sourceUrls));
    const names=uniqueValues(group.map(x=>x.p));
 
    const merged={...newest};
@@ -517,9 +612,9 @@ function contractHtml(x){
 }
 
 function sourceHtml(x){
- const sources=x.sources?.length?x.sources:[x.u];
- return uniqueValues(sources).map((url,index)=>
-   `<a href="${url}" target="_blank" rel="noopener noreferrer">${sources.length>1?`Website ${index+1}`:"Website"}</a>`
+ const sources=uniqueValues(x.sources?.length?x.sources:sourceUrls(x));
+ return sources.map((url,index)=>
+   `<a href="${url}" target="_blank" rel="noopener noreferrer">${sourceLinkLabel(url,index,sources.length)}</a>`
  ).join("<br>");
 }
 
@@ -538,13 +633,7 @@ function render(){
    return (!q||hay.includes(q))
      &&(!els.target.value||targetsOf(x).includes(els.target.value))
      &&(!els.careLevel.value||careLevels(x).includes(els.careLevel.value))
-     &&(
-       els.offerType.value==="__all__" ||
-       (els.offerType.value==="__regular__" && !x.cr) ||
-       (els.offerType.value==="Crisis" && x.cr===true) ||
-       (!["__all__","__regular__","Crisis"].includes(els.offerType.value)
-         && serviceTypes(x).includes(els.offerType.value))
-     )
+     &&matchesOfferSelection(x,els.offerType.value)
      &&(!els.location.value
        ||x.l===els.location.value
        ||x.l.includes(els.location.value)
@@ -563,9 +652,8 @@ function render(){
    <td class="provider-cell" data-label="Aanbieder"><div class="provider">${x.p}</div>${x.live?'<span class="chip exact">online bijgewerkt</span>':''}</td>
    <td class="location-cell" data-label="Locatie">${x.l}</td>
    <td class="target-cell" data-label="Doelgroep"><div class="chips">${targetHtml(x)}</div></td>
-   <td class="offer-cell" data-label="Soort aanbod"><div class="chips">${serviceTypeHtml(x,offerFilter)}</div></td>
+   <td class="offer-wait-cell" data-label="Aanbod / wachttijd voor"><div class="cell-section"><span class="cell-kicker">Soort aanbod</span><div class="chips">${serviceTypeHtml(x,offerFilter)}</div></div><div class="cell-section wait-target"><span class="cell-kicker">Wachttijd voor</span>${waitForHtml(x,offerFilter)}</div></td>
    <td class="expertise-cell" data-label="Expertise"><div class="chips">${groupedExpertise(x).map(t=>`<span class="chip">${t}</span>`).join("")}</div></td>
-   <td class="wait-for wait-for-cell" data-label="Wachttijd voor">${waitForHtml(x,offerFilter)}</td>
    <td class="wait intake-cell ${x.i>20?"long":x.i<=8?"short":""}" data-label="Intake">${textWait(x,"i")}</td>
    <td class="wait start-cell ${x.b>20?"long":x.b<=8?"short":""}" data-label="Behandeling/start">${textWait(x,"b")}</td>
    <td class="contract-cell" data-label="Contract"><div class="chips">${contractHtml(x)}</div></td>
@@ -623,7 +711,7 @@ async function reloadPublishedData(){
  else{els.dot.className="dot err";els.status.textContent="Nieuwe publicatie niet bereikbaar; bestaande gegevens blijven zichtbaar"}
  els.refresh.disabled=false;
 }
-function updateSourceList(){$("#sourceList").textContent=uniq(data.map(x=>x.p+" — "+x.u)).map(x=>"• "+x).join("\n")}
+function updateSourceList(){$("#sourceList").textContent=uniq(data.flatMap(x=>sourceUrls(x).map(url=>x.p+" — "+url))).map(x=>"• "+x).join("\n")}
 
 function loadSavedData(){
  try{
@@ -708,7 +796,7 @@ function candidateLinks(doc){
  }).slice(0,3);
 }
 async function fetchSources(){
- const initial=uniqueValues(data.map(x=>x.u));
+ const initial=uniqueValues(data.flatMap(sourceUrls));
  const docs=new Map();const failures=[];
  let completed=0;
  async function worker(url){
@@ -784,10 +872,10 @@ function parseMediant(docs){
 }
 function parseJarabee(docs){
  const text=hostText(docs,'jarabee.nl');if(!text)return 0;const date=pageDate(text);let n=0;
- const numeric=[['Individuele behandeling',/Behandeling Individueel[^\d]{0,80}(\d+)\s*weken/i],['IAG',/\bIAG\b[^\d]{0,80}(\d+)\s*weken/i]];
- for(const [label,rx] of numeric){const m=text.match(rx);if(m)n+=markRows(rowsFor('Jarabee').filter(r=>r.w===label),{i:+m[1],iText:null,date},`Jarabee ${label}`)}
- for(const label of ['Driemilieusvoorziening','Gezinshuis']){if(new RegExp(label+'[\\s\\S]{0,120}In overleg','i').test(text))n+=markRows(rowsFor('Jarabee').filter(r=>r.w===label),{i:null,b:null,iText:null,bText:null,k:'unknown',date},`Jarabee ${label}`)}
- for(const label of ['Ambulante crisiszorg','Crisisverblijf','Crisispleegzorg']){if(new RegExp(label+'[\\s\\S]{0,100}(?:Nee|geen wachtlijst)','i').test(text))n+=markRows(rowsFor('Jarabee').filter(r=>r.w===label),{i:0,b:0,date},`Jarabee ${label}`)}
+ const numeric=[['Individuele behandeling',/Behandeling Individueel[\s\S]{0,80}?(\d+)\s*weken/i],['IAG',/IAG[\s\S]{0,80}?(\d+)\s*weken/i]];
+ for(const [label,rx] of numeric){const m=text.match(rx);if(m)n+=markRows(rowsFor('Jarabee').filter(r=>r.w===label),{i:null,b:+m[1],iText:null,bText:null,k:'concrete',date},`Jarabee ${label}`)}
+ for(const label of ['Driemilieusvoorziening','Gezinshuis']){if(new RegExp(label+'[\s\S]{0,120}In overleg','i').test(text))n+=markRows(rowsFor('Jarabee').filter(r=>r.w===label),{i:null,b:null,iText:null,bText:'In overleg',k:'route',date},`Jarabee ${label}`)}
+ for(const label of ['Behandelgroep','Pleeggezin','Ambulante crisiszorg','Crisisverblijf','Crisispleegzorg']){if(new RegExp(label+'[\s\S]{0,100}(?:Nee|geen wachtlijst)','i').test(text))n+=markRows(rowsFor('Jarabee').filter(r=>r.w===label),{i:null,b:0,iText:null,bText:null,k:'concrete',date},`Jarabee ${label}`)}
  markProviderChecked('Jarabee');return n;
 }
 function parseTactus(docs){const text=hostText(docs,'tactus.nl');if(!text)return 0;const block=section(text,/Enschede,?\s+Locatie Raiffeisenstraat 75/i,/(?:Harderwijk|Hengelo|Winterswijk),?\s+Locatie/i);const i=block.match(/Aanmeldwachttijd[^\d]{0,30}(\d+)\s*wk/i);const b=block.match(/Behandelwachttijd[^\d]{0,30}(\d+)\s*wk/i);if(!i&&!b){markProviderChecked('Tactus');return 0}return markRows(rowsFor('Tactus'),{...(i?{i:+i[1],iText:null}:{}),...(b?{b:+b[1],bText:null}:{}),date:pageDate(block||text)},'Tactus Enschede')}
@@ -835,12 +923,43 @@ function parseReggedok(docs){
  const fixed=[['Systeemtherapie',/Systeemtherapie[^\d]{0,60}(\d+)\s*maanden/i],['Sensorische integratietherapie',/Sensorische integratietherapie[^\d]{0,60}(\d+)\s*tot\s*(\d+)\s*maanden/i],['Beeldende therapie',/Beeldende therapie[^\d]{0,60}(\d+)\s*tot\s*(\d+)\s*maanden/i],['Psychologische behandeling',/Psychologische behandeling[^\d]{0,60}(\d+)\s*tot\s*(\d+)\s*maanden/i],['Diagnostiek',/Diagnostiek[^\d]{0,60}(\d+)\s*tot\s*(\d+)\s*maanden/i]];
  for(const [label,rx] of fixed){const m=text.match(rx);if(!m)continue;const rows=rowsFor('Reggedok').filter(r=>r.w===label);rows.forEach(r=>setRange(r,'i',+m[1],m[2]?+m[2]:+m[1],'mnd'));n+=markRows(rows,{date},`Reggedok ${label}`)}markProviderChecked('Reggedok');return n;
 }
-function parseCrisisAndQualitative(docs){let n=0;const ambiq=hostText(docs,'ambiq.nl');if(ambiq&&/binnen\s+24\s*uur/i.test(ambiq))n+=markRows(rowsFor('Stichting Ambiq').filter(r=>r.cr),{i:0,b:0,date:pageDate(ambiq)},'Ambiq spoed');markProviderChecked('Stichting Ambiq');const pluryn=hostText(docs,'pluryn.nl');if(pluryn){markProviderChecked('Stichting Pluryn');if(/wachttijd[^.]{0,100}(?:verschilt|fluctueert)|contact.*klantenbureau/i.test(pluryn))refreshLog.push('• Pluryn: gecontroleerd; geen uniforme openbare termijn')};return n}
+function parseDeSynergie(docs){
+ const text=hostText(docs,'desynergie.nl');if(!text)return 0;const date=pageDate(text);let n=0;
+ function apply(label,location,min,max,unit='wk'){
+  const rows=rowsFor('De Synergie').filter(r=>r.w===label&&r.l===location);if(!rows.length)return;
+  rows.forEach(r=>setRange(r,'b',min,max,unit));n+=markRows(rows,{i:null,iText:null,k:'concrete',date},`De Synergie ${label} ${location}`);
+ }
+ const youth=section(text,/Actuele wachttijden[\s\S]{0,80}Jeugd/i,/Diagnostiek/i);
+ let m=youth.match(/Losser\s*:\s*(\d+)\s*[-–]\s*(\d+)\s*weken/i);if(m)apply('Behandeling jeugd','Losser',+m[1],+m[2]);
+ m=youth.match(/Vriezenveen\s*:\s*(\d+)\s*[-–]\s*(\d+)\s*maanden/i);if(m)apply('Behandeling jeugd','Vriezenveen',+m[1],+m[2],'mnd');
+ const diag=section(text,/Diagnostiek/i,/Volwassenen/i);
+ m=diag.match(/Losser\s*:\s*(\d+)\s*[-–]\s*(\d+)\s*weken/i);if(m)apply('Diagnostiek','Losser',+m[1],+m[2]);
+ m=diag.match(/Vriezenveen\s*:\s*(\d+)\s*[-–]\s*(\d+)\s*maanden/i);if(m)apply('Diagnostiek','Vriezenveen',+m[1],+m[2],'mnd');
+ const adults=section(text,/Volwassenen/i,/Ambulant/i);
+ m=adults.match(/Losser\s*:\s*(\d+)\s*[-–]\s*(\d+)\s*weken/i);if(m)apply('Behandeling volwassenen','Losser',+m[1],+m[2]);
+ m=adults.match(/Vriezenveen\s*:\s*(\d+)\s*[-–]\s*(\d+)\s*weken/i);if(m)apply('Behandeling volwassenen','Vriezenveen',+m[1],+m[2]);
+ const ambulant=section(text,/Ambulant/i,null);
+ m=ambulant.match(/Jeugdwet[^\d]{0,30}(\d+)\s*weken/i);if(m)n+=markRows(rowsFor('De Synergie').filter(r=>r.w==='Ambulante begeleiding Jeugdwet'),{i:null,b:+m[1],iText:null,bText:null,k:'concrete',date},'De Synergie ambulant Jeugdwet');
+ m=ambulant.match(/WMO[^\d]{0,30}(\d+)\s*weken/i);if(m)n+=markRows(rowsFor('De Synergie').filter(r=>r.w==='Ambulante begeleiding Wmo'),{i:null,b:+m[1],iText:null,bText:null,k:'concrete',date},'De Synergie ambulant Wmo');
+ markProviderChecked('De Synergie');return n;
+}
+function parseAmbiqOfferings(docs){
+ const text=hostText(docs,'ambiq.nl');if(!text)return 0;markProviderChecked('Ambiq');
+ if(/Speltherapie/i.test(text)&&/Beeldende therapie/i.test(text)&&/Psychomotorische therapie/i.test(text))refreshLog.push('• Ambiq: therapie- en productaanbod gecontroleerd; geen onbetrouwbare productspecifieke getallen overgenomen.');
+ const crisis=rowsFor('Ambiq').filter(r=>r.cr);if(/binnen\s+24\s*uur/i.test(text))return markRows(crisis,{i:null,b:0,bText:'Binnen 24 uur',date:pageDate(text)},'Ambiq spoed');
+ return 0;
+}
+function parseBeschikbaarheidswijzer(docs){
+ const text=hostText(docs,'beschikbaarheidswijzer.nl');if(!text)return 0;
+ if(/Speltherapie/i.test(text)&&/Pleeggezin/i.test(text)&&/Behandeling Individueel/i.test(text))refreshLog.push('• Beschikbaarheidswijzer Twente: categorieën en zorgvormen gecontroleerd. Alleen eenduidig aan een aanbieder/product gekoppelde waarden worden overgenomen.');
+ return 0;
+}
+function parseCrisisAndQualitative(docs){let n=0;const pluryn=hostText(docs,'pluryn.nl');if(pluryn){markProviderChecked('Stichting Pluryn');if(/wachttijd[^.]{0,100}(?:verschilt|fluctueert)|contact.*klantenbureau/i.test(pluryn))refreshLog.push('• Pluryn: gecontroleerd; geen uniforme openbare termijn')};return n}
 function genericQualitative(docs){
  const providers=new Map();data.forEach(row=>{const key=normalizeProviderKey(row.p);if(!providers.has(key))providers.set(key,[]);providers.get(key).push(row)});
  for(const rows of providers.values()){
   if(rows.every(r=>r.checked))continue;
-  const texts=rows.map(r=>hostText(docs,sourceDomain(r.u))).filter(Boolean).join('\n');
+  const texts=rows.flatMap(r=>sourceUrls(r).map(url=>hostText(docs,sourceDomain(url)))).filter(Boolean).join('\n');
   if(!texts)continue;
   rows.forEach(r=>{r.checked=true;r.checkedAt=new Date().toISOString();if(!touchedRows.has(r.rid))r.refreshState='checked'});
   if(/ruimte voor nieuwe aanmeldingen|korte wachtlijst/i.test(texts))rows.filter(r=>r.k==='unknown').forEach(r=>{r.k='route';r.date=pageDate(texts);r.live=true;touchedRows.add(r.rid)});
@@ -857,7 +976,7 @@ async function refreshSources(){
  try{
   await apiHealth();
   const {docs,failures,total}=await fetchSources();
-  const parsers=[parseDoppa,parseYouz,parseAccare,parseZmt,parseKarakter,parseMediant,parseJarabee,parseTactus,parseVanDerStam,parsePpeb,parseAtZorg,parseHk,parsePoel,parseHsk,parseInzicht,parseCuress,parseDenktank,parseIjsselgroep,parseForza,parseReggedok,parseCrisisAndQualitative];
+  const parsers=[parseDoppa,parseYouz,parseAccare,parseZmt,parseKarakter,parseMediant,parseJarabee,parseTactus,parseVanDerStam,parsePpeb,parseAtZorg,parseHk,parsePoel,parseHsk,parseInzicht,parseCuress,parseDenktank,parseIjsselgroep,parseForza,parseReggedok,parseDeSynergie,parseAmbiqOfferings,parseBeschikbaarheidswijzer,parseCrisisAndQualitative];
   let updates=0;for(const parser of parsers){try{updates+=parser(docs)||0}catch(e){refreshLog.push(`! Parserfout ${parser.name}: ${e.message}`)}}
   genericQualitative(docs);
   for(const fail of failures)refreshLog.push(`✗ ${fail.url}: ${fail.error}`);
