@@ -20,7 +20,7 @@ header h1{margin:0 0 4px;font-size:1.45rem}header p{margin:0;opacity:.88}
 .summary{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:13px 0}.metric{padding:12px 14px}.metric small{display:block;color:var(--muted);margin-bottom:4px}.metric strong{font-size:1.3rem}
 .table-panel{overflow:hidden}.table-scroll{overflow:auto}table{border-collapse:collapse;width:100%;min-width:1700px}th,td{padding:11px 10px;border-bottom:1px solid #e5ebee;text-align:left;vertical-align:top}th{position:sticky;top:0;background:#f8fafb;z-index:1;font-size:.72rem;text-transform:uppercase;letter-spacing:.035em;color:#52636e}td{font-size:.85rem}
 .provider{font-weight:850}.chips{display:flex;gap:4px;flex-wrap:wrap}.chip{display:inline-block;padding:4px 7px;border-radius:999px;background:#edf2f4;font-size:.7rem}.chip.exact{background:var(--soft);color:#205c59}.chip.unknown{background:#fff1d4;color:#7a4a05}.chip.contract{background:#edf0ff;color:#454d86}
-.wait{font-weight:800;white-space:nowrap}.wait.short{color:var(--good)}.wait.long{color:var(--bad)}.muted{color:var(--muted)}.details{width:56px;text-align:center}.info-wrap{position:relative;display:inline-flex}.info-btn{width:28px;height:28px;border:1px solid #c7d3d8;border-radius:50%;background:#fff;color:var(--brand2);font-weight:900;cursor:help}.tip{display:none;position:absolute;right:0;top:34px;width:300px;padding:10px 11px;border-radius:10px;background:#17212b;color:#fff;text-align:left;font-weight:400;line-height:1.4;z-index:20;box-shadow:0 10px 30px rgba(0,0,0,.25)}.info-wrap:hover .tip,.info-btn:focus + .tip{display:block}.source a{font-weight:750}.empty{text-align:center;padding:42px;color:var(--muted)}
+.wait{font-weight:800;white-space:nowrap}.wait.short{color:var(--good)}.wait.long{color:var(--bad)}.muted{color:var(--muted)}.details{width:56px;text-align:center}.info-wrap{position:relative;display:inline-flex}.info-btn{width:28px;height:28px;border:1px solid #c7d3d8;border-radius:50%;background:#fff;color:var(--brand2);font-weight:900;cursor:help}.tip{display:none;position:absolute;right:0;top:34px;width:320px;padding:11px 12px;border-radius:10px;background:#17212b;color:#fff;text-align:left;font-weight:400;line-height:1.45;z-index:20;box-shadow:0 10px 30px rgba(0,0,0,.25)}.info-wrap:hover .tip,.info-btn:focus + .tip{display:block}.tip a{color:#bfe8ff}.tip b{display:block;margin-bottom:3px}.tip .tip-section{margin-top:10px}.source a{font-weight:750}.empty{text-align:center;padding:42px;color:var(--muted)}
 dialog{border:0;border-radius:15px;max-width:780px;width:calc(100% - 28px);padding:0;box-shadow:0 25px 75px rgba(0,0,0,.28)}dialog::backdrop{background:rgba(14,29,35,.48)}.modal{padding:20px}.modal h2{margin-top:0}.modal pre{white-space:pre-wrap;background:#f4f7f8;border-radius:10px;padding:12px;max-height:390px;overflow:auto}
 footer{font-size:.77rem;color:var(--muted);line-height:1.45;padding:16px 2px 8px}.maintenance{margin:3px 0 20px;border-top:1px solid #dce4e8;color:var(--muted);font-size:.78rem}.maintenance summary{width:max-content;margin-left:auto;padding:8px 2px;cursor:pointer;opacity:.68;user-select:none}.maintenance summary:hover,.maintenance[open] summary{opacity:1}.maintenance-body{margin-top:4px;padding:12px 14px;background:#f8fafb;border:1px solid var(--line);border-radius:12px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.maintenance-actions{display:flex;gap:8px;flex-wrap:wrap}.maintenance-note{flex-basis:100%;margin:0;color:var(--muted);font-size:.75rem}
 @media(max-width:1050px){
@@ -29,27 +29,28 @@ footer{font-size:.77rem;color:var(--muted);line-height:1.45;padding:16px 2px 8px
  .table-scroll{overflow:visible}
  table{min-width:0}
  thead{display:none}
- tbody,tbody tr,tbody td{display:block;width:100%}
  tbody{display:grid;gap:12px}
- tbody tr{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 5px 16px rgba(22,45,55,.06)}
- tbody td{border:0;border-bottom:1px solid #edf1f3;padding:10px 12px;min-width:0}
+ tbody tr{display:block;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 5px 16px rgba(22,45,55,.06)}
+ tbody td{display:block;width:100%;border:0;border-bottom:1px solid #edf1f3;padding:10px 12px;min-width:0}
  tbody td::before{content:attr(data-label);display:block;margin-bottom:4px;color:var(--muted);font-size:.66rem;font-weight:800;text-transform:uppercase;letter-spacing:.035em}
- tbody td.provider-cell{grid-column:1/-1;background:#f8fafb;padding:12px 14px}
+ tbody td.provider-cell{background:#f8fafb;padding:12px 14px}
  tbody td.provider-cell::before{display:none}.provider{font-size:1rem}
- tbody td.wait-for-cell{grid-column:1/-1;background:#f4f9f8}
+ tbody td.location-cell,tbody td.target-cell,tbody td.offer-cell,tbody td.expertise-cell,tbody td.wait-for-cell,tbody td.intake-cell,tbody td.start-cell,tbody td.details{display:block}
+ tbody td.wait-for-cell{background:#f4f9f8}
  tbody td.wait-for-cell::before{color:var(--brand2)}
  tbody td.intake-cell,tbody td.start-cell{background:#f7fbf8;padding:12px 14px}
- tbody td.intake-cell .wait,tbody td.start-cell .wait{font-size:1.15rem}
- tbody td.expertise-cell,tbody td.offer-cell,tbody td.contract-cell{grid-column:1/-1}
- tbody td.details{width:auto;text-align:left}
- .info-wrap{display:flex}.tip{position:fixed;left:12px;right:12px;top:auto;bottom:12px;width:auto;max-height:60vh;overflow:auto}
- tbody td.source-cell,tbody td.date-cell{border-bottom:0}
+ tbody td.intake-cell,tbody td.start-cell{font-size:1.15rem}
+ tbody td.offer-cell .chips, tbody td.expertise-cell .chips, tbody td.target-cell .chips{display:block}
+ tbody td.offer-cell .chip, tbody td.expertise-cell .chip, tbody td.target-cell .chip{display:block;width:max-content;max-width:100%;margin:0 0 6px 0}
+ tbody td.expertise-cell .chip{border-radius:10px}
+ tbody td.contract-cell, tbody td.source-cell, tbody td.date-cell{display:none!important}
+ tbody td.details{width:auto;text-align:left;border-bottom:0}
+ .info-wrap{display:flex}.tip{position:fixed;left:12px;right:12px;top:auto;bottom:12px;width:auto;max-height:70vh;overflow:auto}
 }
 @media(max-width:570px){
  header{padding:17px 16px}header h1{font-size:1.2rem}.wrap{padding:9px}
  .controls,.summary{grid-template-columns:1fr}.controls{padding:11px}
  .meta{justify-content:flex-end}.metric{padding:10px 12px}
- tbody tr{grid-template-columns:1fr 1fr}
  tbody td.location-cell,tbody td.target-cell{font-size:.82rem}
  tbody td.intake-cell,tbody td.start-cell{padding:12px}
  .chip{font-size:.66rem;padding:3px 6px}
@@ -566,7 +567,7 @@ function render(){
    <td class="contract-cell" data-label="Contract"><div class="chips">${contractHtml(x)}</div></td>
    <td class="details" data-label="Info"><span class="info-wrap">
      <button class="info-btn" type="button" aria-label="Toelichting bij ${x.p}">i</button>
-     <span class="tip" role="tooltip">${x.s}${mergedExplanation(x)}<br><br><b>Vormen/expertise binnen deze selectie:</b> ${(x.e||[]).join(", ")}</span>
+     <span class="tip" role="tooltip"><div class="tip-section"><b>Toelichting</b>${x.s}${mergedExplanation(x)}</div><div class="tip-section"><b>Vormen/expertise binnen deze selectie</b>${(x.e||[]).join("<br>")}</div><div class="tip-section"><b>Contract</b>${x.c||"Onbekend"}</div><div class="tip-section"><b>Bron</b>${sourceHtml(x)}</div><div class="tip-section"><b>Peildatum</b>${x.date||"Onbekend"}</div></span>
    </span></td>
    <td class="source source-cell" data-label="Bron">${sourceHtml(x)}</td>
    <td class="date-cell" data-label="Peildatum">${x.date}</td>
