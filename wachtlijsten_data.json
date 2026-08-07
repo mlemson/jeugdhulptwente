@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T13:09:00Z",
+  "generatedAt": "2026-08-07T05:50:05.449Z",
   "rows": [
     {
       "p": "DOPPA zorg",
@@ -18,15 +18,17 @@
         "Individuele behandeling"
       ],
       "c": "Samen14/Jeugd",
-      "i": 30.4,
+      "i": 39.105,
       "b": null,
       "k": "concrete",
       "s": "Behandeling: circa 9 maanden tot intake; specifieke therapie zoals EMDR kan langer duren.",
       "u": "https://www.doppazorg.nl/clienten/wachttijden/",
-      "date": "2026-08-05",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": "9 mnd",
+      "checkedAt": "2026-08-07T05:50:05.402Z"
     },
     {
       "p": "DOPPA zorg",
@@ -42,15 +44,17 @@
         "Autisme"
       ],
       "c": "Samen14/Jeugd",
-      "i": 23.644444444444442,
+      "i": 30.415,
       "b": null,
       "k": "concrete",
       "s": "Diagnostiek: circa 7 maanden tot intake.",
       "u": "https://www.doppazorg.nl/clienten/wachttijden/",
-      "date": "2026-08-05",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": "7 mnd",
+      "checkedAt": "2026-08-07T05:50:05.402Z"
     },
     {
       "p": "DOPPA zorg",
@@ -76,8 +80,9 @@
       "u": "https://www.doppazorg.nl/clienten/wachttijden/",
       "date": "2026-08-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.402Z"
     },
     {
       "p": "Youz poli Twente",
@@ -102,8 +107,9 @@
       "u": "https://youz.nl/wachttijden",
       "date": "2026-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": 0,
+      "checkedAt": "2026-08-07T05:50:05.403Z"
     },
     {
       "p": "Youz IMH",
@@ -127,8 +133,9 @@
       "u": "https://youz.nl/wachttijden",
       "date": "2026-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": 1,
+      "checkedAt": "2026-08-07T05:50:05.403Z"
     },
     {
       "p": "Youz i-psy Jeugd en Gezin",
@@ -152,8 +159,9 @@
       "u": "https://youz.nl/wachttijden",
       "date": "2026-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": 2,
+      "checkedAt": "2026-08-07T05:50:05.404Z"
     },
     {
       "p": "Youz poli Twente",
@@ -171,8 +179,9 @@
       "u": "https://youz.nl/wachttijden",
       "date": "2026-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": 0,
+      "checkedAt": "2026-08-07T05:50:05.403Z"
     },
     {
       "p": "Boncura",
@@ -258,10 +267,13 @@
       "k": "concrete",
       "s": "Gemiddelde wachttijd per locatie.",
       "u": "https://www.accare.nl/praktische-informatie/wachttijden-per-locatie",
-      "date": "2026-07-15",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "bText": null,
+      "checkedAt": "2026-08-07T05:50:05.404Z"
     },
     {
       "p": "ZMTwente",
@@ -284,10 +296,13 @@
       "k": "route",
       "s": "Intake in principe binnen 4 weken; zorgtraject start in principe binnen 12 weken. Uitgangspunt is werken zonder wachtlijst.",
       "u": "https://www.zmtwente.nl/werkwijze",
-      "date": "2026-08-05",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "bText": null,
+      "checkedAt": "2026-08-07T05:50:05.405Z"
     },
     {
       "p": "ZMTwente",
@@ -308,10 +323,13 @@
       "k": "route",
       "s": "Gepubliceerde zorgroute, geen actuele gemeten wachtlijst.",
       "u": "https://www.zmtwente.nl/werkwijze",
-      "date": "2026-08-05",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "bText": null,
+      "checkedAt": "2026-08-07T05:50:05.405Z"
     },
     {
       "p": "Helios / KIDSclinic",
@@ -336,8 +354,9 @@
       "u": "https://kidsclinic.nl/specialismen/ggz-kind-jeugd/",
       "date": "2026-08-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.431Z"
     },
     {
       "p": "Karakter",
@@ -385,8 +404,9 @@
       "u": "https://www.karakter.com/wachttijden",
       "date": "2026-08-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.406Z"
     },
     {
       "p": "Dimencegroep",
@@ -411,8 +431,9 @@
       "u": "https://www.samen14.nl/twents%2Bmodel/beschikbaarheidsvoorzieningen/default.aspx",
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.432Z"
     },
     {
       "p": "Mediant",
@@ -439,8 +460,9 @@
       "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": 0,
+      "checkedAt": "2026-08-07T05:50:05.412Z"
     },
     {
       "p": "Mediant Centrum voor Jeugd",
@@ -482,8 +504,9 @@
       "u": "https://mediant.nl/jeugd/behandeling",
       "date": "2026-08-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": 2,
+      "checkedAt": "2026-08-07T05:50:05.413Z"
     },
     {
       "p": "Mediant",
@@ -506,8 +529,9 @@
       "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
       "date": "2026-07-09",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": 0,
+      "checkedAt": "2026-08-07T05:50:05.412Z"
     },
     {
       "p": "Mediant BalanZ",
@@ -527,15 +551,18 @@
         "Voedingsproblemen"
       ],
       "c": "Zorgverzekering",
-      "i": 11,
-      "b": 7,
+      "i": 12,
+      "b": 6,
       "k": "concrete",
       "s": "Centrum voor Eetstoornissen BalanZ. Voor de feitelijke actuele situatie kan rechtstreeks contact met het centrum nodig zijn.",
       "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
-      "date": "2026-07-09",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-06",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "bText": null,
+      "checkedAt": "2026-08-07T05:50:05.413Z"
     },
     {
       "p": "Mediant",
@@ -557,8 +584,9 @@
       "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
       "date": "2026-07-09",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": 0,
+      "checkedAt": "2026-08-07T05:50:05.412Z"
     },
     {
       "p": "Mediant",
@@ -581,8 +609,9 @@
       "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
       "date": "2026-07-09",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": 0,
+      "checkedAt": "2026-08-07T05:50:05.412Z"
     },
     {
       "p": "Mediant",
@@ -605,8 +634,9 @@
       "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
       "date": "2026-07-09",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": 0,
+      "checkedAt": "2026-08-07T05:50:05.412Z"
     },
     {
       "p": "Mediant",
@@ -629,8 +659,9 @@
       "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
       "date": "2026-07-09",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": 0,
+      "checkedAt": "2026-08-07T05:50:05.412Z"
     },
     {
       "p": "Mediant",
@@ -653,8 +684,9 @@
       "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
       "date": "2026-07-09",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": 0,
+      "checkedAt": "2026-08-07T05:50:05.412Z"
     },
     {
       "p": "Mediant",
@@ -677,8 +709,9 @@
       "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
       "date": "2026-07-09",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": 0,
+      "checkedAt": "2026-08-07T05:50:05.412Z"
     },
     {
       "p": "Mediant",
@@ -695,14 +728,17 @@
       ],
       "c": "Zorgverzekering",
       "i": 6,
-      "b": 9,
+      "b": 7,
       "k": "concrete",
       "s": "Wachttijd per specialisme volgens Mediant.",
       "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
-      "date": "2026-07-09",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-06",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "bText": null,
+      "checkedAt": "2026-08-07T05:50:05.412Z"
     },
     {
       "p": "Mediant",
@@ -718,15 +754,18 @@
         "Schematherapie"
       ],
       "c": "Zorgverzekering",
-      "i": 20,
-      "b": 16,
+      "i": 18,
+      "b": 15,
       "k": "concrete",
       "s": "Wachttijd per specialisme volgens Mediant.",
       "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
-      "date": "2026-07-09",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-06",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "bText": null,
+      "checkedAt": "2026-08-07T05:50:05.412Z"
     },
     {
       "p": "Jarabee",
@@ -756,10 +795,13 @@
         "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
       ],
-      "date": "2026-08-06",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "bText": null,
+      "checkedAt": "2026-08-07T05:50:05.414Z"
     },
     {
       "p": "Jarabee",
@@ -787,10 +829,13 @@
         "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
       ],
-      "date": "2026-08-06",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "bText": null,
+      "checkedAt": "2026-08-07T05:50:05.414Z"
     },
     {
       "p": "Jarabee",
@@ -821,8 +866,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.414Z"
     },
     {
       "p": "Jarabee",
@@ -854,8 +900,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.414Z"
     },
     {
       "p": "Jarabee",
@@ -884,8 +931,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.414Z"
     },
     {
       "p": "Jarabee",
@@ -913,8 +961,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.414Z"
     },
     {
       "p": "Jarabee",
@@ -944,8 +993,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.414Z"
     },
     {
       "p": "Jarabee",
@@ -973,8 +1023,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.414Z"
     },
     {
       "p": "Jarabee",
@@ -1003,8 +1054,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.414Z"
     },
     {
       "p": "Jarabee",
@@ -1033,8 +1085,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.414Z"
     },
     {
       "p": "Aveleijn",
@@ -1068,8 +1121,9 @@
       "u": "https://www.aveleijn.nl/professionals/zorgaanbod/ondersteuning-voor-kinderen",
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.432Z"
     },
     {
       "p": "RIBW Overijssel",
@@ -1089,8 +1143,9 @@
       "u": "https://www.ribwoverijssel.nl/",
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.432Z"
     },
     {
       "p": "Tactus",
@@ -1110,10 +1165,13 @@
       "k": "concrete",
       "s": "Locatie Raiffeisenstraat: 10 weken tot intake en 7 weken tot start behandeling. De gepubliceerde tabel is locatiegebonden en kan per behandelvorm afwijken.",
       "u": "https://www.tactus.nl/behandeltraject/wachttijden/",
-      "date": "2026-07-01",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "bText": null,
+      "checkedAt": "2026-08-07T05:50:05.415Z"
     },
     {
       "p": "Tactus",
@@ -1133,10 +1191,13 @@
       "k": "concrete",
       "s": "Locatie Raiffeisenstraat: overige middelen. Voor specifieke behandeling, opname of LVB-zorg kan de wachttijd afwijken.",
       "u": "https://www.tactus.nl/behandeltraject/wachttijden/",
-      "date": "2026-07-01",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "bText": null,
+      "checkedAt": "2026-08-07T05:50:05.415Z"
     },
     {
       "p": "Instituut van der Stam",
@@ -1160,8 +1221,9 @@
       "u": "https://www.vdstam.nl/regelingen/wachttijdregeling/",
       "date": "2026-08-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.416Z"
     },
     {
       "p": "Instituut van der Stam",
@@ -1183,8 +1245,9 @@
       "u": "https://www.vdstam.nl/regelingen/wachttijdregeling/",
       "date": "2026-08-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.416Z"
     },
     {
       "p": "Psychologiepraktijk Esther Boonk",
@@ -1208,10 +1271,12 @@
       "k": "concrete",
       "s": "Intake jeugd circa 1 week; behandeling aansluitend aan de intakefase tot enkele weken.",
       "u": "https://www.ppeb.nl/wachttijden",
-      "date": "2026-05-13",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "checkedAt": "2026-08-07T05:50:05.417Z"
     },
     {
       "p": "Psychologiepraktijk Esther Boonk",
@@ -1228,15 +1293,17 @@
         "Behandeling"
       ],
       "c": "Zorgverzekering / particulier",
-      "i": 2,
+      "i": 3.5,
       "b": null,
       "k": "concrete",
       "s": "Intake BGGZ 1-2 weken; SGGZ 4-6 weken. Behandeling varieert van enkele weken tot circa 6 maanden.",
       "u": "https://www.ppeb.nl/wachttijden",
-      "date": "2026-05-13",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": "1–6 wk",
+      "checkedAt": "2026-08-07T05:50:05.417Z"
     },
     {
       "p": "at.zorg",
@@ -1262,8 +1329,9 @@
       "u": "https://at-zorg.nl/wachttijden/",
       "date": "2026-08-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.418Z"
     },
     {
       "p": "at.zorg",
@@ -1280,15 +1348,17 @@
         "Behandeling"
       ],
       "c": "Zorgverzekering",
-      "i": 26,
+      "i": 26.1,
       "b": null,
       "k": "concrete",
       "s": "Voor 18+ in Enschede wordt meer dan 6 maanden gepubliceerd; wachttijd kan per verzekeraar verschillen.",
       "u": "https://at-zorg.nl/wachttijden/",
-      "date": "2026-08-05",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": "> 6 mnd",
+      "checkedAt": "2026-08-07T05:50:05.418Z"
     },
     {
       "p": "HK Zorg",
@@ -1312,10 +1382,11 @@
       "k": "concrete",
       "s": "Gepubliceerde wachttijd tot intake: 12 weken.",
       "u": "https://www.hkzorg.nl/wachttijden",
-      "date": "2026-05-28",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "checkedAt": "2026-08-07T05:50:05.419Z"
     },
     {
       "p": "HK Zorg",
@@ -1335,10 +1406,11 @@
       "k": "concrete",
       "s": "Gepubliceerde wachttijd tot intake: 8 weken.",
       "u": "https://www.hkzorg.nl/wachttijden",
-      "date": "2026-05-28",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "checkedAt": "2026-08-07T05:50:05.419Z"
     },
     {
       "p": "HK Zorg",
@@ -1358,8 +1430,9 @@
       "u": "https://www.hkzorg.nl/wachttijden",
       "date": "2026-08-04",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.419Z"
     },
     {
       "p": "Praktijk De Poel",
@@ -1389,10 +1462,12 @@
       "k": "concrete",
       "s": "Intake circa 2 weken; start begeleiding, behandeling en diagnostiek circa 12–16 weken.",
       "u": "https://www.praktijkdepoel.nl/werkwijze",
-      "date": "2026-06-02",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "checkedAt": "2026-08-07T05:50:05.420Z"
     },
     {
       "p": "Praktijk De Poel",
@@ -1415,10 +1490,11 @@
       "k": "concrete",
       "s": "Gepubliceerde wachttijd voor thuiszitters en peergroepen: circa 1–2 weken.",
       "u": "https://www.praktijkdepoel.nl/werkwijze",
-      "date": "2026-06-02",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "checkedAt": "2026-08-07T05:50:05.420Z"
     },
     {
       "p": "De Synergie",
@@ -1454,8 +1530,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.429Z"
     },
     {
       "p": "De Synergie",
@@ -1491,8 +1568,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.429Z"
     },
     {
       "p": "De Synergie",
@@ -1523,8 +1601,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.429Z"
     },
     {
       "p": "De Synergie",
@@ -1555,8 +1634,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.429Z"
     },
     {
       "p": "De Synergie",
@@ -1592,8 +1672,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.429Z"
     },
     {
       "p": "De Synergie",
@@ -1629,8 +1710,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.429Z"
     },
     {
       "p": "De Synergie",
@@ -1660,8 +1742,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.429Z"
     },
     {
       "p": "De Synergie",
@@ -1692,8 +1775,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.429Z"
     },
     {
       "p": "HSK Enschede",
@@ -1717,8 +1801,9 @@
       "u": "https://hsk.nl/locaties/enschede/",
       "date": "2026-08-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.421Z"
     },
     {
       "p": "InZicht Twente",
@@ -1758,8 +1843,9 @@
       "u": "https://www.inzichttwente.nl/bij-inzicht-twente-hebben-wij-op-dit-moment-ruimte-voor-nieuwe-aanmeldingen-voor-therapie/",
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.421Z"
     },
     {
       "p": "InZicht Twente",
@@ -1782,10 +1868,11 @@
       "k": "concrete",
       "s": "InZicht streeft er bij Ambulante Spoedhulp naar binnen 24 uur te starten. Deze crisisregel staat los van de reguliere behandeling en begeleiding.",
       "u": "https://www.inzichttwente.nl/ambulante-spoedhulp/",
-      "date": "2026-08-06",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "checkedAt": "2026-08-07T05:50:05.421Z"
     },
     {
       "p": "Curess",
@@ -1812,10 +1899,11 @@
       "k": "concrete",
       "s": "Curess vermeldt dat de organisatie er is zonder wachttijd. Deze regel betreft reguliere ambulante begeleiding en begeleide omgang.",
       "u": "https://curess.nl/over-curess",
-      "date": "2026-08-06",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "checkedAt": "2026-08-07T05:50:05.422Z"
     },
     {
       "p": "Curess",
@@ -1837,10 +1925,11 @@
       "k": "concrete",
       "s": "Curess kan bij ambulante spoedhulp binnen 24 uur bij een gezin thuis zijn. Deze crisisregel staat los van de reguliere begeleiding.",
       "u": "https://curess.nl/expertises/ambulante-spoedhulp",
-      "date": "2026-08-06",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "checkedAt": "2026-08-07T05:50:05.422Z"
     },
     {
       "p": "Praktijk Denktank",
@@ -1865,8 +1954,9 @@
       "u": "https://praktijkdenktank.nl/over-ons/formulieren/",
       "date": "2026-08-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.422Z"
     },
     {
       "p": "Psychologische Dienstverlening IJsselgroep",
@@ -1984,8 +2074,9 @@
       "u": "https://www.pienterenco.nl/",
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.432Z"
     },
     {
       "p": "Jeugdx",
@@ -2007,8 +2098,9 @@
       "u": "https://www.jeugdx.nl/",
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.432Z"
     },
     {
       "p": "Senzor",
@@ -2029,8 +2121,9 @@
       "u": "https://www.senzor.nl/",
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.432Z"
     },
     {
       "p": "Psychomotorische Therapie Praktijk Enschede",
@@ -2098,8 +2191,9 @@
       "u": "https://www.cuidate.nl/",
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.433Z"
     },
     {
       "p": "MentalScope",
@@ -2130,8 +2224,9 @@
       "u": "https://mentalscope.nl/psycholoog/behandeling/",
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.433Z"
     },
     {
       "p": "Stichting Pluryn",
@@ -2171,8 +2266,9 @@
       "u": "https://www.pluryn.nl/hoe-helpen-wij/wanneer-start-de-zorg",
       "date": "2026-08-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.431Z"
     },
     {
       "p": "Praktijk Forza B.V.",
@@ -2196,10 +2292,12 @@
       "k": "concrete",
       "s": "Praktijk Forza publiceert voor diagnostiek een wachttijd van 6 weken.",
       "u": "https://praktijkforza.info/",
-      "date": "2026-06-03",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "checkedAt": "2026-08-07T05:50:05.424Z"
     },
     {
       "p": "Praktijk Forza B.V.",
@@ -2229,10 +2327,12 @@
       "k": "concrete",
       "s": "Praktijk Forza publiceert voor individuele behandeling een wachttijd van 16 weken.",
       "u": "https://praktijkforza.info/",
-      "date": "2026-06-03",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "checkedAt": "2026-08-07T05:50:05.424Z"
     },
     {
       "p": "Praktijk Forza B.V.",
@@ -2254,10 +2354,12 @@
       "k": "concrete",
       "s": "Praktijk Forza publiceert voor gezinsbehandeling een wachttijd van 12 weken.",
       "u": "https://praktijkforza.info/",
-      "date": "2026-06-03",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "checkedAt": "2026-08-07T05:50:05.424Z"
     },
     {
       "p": "Praktijk Forza B.V.",
@@ -2280,10 +2382,12 @@
       "k": "concrete",
       "s": "Praktijk Forza publiceert voor individuele begeleiding een wachttijd van 6 weken.",
       "u": "https://praktijkforza.info/",
-      "date": "2026-06-03",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-08-07",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "checkedAt": "2026-08-07T05:50:05.424Z"
     },
     {
       "p": "Reggedok",
@@ -2307,9 +2411,11 @@
       "s": "Er is geen wachtlijst voor begeleiding.",
       "u": "https://www.reggedok.nl/aanmelden/",
       "date": "2026-07-02",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "checkedAt": "2026-08-07T05:50:05.428Z"
     },
     {
       "p": "Reggedok",
@@ -2328,16 +2434,17 @@
         "Sport en spel"
       ],
       "c": "Samen14/Jeugd + Wmo",
-      "i": 8.7,
+      "i": 8.69,
       "iText": "1–3 mnd",
       "b": null,
       "k": "concrete",
       "s": "Gepubliceerde bandbreedte voor Rijssen-Holten.",
       "u": "https://www.reggedok.nl/aanmelden/",
       "date": "2026-07-02",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "checkedAt": "2026-08-07T05:50:05.428Z"
     },
     {
       "p": "Reggedok",
@@ -2356,16 +2463,17 @@
         "Sport en spel"
       ],
       "c": "Samen14/Jeugd + Wmo",
-      "i": 19.6,
+      "i": 19.5525,
       "iText": "3–6 mnd",
       "b": null,
       "k": "concrete",
       "s": "Gepubliceerde bandbreedte voor Hof van Twente.",
       "u": "https://www.reggedok.nl/aanmelden/",
       "date": "2026-07-02",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "checkedAt": "2026-08-07T05:50:05.428Z"
     },
     {
       "p": "Reggedok",
@@ -2383,16 +2491,17 @@
         "Gezinsbehandeling"
       ],
       "c": "Samen14/Jeugd + Wmo",
-      "i": 26.1,
+      "i": 26.07,
       "iText": "6 mnd",
       "b": null,
       "k": "concrete",
       "s": "Gepubliceerde wachttijd.",
       "u": "https://www.reggedok.nl/aanmelden/",
       "date": "2026-07-02",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "checkedAt": "2026-08-07T05:50:05.428Z"
     },
     {
       "p": "Reggedok",
@@ -2410,16 +2519,17 @@
         "Vaktherapie"
       ],
       "c": "Samen14/Jeugd + Wmo",
-      "i": 13,
+      "i": 13.035,
       "iText": "2–4 mnd",
       "b": null,
       "k": "concrete",
       "s": "Gepubliceerde bandbreedte.",
       "u": "https://www.reggedok.nl/aanmelden/",
       "date": "2026-07-02",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "checkedAt": "2026-08-07T05:50:05.428Z"
     },
     {
       "p": "Reggedok",
@@ -2443,9 +2553,11 @@
       "s": "Er is geen wachtlijst voor muziektherapie.",
       "u": "https://www.reggedok.nl/aanmelden/",
       "date": "2026-07-02",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "iText": null,
+      "checkedAt": "2026-08-07T05:50:05.428Z"
     },
     {
       "p": "Reggedok",
@@ -2463,16 +2575,17 @@
         "Vaktherapie"
       ],
       "c": "Samen14/Jeugd + Wmo",
-      "i": 19.6,
+      "i": 19.5525,
       "iText": "3–6 mnd",
       "b": null,
       "k": "concrete",
       "s": "Gepubliceerde bandbreedte.",
       "u": "https://www.reggedok.nl/aanmelden/",
       "date": "2026-07-02",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "checkedAt": "2026-08-07T05:50:05.428Z"
     },
     {
       "p": "Reggedok",
@@ -2491,16 +2604,17 @@
         "Systeemtherapie"
       ],
       "c": "Samen14/Jeugd + Wmo",
-      "i": 23.9,
+      "i": 23.897499999999997,
       "iText": "5–6 mnd",
       "b": null,
       "k": "concrete",
       "s": "Gepubliceerde bandbreedte.",
       "u": "https://www.reggedok.nl/aanmelden/",
       "date": "2026-07-02",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "checkedAt": "2026-08-07T05:50:05.428Z"
     },
     {
       "p": "Reggedok",
@@ -2518,16 +2632,17 @@
         "Psychologisch onderzoek"
       ],
       "c": "Samen14/Jeugd + Wmo",
-      "i": 19.6,
+      "i": 19.5525,
       "iText": "4–5 mnd",
       "b": null,
       "k": "concrete",
       "s": "Gepubliceerde bandbreedte.",
       "u": "https://www.reggedok.nl/aanmelden/",
       "date": "2026-07-02",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "checkedAt": "2026-08-07T05:50:05.428Z"
     },
     {
       "p": "TUORO Zorg B.V.",
@@ -2563,8 +2678,9 @@
       "u": "https://tuoro.nl/",
       "date": "2026-08-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.433Z"
     },
     {
       "p": "Helderzorg B.V.",
@@ -2596,8 +2712,9 @@
       "u": "https://www.helderzorg.nl/ambulante-jeugdhulp/",
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.433Z"
     },
     {
       "p": "Het Huis van de Straat B.V.",
@@ -2623,8 +2740,9 @@
       "u": "https://hethuisvandestraat.nl/",
       "date": "2026-08-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.433Z"
     },
     {
       "p": "Ambiq",
@@ -2654,10 +2772,11 @@
         "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
       ],
-      "date": "2026-08-06",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "date": "2026-07-30",
+      "live": true,
+      "checked": true,
+      "refreshState": "updated",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Ambiq",
@@ -2687,8 +2806,9 @@
       ],
       "date": "2026-04-22",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Ambiq",
@@ -2718,8 +2838,9 @@
       ],
       "date": "2026-04-22",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Ambiq",
@@ -2749,8 +2870,9 @@
       ],
       "date": "2026-04-22",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Ambiq",
@@ -2781,8 +2903,9 @@
       ],
       "date": "2026-04-22",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Ambiq",
@@ -2812,8 +2935,9 @@
       ],
       "date": "2026-04-22",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Ambiq",
@@ -2843,8 +2967,9 @@
       ],
       "date": "2026-04-22",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Ambiq",
@@ -2874,8 +2999,9 @@
       ],
       "date": "2026-04-22",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Ambiq",
@@ -2910,8 +3036,9 @@
       ],
       "date": "2026-04-22",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Ambiq",
@@ -2942,8 +3069,9 @@
       ],
       "date": "2026-04-22",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Ambiq",
@@ -2973,8 +3101,9 @@
       ],
       "date": "2026-04-22",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Ambiq",
@@ -3005,8 +3134,9 @@
       ],
       "date": "2026-04-22",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Ambiq",
@@ -3042,8 +3172,9 @@
       ],
       "date": "2026-04-22",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Ambiq",
@@ -3074,8 +3205,9 @@
       ],
       "date": "2026-04-22",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Ambiq",
@@ -3106,8 +3238,9 @@
       ],
       "date": "2026-04-22",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Ambiq",
@@ -3136,8 +3269,9 @@
       ],
       "date": "2026-04-22",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Ambiq",
@@ -3167,8 +3301,9 @@
       ],
       "date": "2026-08-06",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.430Z"
     },
     {
       "p": "Stichting Pactum",
@@ -3198,8 +3333,9 @@
       "u": "https://www.pactum.org/",
       "date": "2026-08-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.434Z"
     },
     {
       "p": "Stichting Timon",
@@ -3254,8 +3390,9 @@
       "u": "https://www.samen14.nl/",
       "date": "2026-08-05",
       "live": false,
-      "checked": false,
-      "refreshState": "embedded"
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.434Z"
     },
     {
       "p": "FamilySupporters Twente",
@@ -3288,7 +3425,11 @@
       "k": "concrete",
       "s": "FamilySupporters Twente publiceert circa 10 weken wachttijd voor jeugdhulp. Het team biedt diagnostiek, gezins- en systeembehandeling en vaktherapie, waaronder speltherapie, PMT en dans- en bewegingstherapie.",
       "u": "https://familysupporters.nl/locatie/twente/",
-      "date": "2026-07-24"
+      "date": "2026-07-24",
+      "live": false,
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.434Z"
     },
     {
       "p": "De Korenschoof Samen Groeien",
@@ -3318,7 +3459,11 @@
         "https://dkspelentherapie.nl/wachttijden/",
         "https://dekorenschoof.nl/samen-groeien/behandeling-therapie/speltherapie/"
       ],
-      "date": "2025-07-01"
+      "date": "2025-07-01",
+      "live": false,
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.435Z"
     },
     {
       "p": "De Korenschoof Samen Groeien",
@@ -3348,7 +3493,11 @@
         "https://dkspelentherapie.nl/wachttijden/",
         "https://dekorenschoof.nl/samen-groeien/behandeling-therapie/speltherapie/"
       ],
-      "date": "2025-07-01"
+      "date": "2025-07-01",
+      "live": false,
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.435Z"
     },
     {
       "p": "De Korenschoof Samen Groeien",
@@ -3378,7 +3527,11 @@
         "https://dkspelentherapie.nl/wachttijden/",
         "https://dekorenschoof.nl/samen-groeien/behandeling-therapie/speltherapie/"
       ],
-      "date": "2025-07-01"
+      "date": "2025-07-01",
+      "live": false,
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.435Z"
     },
     {
       "p": "De Korenschoof Samen Groeien",
@@ -3400,7 +3553,11 @@
       "k": "concrete",
       "s": "De Korenschoof publiceerde 12 weken aanmeldwachttijd voor PMT in Oldenzaal; na de intake kan behandeling vaak direct starten. De gepubliceerde peildatum is 1 juli 2025 en moet daarom vóór verwijzing worden gecontroleerd.",
       "u": "https://dkspelentherapie.nl/wachttijden/",
-      "date": "2025-07-01"
+      "date": "2025-07-01",
+      "live": false,
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.435Z"
     },
     {
       "p": "De Twentse Zorgcentra",
@@ -3427,12 +3584,13 @@
       "k": "unknown",
       "s": "De Twentse Zorgcentra biedt speltherapie aan cliënten met een verstandelijke beperking. Daarnaast zijn PMT en muziektherapie beschikbaar. Er is geen openbare uniforme actuele wachttijd gevonden.",
       "u": "https://www.detwentsezorgcentra.nl/behandeling-en-expertise/speltherapie/",
-      "date": "2026-08-06"
+      "date": "2026-08-06",
+      "live": false,
+      "checked": true,
+      "refreshState": "checked",
+      "checkedAt": "2026-08-07T05:50:05.435Z"
     }
   ],
-  "summary": {
-    "rows": 120,
-    "providers": 50
-  },
-  "report": "Nog geen automatische broncontrole uitgevoerd."
+  "summary": "57 bronpagina’s benaderd. 36 regels zijn betrouwbaar bijgewerkt; overige opgehaalde pagina’s zijn gecontroleerd zonder onzekere waarden te overschrijven.",
+  "report": "✓ DOPPA jeugd behandeling: 1 regel(s) bijgewerkt\n✓ DOPPA jeugd diagnostiek: 1 regel(s) bijgewerkt\n✓ Accare Hengelo: 1 regel(s) bijgewerkt\n✓ ZMTwente: 2 regel(s) bijgewerkt\n✓ Mediant Depressieve-stemmingsstoornissen: 1 regel(s) bijgewerkt\n✓ Mediant Eetstoornissen / BalanZ: 1 regel(s) bijgewerkt\n✓ Mediant Persoonlijkheidsstoornissen: 1 regel(s) bijgewerkt\n✓ Jarabee Individuele behandeling: 1 regel(s) bijgewerkt\n✓ Jarabee IAG: 1 regel(s) bijgewerkt\n✓ Tactus Enschede: 2 regel(s) bijgewerkt\n✓ Esther Boonk jeugd: 1 regel(s) bijgewerkt\n✓ Esther Boonk volwassenen: 1 regel(s) bijgewerkt\n✓ at.zorg volwassenen: 1 regel(s) bijgewerkt\n✓ HK Zorg diagnostiek/behandeling: 1 regel(s) bijgewerkt\n✓ HK Zorg medicatie: 1 regel(s) bijgewerkt\n✓ Praktijk De Poel regulier: 1 regel(s) bijgewerkt\n✓ Praktijk De Poel thuiszitters: 1 regel(s) bijgewerkt\n✓ InZicht spoed: 1 regel(s) bijgewerkt\n✓ Curess regulier: 1 regel(s) bijgewerkt\n✓ Curess spoed: 1 regel(s) bijgewerkt\n✓ Forza Diagnostiek: 1 regel(s) bijgewerkt\n✓ Forza Individuele behandeling: 1 regel(s) bijgewerkt\n✓ Forza Gezinsbehandeling: 1 regel(s) bijgewerkt\n✓ Forza Individuele begeleiding: 1 regel(s) bijgewerkt\n✓ Reggedok Individuele begeleiding: 1 regel(s) bijgewerkt\n✓ Reggedok Muziektherapie: 1 regel(s) bijgewerkt\n✓ Reggedok Psychomotorische therapie Rijssen-Holten: 1 regel(s) bijgewerkt\n✓ Reggedok Psychomotorische therapie Hof van Twente: 1 regel(s) bijgewerkt\n✓ Reggedok Systeemtherapie: 1 regel(s) bijgewerkt\n✓ Reggedok Sensorische integratietherapie: 1 regel(s) bijgewerkt\n✓ Reggedok Beeldende therapie: 1 regel(s) bijgewerkt\n✓ Reggedok Psychologische behandeling: 1 regel(s) bijgewerkt\n✓ Reggedok Diagnostiek: 1 regel(s) bijgewerkt\n• Ambiq: therapie- en productaanbod gecontroleerd; geen onbetrouwbare productspecifieke getallen overgenomen.\n✓ Ambiq spoed: 1 regel(s) bijgewerkt\n• Beschikbaarheidswijzer Twente: categorieën en zorgvormen gecontroleerd. Alleen eenduidig aan een aanbieder/product gekoppelde waarden worden overgenomen.\n• Pluryn: gecontroleerd; geen uniforme openbare termijn\n✗ https://boncura.nl/wachttijden/: curl: (28) Failed to connect to boncura.nl port 443 after 4000 ms: Timeout was reached\n✗ https://www.dyslexiecentrumtwente.nl/: curl: (6) Could not resolve host: www.dyslexiecentrumtwente.nl\n✗ https://www.instituutnijenkamp.nl/: curl: (6) Could not resolve host: www.instituutnijenkamp.nl\n✗ https://www.pmte.nl/: curl: (6) Could not resolve host: www.pmte.nl\n✗ https://www.tzeggelt.nl/: curl: (6) Could not resolve host: www.tzeggelt.nl\n✗ https://www.jeugdpraktijkijsselgroep.nl/wachttijden: curl: (28) Failed to connect to www.jeugdpraktijkijsselgroep.nl port 443 after 4001 ms: Timeout was reached\n✗ https://www.timon.nl/: curl: (22) The requested URL returned error: 403\n✗ https://dkspelentherapie.nl/wachttijden/: curl: (60) SSL certificate problem: certificate has expired\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above."
 }
