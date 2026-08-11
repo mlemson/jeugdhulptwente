@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T19:45:00.000Z",
+  "generatedAt": "2026-08-11T19:55:31.973Z",
   "rows": [
     {
       "p": "DOPPA zorg",
@@ -199,12 +199,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Openbare wachtlijstpagina gevonden, maar de waarden waren niet betrouwbaar uit de paginaweergave te halen. Open de bron voor de actuele tabel. De website is bereikbaar voor bezoekers, maar automatische servercontrole kan door netwerk- of botbeveiliging mislukken.",
+      "s": "Openbare wachtlijstpagina gevonden, maar de waarden waren niet betrouwbaar uit de paginaweergave te halen. Open de bron voor de actuele tabel. De website is bereikbaar voor bezoekers, maar automatische servercontrole kan door netwerk- of botbeveiliging mislukken. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://boncura.nl/",
       "date": "2026-06-10",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://boncura.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Boncura",
@@ -331,12 +335,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Intake en soms diagnostiek in Enschede; behandeling vaak op de Helios-locatie in Oldenzaal. Geen concrete openbare wachttijd gevonden.",
+      "s": "Intake en soms diagnostiek in Enschede; behandeling vaak op de Helios-locatie in Oldenzaal. Geen concrete openbare wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://kidsclinic.nl/specialismen/ggz-kind-jeugd/",
       "date": "2026-08-05",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://kidsclinic.nl/specialismen/ggz-kind-jeugd/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Karakter",
@@ -477,12 +485,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Mediant meldt voor jeugd een langere wachttijd en vraagt telefonisch contact voor de actuele stand. Het jeugdteam biedt individuele, systeemgerichte, medicamenteuze, groeps- en vaktherapeutische behandeling.",
+      "s": "Mediant meldt voor jeugd een langere wachttijd en vraagt telefonisch contact voor de actuele stand. Het jeugdteam biedt individuele, systeemgerichte, medicamenteuze, groeps- en vaktherapeutische behandeling. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://mediant.nl/jeugd/behandeling",
       "date": "2026-08-05",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://mediant.nl/jeugd/behandeling",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Mediant",
@@ -845,9 +857,10 @@
       "b": null,
       "bText": "In overleg",
       "k": "route",
-      "s": "Jarabee publiceert de beschikbaarheid van de driemilieusvoorzieningen als ‘in overleg’.",
+      "s": "Jarabee publiceert de beschikbaarheid van de driemilieusvoorzieningen als ‘in overleg’. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
       "us": [
+        "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
         "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
       ],
@@ -904,9 +917,10 @@
       "b": null,
       "bText": "In overleg",
       "k": "route",
-      "s": "Jarabee publiceert de beschikbaarheid van gezinshuizen als ‘in overleg’.",
+      "s": "Jarabee publiceert de beschikbaarheid van gezinshuizen als ‘in overleg’. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
       "us": [
+        "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
         "https://www.jarabee.nl/index.php/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
       ],
@@ -935,9 +949,10 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Jarabee beschrijft meerdere vormen van onderzoek en diagnostiek, maar publiceert hiervoor op de openbare wachttijdenpagina geen afzonderlijke termijn.",
+      "s": "Jarabee beschrijft meerdere vormen van onderzoek en diagnostiek, maar publiceert hiervoor op de openbare wachttijdenpagina geen afzonderlijke termijn. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.jarabee.nl/behandelaanbod",
       "us": [
+        "https://www.jarabee.nl/behandelaanbod",
         "https://www.jarabee.nl/behandelaanbod",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
       ],
@@ -1063,12 +1078,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Aveleijn biedt in Twente zorg vanuit onder meer Jeugdwet en Wmo. Voor jeugd zijn individuele en groepsgerichte begeleiding, dagbehandeling/KDC, diagnostiek, behandeling en IAG beschreven. Beschikbaarheid verschilt per voorziening.",
+      "s": "Aveleijn biedt in Twente zorg vanuit onder meer Jeugdwet en Wmo. Voor jeugd zijn individuele en groepsgerichte begeleiding, dagbehandeling/KDC, diagnostiek, behandeling en IAG beschreven. Beschikbaarheid verschilt per voorziening. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.aveleijn.nl/professionals/zorgaanbod/ondersteuning-voor-kinderen",
       "date": "2026-08-06",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://www.aveleijn.nl/professionals/zorgaanbod/ondersteuning-voor-kinderen",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "RIBW Overijssel",
@@ -1752,12 +1771,16 @@
       "i": null,
       "b": null,
       "k": "route",
-      "s": "InZicht meldt ruimte voor aanmeldingen en een korte wachtlijst voor therapie, behandeling en begeleiding. Er is geen concrete termijn in weken gepubliceerd.",
+      "s": "InZicht meldt ruimte voor aanmeldingen en een korte wachtlijst voor therapie, behandeling en begeleiding. Er is geen concrete termijn in weken gepubliceerd. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.inzichttwente.nl/bij-inzicht-twente-hebben-wij-op-dit-moment-ruimte-voor-nieuwe-aanmeldingen-voor-therapie/",
       "date": "2026-08-06",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://www.inzichttwente.nl/bij-inzicht-twente-hebben-wij-op-dit-moment-ruimte-voor-nieuwe-aanmeldingen-voor-therapie/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "InZicht Twente",
@@ -1906,12 +1929,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Gecontracteerd voor ernstige dyslexie. Geen eenduidige openbare actuele wachttijd gevonden.",
+      "s": "Gecontracteerd voor ernstige dyslexie. Geen eenduidige openbare actuele wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://dctwente.nl/",
       "date": "2026-08-06",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://dctwente.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Instituut Nijenkamp",
@@ -1929,12 +1956,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Gecontracteerde aanbieder uit het Samen14-overzicht. Geen betrouwbare openbare actuele wachttijd gevonden.",
+      "s": "Gecontracteerde aanbieder uit het Samen14-overzicht. Geen betrouwbare openbare actuele wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.nijenkamp.nl/",
       "date": "2026-08-06",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://www.nijenkamp.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Pienter&Co",
@@ -1952,12 +1983,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Gecontracteerde aanbieder uit het Samen14-overzicht. Geen betrouwbare openbare actuele wachttijd gevonden.",
+      "s": "Gecontracteerde aanbieder uit het Samen14-overzicht. Geen betrouwbare openbare actuele wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.pienterenco.nl/",
       "date": "2026-08-06",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://www.pienterenco.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Jeugdx",
@@ -1975,12 +2010,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Gecontracteerde aanbieder met meerdere ambulante jeugdproducten. Geen centrale openbare actuele wachttijd gevonden.",
+      "s": "Gecontracteerde aanbieder met meerdere ambulante jeugdproducten. Geen centrale openbare actuele wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.jeugdx.nl/",
       "date": "2026-08-06",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://www.jeugdx.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Senzor",
@@ -1997,12 +2036,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Gecontracteerde aanbieder uit het Samen14-overzicht. Geen betrouwbare openbare actuele wachttijd gevonden.",
+      "s": "Gecontracteerde aanbieder uit het Samen14-overzicht. Geen betrouwbare openbare actuele wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.senzor.nl/",
       "date": "2026-08-06",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://www.senzor.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Psychomotorische Therapie Praktijk Enschede",
@@ -2025,12 +2068,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "PMT Enschede biedt psychomotorische therapie, psychomotorische systeemtherapie en sensorische integratie. Jeugdwetbehandeling is mogelijk via samenwerking met hoofdaannemer PVO ’t Zeggelt. Geen actuele openbare wachttijd gevonden.",
+      "s": "PMT Enschede biedt psychomotorische therapie, psychomotorische systeemtherapie en sensorische integratie. Jeugdwetbehandeling is mogelijk via samenwerking met hoofdaannemer PVO ’t Zeggelt. Geen actuele openbare wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://pmt-enschede.nl/",
       "date": "2026-08-06",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://pmt-enschede.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Praktijk voor Orthopedagogiek 't Zeggelt",
@@ -2079,12 +2126,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Gecontracteerde hoofdaannemer. Geen betrouwbare openbare actuele wachttijd gevonden.",
+      "s": "Gecontracteerde hoofdaannemer. Geen betrouwbare openbare actuele wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.cuidate.nl/",
       "date": "2026-08-06",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://www.cuidate.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "MentalScope",
@@ -2111,12 +2162,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "MentalScope beschrijft CGT, ACT, EMDR, PMT, MBCT/mindfulness en RET. Voor het precieze jeugdteam, leeftijdsbereik en de actuele wachttijd moet de aanbieder worden geraadpleegd.",
+      "s": "MentalScope beschrijft CGT, ACT, EMDR, PMT, MBCT/mindfulness en RET. Voor het precieze jeugdteam, leeftijdsbereik en de actuele wachttijd moet de aanbieder worden geraadpleegd. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://mentalscope.nl/psycholoog/behandeling/",
       "date": "2026-08-06",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://mentalscope.nl/psycholoog/behandeling/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Stichting Pluryn",
@@ -2152,12 +2207,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Pluryn heeft een locatie in Almelo en biedt onder meer wonen met begeleiding, crisisopvang, diagnostiek, behandeling, dagbehandeling en specialistische jeugdzorg. De aanbieder vermeldt dat wachttijden per product fluctueren en via het Klantenbureau moeten worden opgevraagd.",
+      "s": "Pluryn heeft een locatie in Almelo en biedt onder meer wonen met begeleiding, crisisopvang, diagnostiek, behandeling, dagbehandeling en specialistische jeugdzorg. De aanbieder vermeldt dat wachttijden per product fluctueren en via het Klantenbureau moeten worden opgevraagd. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.pluryn.nl/hoe-helpen-wij/wanneer-start-de-zorg",
       "date": "2026-08-05",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://www.pluryn.nl/hoe-helpen-wij/wanneer-start-de-zorg",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Praktijk Forza B.V.",
@@ -2544,12 +2603,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "TUORO biedt diagnostiek, behandeling en ambulante begeleiding aan kinderen en volwassenen in alle veertien Twentse gemeenten. Geen concrete openbare actuele wachttijd gevonden.",
+      "s": "TUORO biedt diagnostiek, behandeling en ambulante begeleiding aan kinderen en volwassenen in alle veertien Twentse gemeenten. Geen concrete openbare actuele wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://tuoro.nl/",
       "date": "2026-08-05",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://tuoro.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Helderzorg B.V.",
@@ -2577,12 +2640,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Helderzorg beschrijft begeleiding in de leefomgeving, ondersteuning van ouders en jeugdigen, begeleide omgang en intensieve praktische ondersteuning. De website beschrijft geen diagnostiek of GGZ-behandeling.",
+      "s": "Helderzorg beschrijft begeleiding in de leefomgeving, ondersteuning van ouders en jeugdigen, begeleide omgang en intensieve praktische ondersteuning. De website beschrijft geen diagnostiek of GGZ-behandeling. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.helderzorg.nl/ambulante-jeugdhulp/",
       "date": "2026-08-06",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://www.helderzorg.nl/ambulante-jeugdhulp/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Het Huis van de Straat B.V.",
@@ -2604,12 +2671,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Kleinschalige 24-uurszorg. Het Huis en De Horizon hebben elk 9 perspectiefplekken; De Brug heeft 8 observatie- en behandelplaatsen. Geen openbare actuele beschikbaarheid gevonden.",
+      "s": "Kleinschalige 24-uurszorg. Het Huis en De Horizon hebben elk 9 perspectiefplekken; De Brug heeft 8 observatie- en behandelplaatsen. Geen openbare actuele beschikbaarheid gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://hethuisvandestraat.nl/",
       "date": "2026-08-05",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://hethuisvandestraat.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Ambiq",
@@ -2663,9 +2734,10 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Ambiq biedt diagnostiek en observatie/diagnostiek. De openbare wachttijdenpagina toont dynamische productwaarden, maar de uitgelezen tekst koppelt het getal niet betrouwbaar aan dit specifieke product; daarom wordt geen termijn gegokt.",
+      "s": "Ambiq biedt diagnostiek en observatie/diagnostiek. De openbare wachttijdenpagina toont dynamische productwaarden, maar de uitgelezen tekst koppelt het getal niet betrouwbaar aan dit specifieke product; daarom wordt geen termijn gegokt. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.ambiq.nl/verwijzers/wachttijden",
       "us": [
+        "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
@@ -2694,9 +2766,10 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Speltherapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "s": "Speltherapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
       "us": [
+        "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
         "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
         "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
@@ -2725,9 +2798,10 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Beeldende therapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "s": "Beeldende therapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
       "us": [
+        "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
         "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
         "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
@@ -2757,9 +2831,10 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Cognitieve gedragstherapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "s": "Cognitieve gedragstherapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
       "us": [
+        "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
         "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
         "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
@@ -2788,9 +2863,10 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "EMDR en intensieve traumabehandeling staan in het Ambiq-aanbod. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "s": "EMDR en intensieve traumabehandeling staan in het Ambiq-aanbod. Er is geen veilig uitleesbare productspecifieke termijn gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
       "us": [
+        "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
         "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
         "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
@@ -2819,9 +2895,10 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Psychomotorische therapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "s": "Psychomotorische therapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
       "us": [
+        "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
         "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
         "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
@@ -2850,9 +2927,10 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Systeemtherapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "s": "Systeemtherapie staat als behandelproduct bij de Ambiq-poli in Enschede en op de wachttijdenpagina. Er is geen veilig uitleesbare productspecifieke termijn gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
       "us": [
+        "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
         "https://www.ambiq.nl/locaties/35/spinnerstraat-31",
         "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
@@ -2887,9 +2965,10 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Ambiq publiceert meerdere intensieve ambulante systeem- en gezinsinterventies. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "s": "Ambiq publiceert meerdere intensieve ambulante systeem- en gezinsinterventies. Er is geen veilig uitleesbare productspecifieke termijn gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.ambiq.nl/verwijzers/wachttijden",
       "us": [
+        "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
       ],
@@ -2918,9 +2997,10 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Ambiq biedt naschoolse dagbehandeling in Twente. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "s": "Ambiq biedt naschoolse dagbehandeling in Twente. Er is geen veilig uitleesbare productspecifieke termijn gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.ambiq.nl/wat-we-doen",
       "us": [
+        "https://www.ambiq.nl/wat-we-doen",
         "https://www.ambiq.nl/wat-we-doen",
         "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
@@ -2950,9 +3030,10 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Ambiq vermeldt observatie en diagnostiek met opname als product. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "s": "Ambiq vermeldt observatie en diagnostiek met opname als product. Er is geen veilig uitleesbare productspecifieke termijn gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.ambiq.nl/verwijzers/wachttijden",
       "us": [
+        "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
       ],
@@ -2982,9 +3063,10 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "FACT staat als intensieve ambulante behandelvorm in de Twentse productindeling en het Ambiq-aanbod. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "s": "FACT staat als intensieve ambulante behandelvorm in de Twentse productindeling en het Ambiq-aanbod. Er is geen veilig uitleesbare productspecifieke termijn gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.ambiq.nl/verwijzers/wachttijden",
       "us": [
+        "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
       ],
@@ -3019,9 +3101,10 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Ambiq publiceert meerdere specialistische LVB-behandelingen en trainingen. Deze termen zijn afzonderlijk doorzoekbaar; er is geen veilig uitleesbare productspecifieke wachttijd gevonden.",
+      "s": "Ambiq publiceert meerdere specialistische LVB-behandelingen en trainingen. Deze termen zijn afzonderlijk doorzoekbaar; er is geen veilig uitleesbare productspecifieke wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.ambiq.nl/verwijzers/wachttijden",
       "us": [
+        "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
       ],
@@ -3051,9 +3134,10 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Ouder-kindbehandeling staat als Ambiq-product vermeld. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "s": "Ouder-kindbehandeling staat als Ambiq-product vermeld. Er is geen veilig uitleesbare productspecifieke termijn gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.ambiq.nl/verwijzers/wachttijden",
       "us": [
+        "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
       ],
@@ -3083,9 +3167,10 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Trainingshuis staat als Ambiq-product vermeld. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "s": "Trainingshuis staat als Ambiq-product vermeld. Er is geen veilig uitleesbare productspecifieke termijn gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.ambiq.nl/verwijzers/wachttijden",
       "us": [
+        "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
       ],
@@ -3113,9 +3198,10 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Specialistisch gezinshuis staat als Ambiq-product vermeld. Er is geen veilig uitleesbare productspecifieke termijn gevonden.",
+      "s": "Specialistisch gezinshuis staat als Ambiq-product vermeld. Er is geen veilig uitleesbare productspecifieke termijn gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.ambiq.nl/verwijzers/wachttijden",
       "us": [
+        "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://www.ambiq.nl/verwijzers/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
       ],
@@ -3179,12 +3265,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Pactum staat als hoofdaannemer in het Samen14-overzicht. Het actuele Twentse aanbod en de wachttijd verschillen per traject en moeten bij de aanbieder worden gecontroleerd.",
+      "s": "Pactum staat als hoofdaannemer in het Samen14-overzicht. Het actuele Twentse aanbod en de wachttijd verschillen per traject en moeten bij de aanbieder worden gecontroleerd. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.pactum.org/",
       "date": "2026-08-05",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://www.pactum.org/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Stichting Timon",
@@ -3207,12 +3297,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Timon is gecontracteerd voor ambulante jeugdhulp. Welke woon- en begeleidingstrajecten vanuit Twente toegankelijk zijn en wat de wachttijd is, moet per aanmelding worden gecontroleerd.",
+      "s": "Timon is gecontracteerd voor ambulante jeugdhulp. Welke woon- en begeleidingstrajecten vanuit Twente toegankelijk zijn en wat de wachttijd is, moet per aanmelding worden gecontroleerd. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.timon.nl/",
       "date": "2026-08-05",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://www.timon.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Stichting Woonbegeleiding Jong Volwassenen",
@@ -3235,12 +3329,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "Gecontracteerde Twentse aanbieder gericht op woonbegeleiding van jongvolwassenen. Geen openbare actuele wachttijd gevonden.",
+      "s": "Gecontracteerde Twentse aanbieder gericht op woonbegeleiding van jongvolwassenen. Geen openbare actuele wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.samen14.nl/",
       "date": "2026-08-05",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "us": [
+        "https://www.samen14.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ]
     },
     {
       "p": "Praktijk Juno",
@@ -3269,7 +3367,10 @@
       "k": "concrete",
       "s": "Praktijk Juno publiceert voor behandeling een geschatte wachttijd van 6–8 weken. Telefonisch contact over de aanmelding volgt doorgaans binnen 1–2 weken.",
       "u": "https://praktijkjuno.nl/wachttijden/",
-      "date": "2026-08-11"
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
     },
     {
       "p": "Praktijk Juno",
@@ -3293,7 +3394,10 @@
       "k": "concrete",
       "s": "Praktijk Juno publiceert voor onderzoek een geschatte wachttijd van 16–26 weken.",
       "u": "https://praktijkjuno.nl/wachttijden/",
-      "date": "2026-08-11"
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
     },
     {
       "p": "Praktijk Asgard",
@@ -3324,7 +3428,10 @@
       "k": "concrete",
       "s": "Praktijk Asgard vermeldt een wachttijd van 12–16 weken voor de start van het intakegesprek en behandeling. De praktijk noemt binnen Twente contracten met Hellendoorn en Twenterand.",
       "u": "https://praktijkasgard.nl/contact/veelgestelde-vragen/",
-      "date": "2026-08-11"
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
     },
     {
       "p": "Behandelcentrum Twente",
@@ -3356,9 +3463,16 @@
       "i": null,
       "b": null,
       "k": "route",
-      "s": "Voor Jeugdwet (16–18 jaar) meldt Behandelcentrum Twente momenteel een korte aanmeldstop. Bij open aanmelding is de intake doorgaans circa 4 weken en diagnostiek/behandeling kan aansluitend of na enkele weken starten.",
+      "s": "Voor Jeugdwet (16–18 jaar) meldt Behandelcentrum Twente momenteel een korte aanmeldstop. Bij open aanmelding is de intake doorgaans circa 4 weken en diagnostiek/behandeling kan aansluitend of na enkele weken starten. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.behandelcentrumtwente.nl/aanmelden/",
-      "date": "2026-08-11"
+      "date": "2026-08-11",
+      "us": [
+        "https://www.behandelcentrumtwente.nl/aanmelden/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
     },
     {
       "p": "Richelle Horstman Orthopedagogiek",
@@ -3387,7 +3501,10 @@
       "k": "unknown",
       "s": "Praktijk in Enschede voor diagnostiek en behandeling van kinderen en jongeren tot 21 jaar. Er is geen eenduidige openbare actuele wachttijd gevonden; controleer financiering en toegang vooraf.",
       "u": "https://richellehorstman.nl/",
-      "date": "2026-08-11"
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
     },
     {
       "p": "Praktijk Ontdek",
@@ -3412,7 +3529,10 @@
       "k": "unknown",
       "s": "Kleinschalige praktijk voor orthopedagogiek in Hengelo, onderdeel van Perron 7. Geen eenduidige openbare actuele wachttijd gevonden; controleer financiering en toegang vooraf.",
       "u": "https://praktijk-ontdek.nl/orthopedagogiek-in-hengelo/",
-      "date": "2026-08-11"
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
     },
     {
       "p": "Psychologische Dienstverlening IJsselgroep",
@@ -3434,7 +3554,10 @@
       "k": "concrete",
       "s": "Voor regio Twente publiceert Jeugdpraktijk IJsselgroep 10 weken voor dyslexiediagnostiek.",
       "u": "https://www.jeugdpraktijkijsselgroep.nl/wachttijden",
-      "date": "2026-06-03"
+      "date": "2026-06-03",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
     },
     {
       "p": "Psychologische Dienstverlening IJsselgroep",
@@ -3456,7 +3579,10 @@
       "k": "concrete",
       "s": "Voor regio Twente publiceert Jeugdpraktijk IJsselgroep 10 weken voor dyslexiebehandeling.",
       "u": "https://www.jeugdpraktijkijsselgroep.nl/wachttijden",
-      "date": "2026-06-03"
+      "date": "2026-06-03",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
     },
     {
       "p": "FamilySupporters Twente",
@@ -3483,7 +3609,10 @@
       "k": "concrete",
       "s": "FamilySupporters Twente publiceert ongeveer 10 weken wachttijd voor jeugdhulp; laatst bijgewerkt op 24 juli 2026. Het Twentse team biedt onder meer speltherapie.",
       "u": "https://familysupporters.nl/locatie/twente/",
-      "date": "2026-07-24"
+      "date": "2026-07-24",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
     },
     {
       "p": "De Korenschoof Samen Groeien",
@@ -3510,9 +3639,16 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "De Korenschoof Samen Groeien biedt ambulante hulp, jeugdpsychologische hulp en speltherapie. De oude Spel & Therapie-site publiceerde 12 weken (peildatum 1 juli 2025), maar die waarde is te oud om als actuele wachttijd te tonen. Controleer de actuele beschikbaarheid rechtstreeks.",
+      "s": "De Korenschoof Samen Groeien biedt ambulante hulp, jeugdpsychologische hulp en speltherapie. De oude Spel & Therapie-site publiceerde 12 weken (peildatum 1 juli 2025), maar die waarde is te oud om als actuele wachttijd te tonen. Controleer de actuele beschikbaarheid rechtstreeks. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://dekorenschoof.nl/samen-groeien/behandeling-therapie/speltherapie/",
-      "date": "2026-08-11"
+      "date": "2026-08-11",
+      "us": [
+        "https://dekorenschoof.nl/samen-groeien/behandeling-therapie/speltherapie/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
     },
     {
       "p": "De Twentse Zorgcentra",
@@ -3534,11 +3670,692 @@
       "i": null,
       "b": null,
       "k": "unknown",
-      "s": "De Twentse Zorgcentra biedt speltherapie en daarnaast psychomotorische therapie en muziektherapie voor cliënten met een verstandelijke beperking. Geen uniforme actuele openbare wachttijd gevonden.",
+      "s": "De Twentse Zorgcentra biedt speltherapie en daarnaast psychomotorische therapie en muziektherapie voor cliënten met een verstandelijke beperking. Geen uniforme actuele openbare wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
       "u": "https://www.detwentsezorgcentra.nl/behandeling-en-expertise/speltherapie/",
-      "date": "2026-08-11"
+      "date": "2026-08-11",
+      "us": [
+        "https://www.detwentsezorgcentra.nl/behandeling-en-expertise/speltherapie/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Mentaal Losser",
+      "w": "Jeugdbehandeling",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Losser / Overdinkel",
+      "d": "Jeugd",
+      "e": [
+        "Jeugd-GGZ",
+        "Psychologie",
+        "Orthopedagogiek",
+        "Behandeling",
+        "Angst",
+        "Depressie / stemming",
+        "Gedragsproblemen",
+        "Opvoeding",
+        "Systeem"
+      ],
+      "c": "Samen14/Jeugd (contractlijst)",
+      "i": null,
+      "b": 8,
+      "k": "concrete",
+      "s": "Mentaal Losser publiceert voor Jeugd GGZ gemiddeld 8 weken wachttijd voor behandeling.",
+      "u": "https://www.mentaallosser.nl/",
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Mentaal Losser",
+      "w": "Diagnostiek",
+      "a": [
+        "Diagnostiek"
+      ],
+      "l": "Losser / Overdinkel",
+      "d": "Jeugd",
+      "e": [
+        "Diagnostiek",
+        "Psychodiagnostiek",
+        "Psychologie",
+        "Orthopedagogiek",
+        "Ontwikkeling",
+        "Gedrag",
+        "Leren"
+      ],
+      "c": "Samen14/Jeugd (contractlijst)",
+      "i": null,
+      "b": 9,
+      "bText": "8–10 wk",
+      "k": "concrete",
+      "s": "Mentaal Losser publiceert voor diagnostiek circa 8–10 weken, afhankelijk van de hulpvraag.",
+      "u": "https://www.mentaallosser.nl/",
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Juventas",
+      "w": "Onderzoek en behandeling",
+      "a": [
+        "Diagnostiek",
+        "Behandeling"
+      ],
+      "l": "Albergen / Twente",
+      "d": "Jeugd",
+      "e": [
+        "Diagnostiek",
+        "Onderzoek",
+        "Behandeling",
+        "ADHD / ADD",
+        "Autisme / ASS",
+        "Angst",
+        "Depressie / stemming",
+        "Gedragsproblemen",
+        "Dwang / OCD",
+        "Opvoeding",
+        "EMDR",
+        "Systeemtherapie"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 5,
+      "iText": "4–6 wk",
+      "b": null,
+      "k": "concrete",
+      "s": "Juventas vermeldt momenteel circa 4–6 werkweken tot een intakegesprek. De praktijk biedt onderzoek en behandeling voor kinderen en jongeren en heeft een contract met Samen14.",
+      "u": "https://juventas-psychologie.nl/contact/",
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "MUZIKO",
+      "w": "Muziektherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Oldenzaal / Enschede",
+      "d": "Jeugd",
+      "e": [
+        "Muziektherapie",
+        "Vaktherapie",
+        "Autisme / ASS",
+        "ADHD / ADD",
+        "LVB",
+        "Angst",
+        "Rouw en verlies",
+        "Depressie / stemming",
+        "Complexe scheiding",
+        "Emotieregulatie",
+        "Sociale vaardigheden"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": 3.5,
+      "bText": "3–4 wk",
+      "k": "concrete",
+      "s": "MUZIKO publiceert momenteel een wachtlijst van ongeveer 3–4 weken. Een intake kan vaak eerder worden ingepland. MUZIKO is gecontracteerd voor Jeugdzorg via Samen14.",
+      "u": "https://www.muziko.nl/contact",
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "PMT De Rots",
+      "w": "PMT / speltherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Wierden / Twente",
+      "d": "Jeugd",
+      "e": [
+        "PMT / psychomotorische therapie",
+        "Psychomotorische kindertherapie",
+        "Speltherapie",
+        "Ouder-Kind PMT",
+        "Ouderbegeleiding",
+        "Emotieregulatie",
+        "Gedrag",
+        "Zelfbeeld"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": 10.86,
+      "bText": "2–3 mnd",
+      "k": "concrete",
+      "s": "PMT De Rots vermeldt voor PMKT een wachttijd van ongeveer 2–3 maanden. De praktijk noemt een overeenkomst met alle 14 Twentse gemeenten en biedt ook speltherapie.",
+      "u": "https://www.pmtderots.nl/informatie",
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Doe Therapie",
+      "w": "PMT / sensorische informatieverwerking",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Enschede / Weerselo",
+      "d": "Jeugd",
+      "e": [
+        "PMT / psychomotorische therapie",
+        "Sensorische informatieverwerking",
+        "Prikkelverwerking",
+        "Groepsbehandeling",
+        "Systeemgericht werken",
+        "Weerbaarheid",
+        "Emotieregulatie",
+        "Gedrag",
+        "Diagnostiek"
+      ],
+      "c": "Samen14/Jeugd (contractlijst)",
+      "i": null,
+      "b": 13.04,
+      "bText": "± 3 mnd",
+      "k": "concrete",
+      "s": "Doe Therapie publiceert voor Enschede en omgeving gemiddeld ongeveer 3 maanden wachttijd. De praktijk biedt PMT, groepsbehandeling en onderzoek/behandeling rond sensorische informatieverwerking.",
+      "u": "https://www.doetherapie.nl/",
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Ineke KleinJan Praktijk voor Beeldende Therapie",
+      "w": "Beeldende therapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Rijssen / Twente",
+      "d": "Jeugd",
+      "e": [
+        "Beeldende therapie",
+        "Vaktherapie",
+        "Creatieve therapie",
+        "Rouw en verlies",
+        "Zelfbeeld",
+        "Emotieregulatie"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Gecontracteerde Samen14-praktijk voor beeldende therapie. Er is geen eenduidige actuele openbare wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
+      "u": "https://www.inekekleinjan-praktijkbeeldendetherapie.nl/informatie/vergoedingen",
+      "date": "2026-08-11",
+      "us": [
+        "https://www.inekekleinjan-praktijkbeeldendetherapie.nl/informatie/vergoedingen",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Het Speelbos",
+      "w": "Speltherapie / EMDR / systeemtherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Borne",
+      "d": "Jeugd",
+      "e": [
+        "Speltherapie",
+        "EMDR",
+        "Trauma / PTSS",
+        "Systeemtherapie",
+        "Ouderbegeleiding",
+        "Opvoeding",
+        "Angst",
+        "Emotieregulatie"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": 24,
+      "k": "concrete",
+      "s": "Het Speelbos in Borne publiceert momenteel een wachtlijst van gemiddeld 24 weken. De praktijk biedt speltherapie, EMDR en systeemtherapie en heeft contracten met alle Samen14-gemeenten.",
+      "u": "https://hetspeelbos.com/hetspeelbos/contact",
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Eenstapjeverder",
+      "w": "Speltherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Vriezenveen / Twente",
+      "d": "Jeugd",
+      "e": [
+        "Speltherapie",
+        "Vaktherapie",
+        "Training",
+        "Coaching",
+        "Emotieregulatie",
+        "Gedrag",
+        "Opvoeding"
+      ],
+      "c": "Samen14/Jeugd (contractlijst)",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Eenstapjeverder is in de Samen14-contractlijst opgenomen voor ambulante jeugdhulp/vaktherapie en is als jeugdzorgaanbieder geregistreerd. Geen betrouwbare actuele openbare wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
+      "u": "https://www.eenstapjeverder.nl/",
+      "date": "2026-08-11",
+      "us": [
+        "https://www.eenstapjeverder.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Praktijk Mio-Mondo",
+      "w": "Therapie en begeleiding",
+      "a": [
+        "Behandeling",
+        "Begeleiding"
+      ],
+      "l": "Rietmolen / Twente ambulant",
+      "d": "Jeugd",
+      "e": [
+        "Speltherapie",
+        "Bewegingstherapie",
+        "Therapeutisch tekenen",
+        "Ouder- en gezinsbegeleiding",
+        "Individuele begeleiding",
+        "Sociaal-emotionele ontwikkeling",
+        "Gedrag",
+        "Weerbaarheid"
+      ],
+      "c": "Jeugdwet Twente",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Praktijk Mio-Mondo biedt therapie en begeleiding aan kinderen, jongeren en ouders en vermeldt raamovereenkomsten met alle Twentse gemeenten. Geen eenduidige actuele openbare wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
+      "u": "https://mio-mondo.nl/jeugd-en-gezinsprofessionals/",
+      "date": "2026-08-11",
+      "us": [
+        "https://mio-mondo.nl/jeugd-en-gezinsprofessionals/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Psychotherapiepraktijk Olthof",
+      "w": "Psychotherapie jeugd",
+      "a": [
+        "Behandeling",
+        "Diagnostiek"
+      ],
+      "l": "Hengelo",
+      "d": "Jeugd",
+      "e": [
+        "Psychotherapie",
+        "Diagnostiek",
+        "Trauma / PTSS",
+        "Angst",
+        "Depressie / stemming",
+        "ADHD / ADD",
+        "Autisme / ASS",
+        "Systeem",
+        "Gezin"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": null,
+      "b": null,
+      "bText": "Aanmeldstop",
+      "k": "route",
+      "s": "Psychotherapiepraktijk Olthof heeft vanaf 2025 een overeenkomst met de 14 Twentse gemeenten. De praktijk meldt momenteel een aanmeldstop voor jeugd en volwassenen. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
+      "u": "https://psychotherapieolthof.nl/praktijkinformatie/",
+      "date": "2026-08-11",
+      "us": [
+        "https://psychotherapieolthof.nl/praktijkinformatie/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Limpers Pedagogisch Advies",
+      "w": "Individuele therapie / systeemgerichte behandeling",
+      "a": [
+        "Behandeling",
+        "Begeleiding"
+      ],
+      "l": "Rijssen / Markelo",
+      "d": "Jeugd",
+      "e": [
+        "EMDR",
+        "Trauma / PTSS",
+        "Cognitieve gedragstherapie",
+        "Creatieve therapie",
+        "Integratieve kindertherapie",
+        "Systeemgericht werken",
+        "Ouderbegeleiding",
+        "Hoogbegaafdheid",
+        "Angst",
+        "Rouw en verlies",
+        "Zelfbeeld"
+      ],
+      "c": "Samen14/Jeugd (contractlijst)",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Limpers Pedagogisch Advies is opgenomen in de Samen14-contractlijst en biedt individuele therapie en systeemgerichte behandeling aan kinderen en jongeren. Geen eenduidige actuele openbare wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
+      "u": "https://annemarielimpers.nl/",
+      "date": "2026-08-11",
+      "us": [
+        "https://annemarielimpers.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Beweegkracht PMT",
+      "w": "Psychomotorische therapie / groepstherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "PMT / psychomotorische therapie",
+        "Vaktherapie",
+        "Groepsbehandeling",
+        "Emotieregulatie",
+        "Zelfvertrouwen",
+        "Angst",
+        "Gedrag"
+      ],
+      "c": "Samen14/Jeugd (contractlijst)",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Beweegkracht biedt PMT aan kinderen en jongeren en staat in de Twentse contractlijst voor vaktherapie. Geen eenduidige actuele wachttijd gevonden op de eigen website. Beschikbaarheidswijzer Twente aanvullend gecontroleerd; geen betrouwbaar openbaar uitleesbare aanbieder-/productspecifieke termijn gevonden.",
+      "u": "https://beweegkracht-pmt.nl/",
+      "us": [
+        "https://beweegkracht-pmt.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Muzizo",
+      "w": "Muziektherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Oldenzaal / Twente",
+      "d": "Jeugd",
+      "e": [
+        "Muziektherapie",
+        "Vaktherapie",
+        "Autisme / ASS",
+        "ADHD / ADD",
+        "Trauma / PTSS",
+        "Gedragsproblemen",
+        "Emotieregulatie",
+        "Verstandelijke beperking"
+      ],
+      "c": "Jeugdwet Twente",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Muzizo biedt individuele en groepsgerichte muziektherapie en heeft contracten met 12 Twentse gemeenten. Geen eenduidige actuele wachttijd gevonden op de eigen website. Beschikbaarheidswijzer Twente aanvullend gecontroleerd; geen betrouwbaar openbaar uitleesbare aanbieder-/productspecifieke termijn gevonden.",
+      "u": "https://muzizo.nl/muziektherapie/",
+      "us": [
+        "https://muzizo.nl/muziektherapie/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Oude Egberink PMT",
+      "w": "Psychomotorische therapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Enschede",
+      "d": "Jeugd",
+      "e": [
+        "PMT / psychomotorische therapie",
+        "Vaktherapie",
+        "Trauma / PTSS",
+        "ADHD / ADD",
+        "Angst",
+        "Stemming",
+        "ACT",
+        "Schemagericht werken"
+      ],
+      "c": "Samen14/Jeugd (contractlijst)",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Oude Egberink PMT behandelt kinderen vanaf 6 jaar en volwassenen. De praktijk vermeldt dat beschikbaarheid maatwerk is en niet altijd vooraf exact kan worden aangegeven. Geen eenduidige actuele wachttijd gevonden op de eigen website. Beschikbaarheidswijzer Twente aanvullend gecontroleerd; geen betrouwbaar openbaar uitleesbare aanbieder-/productspecifieke termijn gevonden.",
+      "u": "https://www.oudeegberinkpmt.nl/",
+      "us": [
+        "https://www.oudeegberinkpmt.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Samensterk-PMT",
+      "w": "Psychomotorische therapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Tubbergen / Dinkelland / Losser / Oldenzaal",
+      "d": "Jeugd",
+      "e": [
+        "PMT / psychomotorische therapie",
+        "Vaktherapie",
+        "Emotieregulatie",
+        "Zelfvertrouwen",
+        "Gedrag",
+        "Prikkelverwerking",
+        "Gezinsgericht"
+      ],
+      "c": "Jeugdwet (Tubbergen, Dinkelland, Losser, Oldenzaal)",
+      "i": null,
+      "b": 6.52,
+      "bText": "1–2 mnd",
+      "k": "concrete",
+      "s": "Samensterk-PMT publiceert momenteel een wachttijd van 1–2 maanden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd.",
+      "u": "https://www.samensterk-pmt.nl/aanmelden/",
+      "us": [
+        "https://www.samensterk-pmt.nl/aanmelden/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Praktijk Muziek&Meer",
+      "w": "Muziektherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Almelo",
+      "d": "Jeugd",
+      "e": [
+        "Muziektherapie",
+        "Vaktherapie",
+        "Jeugd",
+        "Jongeren",
+        "Emotieregulatie",
+        "Gedrag"
+      ],
+      "c": "Samen14/Jeugd (contractlijst)",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Muziek & Meer is een praktijk voor muziektherapie in Almelo voor volwassenen, jeugd en jongeren en staat in de Twentse contractlijst. Geen eenduidige actuele wachttijd gevonden op de eigen website. Beschikbaarheidswijzer Twente aanvullend gecontroleerd; geen betrouwbaar openbaar uitleesbare aanbieder-/productspecifieke termijn gevonden.",
+      "u": "https://www.muziekenmeer.info/",
+      "us": [
+        "https://www.muziekenmeer.info/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Kinderspel Twente",
+      "w": "Speltherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Hengelo",
+      "d": "Jeugd",
+      "e": [
+        "Speltherapie",
+        "Vaktherapie",
+        "Sociaal-emotionele ontwikkeling",
+        "Trauma / verwerking",
+        "Gedrag"
+      ],
+      "c": "Samen14/Jeugd (contractlijst, onderaannemer)",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Kinderspel Twente staat sinds 2024 in Hengelo geregistreerd en komt voor in de Twentse contractlijst. Een actuele eigen openbare website met wachttijd is niet betrouwbaar gevonden. Geen eenduidige actuele wachttijd gevonden op de eigen website. Beschikbaarheidswijzer Twente aanvullend gecontroleerd; geen betrouwbaar openbaar uitleesbare aanbieder-/productspecifieke termijn gevonden.",
+      "u": "https://www.google.com/search?q=Kinderspel+Twente+Hengelo",
+      "us": [
+        "https://www.google.com/search?q=Kinderspel+Twente+Hengelo",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Spel- en Tekentherapie Geri Arentsen",
+      "w": "Speltherapie / tekentherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Twente",
+      "d": "Jeugd",
+      "e": [
+        "Speltherapie",
+        "Tekentherapie",
+        "Vaktherapie",
+        "Creatieve therapie",
+        "Emotieregulatie",
+        "Trauma / verwerking"
+      ],
+      "c": "Samen14/Jeugd (contractlijst, onderaannemer)",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Deze aanbieder staat in de Twentse contractlijst voor ambulante jeugdhulp/vaktherapie. Geen eenduidige actuele wachttijd gevonden op de eigen website. Beschikbaarheidswijzer Twente aanvullend gecontroleerd; geen betrouwbaar openbaar uitleesbare aanbieder-/productspecifieke termijn gevonden.",
+      "u": "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe",
+      "us": [
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "Speltherapie de Speelvijver",
+      "w": "Speltherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Ommen / inzet via Twentse contractering",
+      "d": "Jeugd",
+      "e": [
+        "Speltherapie",
+        "Vaktherapie",
+        "Angst",
+        "Trauma / PTSS",
+        "Rouw en verlies",
+        "Hechting",
+        "Sociaal-emotionele ontwikkeling"
+      ],
+      "c": "Samen14/Jeugd (contractlijst, onderaannemer)",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "Speltherapie de Speelvijver is gevestigd in Ommen en staat als onderaannemer in de Twentse contractlijst. Geen eenduidige actuele wachttijd gevonden op de eigen website. Beschikbaarheidswijzer Twente aanvullend gecontroleerd; geen betrouwbaar openbaar uitleesbare aanbieder-/productspecifieke termijn gevonden.",
+      "u": "https://www.speltherapiedespeelvijver.nl/",
+      "us": [
+        "https://www.speltherapiedespeelvijver.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
+    },
+    {
+      "p": "PMKT Carry Lubbers",
+      "w": "Psychomotorische kindertherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Tubbergen / Twente",
+      "d": "Jeugd",
+      "e": [
+        "Psychomotorische kindertherapie",
+        "PMT / psychomotorische therapie",
+        "Vaktherapie",
+        "Zelfvertrouwen",
+        "Sociaal-emotionele ontwikkeling",
+        "Gedrag"
+      ],
+      "c": "Samen14/Jeugd (contractlijst)",
+      "i": null,
+      "b": null,
+      "k": "unknown",
+      "s": "PMKT Carry Lubbers is een psychomotorische kindertherapiepraktijk in Tubbergen en staat in de Twentse contractlijst. Geen eenduidige actuele wachttijd gevonden op de eigen website. Beschikbaarheidswijzer Twente aanvullend gecontroleerd; geen betrouwbaar openbaar uitleesbare aanbieder-/productspecifieke termijn gevonden.",
+      "u": "https://www.carrylubbers.nl/",
+      "us": [
+        "https://www.carrylubbers.nl/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded"
     }
   ],
-  "summary": "Uitgebreid en bronlinks gecontroleerd op 11 augustus 2026; bekende botbeveiligde bronnen worden niet meer als kapotte link gerapporteerd.",
-  "report": "Broncorrecties: DCT → dctwente.nl; Instituut Nijenkamp → nijenkamp.nl; PMT Enschede → pmt-enschede.nl; PVO ’t Zeggelt → pvo-zeggelt.nl. Toegevoegd: Praktijk Juno, Praktijk Asgard, Behandelcentrum Twente, Richelle Horstman Orthopedagogiek en Praktijk Ontdek. IJsselgroep Twente gecorrigeerd naar 10 weken dyslexiediagnostiek, 10 weken dyslexiebehandeling en 12 weken GGZ-behandeling. Toegevoegd: FamilySupporters Twente, De Korenschoof Samen Groeien en De Twentse Zorgcentra. Boncura verwijst naar de hoofdpagina; Timon en Boncura worden bij automatische curl-controle overgeslagen omdat server/botbeveiliging een fout kan geven terwijl de publiekslink wel bedoeld is voor browsergebruik."
+  "summary": "Initiële ingebouwde gegevens gepubliceerd.",
+  "report": "Nog geen automatische broncontrole uitgevoerd."
 }
