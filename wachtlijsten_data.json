@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T19:55:31.973Z",
+  "generatedAt": "2026-08-11T20:08:12.978Z",
   "rows": [
     {
       "p": "DOPPA zorg",
@@ -484,17 +484,18 @@
       "c": "Samen14/Jeugd",
       "i": null,
       "b": null,
-      "k": "unknown",
-      "s": "Mediant meldt voor jeugd een langere wachttijd en vraagt telefonisch contact voor de actuele stand. Het jeugdteam biedt individuele, systeemgerichte, medicamenteuze, groeps- en vaktherapeutische behandeling. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
-      "u": "https://mediant.nl/jeugd/behandeling",
-      "date": "2026-08-05",
+      "k": "route",
+      "s": "Mediant meldt voor Centrum voor Jeugd momenteel een langere wachttijd; voor de actuele jeugdtermijn vraagt Mediant telefonisch contact via 053-4828500.",
+      "u": "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
+      "date": "2026-08-11",
       "live": false,
       "checked": false,
       "refreshState": "embedded",
       "us": [
-        "https://mediant.nl/jeugd/behandeling",
+        "https://mediant.nl/clienten/aanmeldprocedure-en-informatie-voor-client/wachttijden",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
-      ]
+      ],
+      "iText": "Langere wachttijd"
     },
     {
       "p": "Mediant",
@@ -1738,77 +1739,6 @@
       "refreshState": "embedded"
     },
     {
-      "p": "InZicht Twente",
-      "w": "Reguliere begeleiding, behandeling en diagnostiek",
-      "a": [
-        "Begeleiding",
-        "Behandeling",
-        "Diagnostiek"
-      ],
-      "l": "Oldenzaal / heel Twente",
-      "d": "Jeugd",
-      "e": [
-        "Autisme / ASS",
-        "ADHD / ADD",
-        "LVB",
-        "Trauma / PTSS",
-        "EMDR",
-        "Angst",
-        "Depressie / stemming",
-        "Dwang / OCD",
-        "Hechting",
-        "Zelfbeeld / identiteit",
-        "CGT",
-        "NIKA",
-        "Schematherapeutisch werken",
-        "Individuele specialistische therapie",
-        "Gezinsbehandeling",
-        "IMH / infant mental health",
-        "Diagnostiek",
-        "Ambulante begeleiding"
-      ],
-      "c": "Samen14/Jeugd",
-      "i": null,
-      "b": null,
-      "k": "route",
-      "s": "InZicht meldt ruimte voor aanmeldingen en een korte wachtlijst voor therapie, behandeling en begeleiding. Er is geen concrete termijn in weken gepubliceerd. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
-      "u": "https://www.inzichttwente.nl/bij-inzicht-twente-hebben-wij-op-dit-moment-ruimte-voor-nieuwe-aanmeldingen-voor-therapie/",
-      "date": "2026-08-06",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded",
-      "us": [
-        "https://www.inzichttwente.nl/bij-inzicht-twente-hebben-wij-op-dit-moment-ruimte-voor-nieuwe-aanmeldingen-voor-therapie/",
-        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
-      ]
-    },
-    {
-      "p": "InZicht Twente",
-      "w": "Ambulante spoedhulp / Families First",
-      "a": [
-        "Crisis"
-      ],
-      "cr": true,
-      "l": "Alle 14 Twentse gemeenten",
-      "d": "Jeugd",
-      "e": [
-        "Ambulante spoedhulp",
-        "Families First",
-        "Crisis / veiligheid",
-        "Intensieve gezinsbegeleiding"
-      ],
-      "c": "Samen14/Jeugd",
-      "i": 0,
-      "b": 0,
-      "k": "concrete",
-      "s": "InZicht streeft er bij Ambulante Spoedhulp naar binnen 24 uur te starten. Deze crisisregel staat los van de reguliere behandeling en begeleiding.",
-      "u": "https://www.inzichttwente.nl/ambulante-spoedhulp/",
-      "date": "2026-08-06",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
-    },
-    {
       "p": "Curess",
       "w": "Reguliere ambulante hulpverlening",
       "a": [
@@ -1941,33 +1871,6 @@
       ]
     },
     {
-      "p": "Instituut Nijenkamp",
-      "l": "Enschede / Twente",
-      "d": "Jeugd",
-      "e": [
-        "Diagnostiek",
-        "Behandeling",
-        "Autisme / ASS",
-        "ADHD / ADD",
-        "Leerproblemen",
-        "Opvoeding"
-      ],
-      "c": "Samen14/Jeugd",
-      "i": null,
-      "b": null,
-      "k": "unknown",
-      "s": "Gecontracteerde aanbieder uit het Samen14-overzicht. Geen betrouwbare openbare actuele wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
-      "u": "https://www.nijenkamp.nl/",
-      "date": "2026-08-06",
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded",
-      "us": [
-        "https://www.nijenkamp.nl/",
-        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
-      ]
-    },
-    {
       "p": "Pienter&Co",
       "l": "Twente",
       "d": "Jeugd",
@@ -1982,17 +1885,18 @@
       "c": "Samen14/Jeugd",
       "i": null,
       "b": null,
-      "k": "unknown",
-      "s": "Gecontracteerde aanbieder uit het Samen14-overzicht. Geen betrouwbare openbare actuele wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
-      "u": "https://www.pienterenco.nl/",
-      "date": "2026-08-06",
+      "k": "route",
+      "s": "Pienter&Co meldt momenteel geen plek te hebben voor nieuwe cliënten; zodra aanmelden weer mogelijk is wordt dit op de eigen site vermeld.",
+      "u": "https://www.pienterenco.nl/contact/",
+      "date": "2026-08-11",
       "live": false,
       "checked": false,
       "refreshState": "embedded",
       "us": [
-        "https://www.pienterenco.nl/",
+        "https://www.pienterenco.nl/contact/",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
-      ]
+      ],
+      "iText": "Aanmeldstop"
     },
     {
       "p": "Jeugdx",
@@ -2160,18 +2064,19 @@
       ],
       "c": "Samen14/Jeugd",
       "i": null,
-      "b": null,
-      "k": "unknown",
-      "s": "MentalScope beschrijft CGT, ACT, EMDR, PMT, MBCT/mindfulness en RET. Voor het precieze jeugdteam, leeftijdsbereik en de actuele wachttijd moet de aanbieder worden geraadpleegd. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
+      "b": 20,
+      "k": "concrete",
+      "s": "De specifieke behandelpagina publiceert: intake en behandeling minimaal 20 weken na complete aanmelding. De homepage toont een afwijkende kortere waarde; daarom is de specifiekere behandelpagina aangehouden.",
       "u": "https://mentalscope.nl/psycholoog/behandeling/",
-      "date": "2026-08-06",
+      "date": "2026-08-11",
       "live": false,
       "checked": false,
       "refreshState": "embedded",
       "us": [
         "https://mentalscope.nl/psycholoog/behandeling/",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
-      ]
+      ],
+      "bText": "≥ 20 wk"
     },
     {
       "p": "Stichting Pluryn",
@@ -2204,19 +2109,20 @@
         "Complexe meervoudige problematiek"
       ],
       "c": "Samen14/Jeugd + mogelijk Wmo",
-      "i": null,
+      "i": 26,
       "b": null,
-      "k": "unknown",
-      "s": "Pluryn heeft een locatie in Almelo en biedt onder meer wonen met begeleiding, crisisopvang, diagnostiek, behandeling, dagbehandeling en specialistische jeugdzorg. De aanbieder vermeldt dat wachttijden per product fluctueren en via het Klantenbureau moeten worden opgevraagd. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
+      "k": "concrete",
+      "s": "Pluryn publiceert voor Behandelcentrum Twente in Almelo circa 6 maanden tot intake; na intake kan het nog enkele weken duren tot behandeling.",
       "u": "https://www.pluryn.nl/hoe-helpen-wij/wanneer-start-de-zorg",
-      "date": "2026-08-05",
+      "date": "2026-08-11",
       "live": false,
       "checked": false,
       "refreshState": "embedded",
       "us": [
         "https://www.pluryn.nl/hoe-helpen-wij/wanneer-start-de-zorg",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
-      ]
+      ],
+      "iText": "6 mnd"
     },
     {
       "p": "Praktijk Forza B.V.",
@@ -3463,7 +3369,7 @@
       "i": null,
       "b": null,
       "k": "route",
-      "s": "Voor Jeugdwet (16–18 jaar) meldt Behandelcentrum Twente momenteel een korte aanmeldstop. Bij open aanmelding is de intake doorgaans circa 4 weken en diagnostiek/behandeling kan aansluitend of na enkele weken starten. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
+      "s": "Jeugdwet 16–18 jaar: momenteel korte aanmeldstop. Als aanmelden open is, publiceert BCT circa 4 weken tot intake; diagnostiek sluit aan en behandeling start aansluitend of na enkele weken.",
       "u": "https://www.behandelcentrumtwente.nl/aanmelden/",
       "date": "2026-08-11",
       "us": [
@@ -3472,7 +3378,8 @@
       ],
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "iText": "Korte aanmeldstop"
     },
     {
       "p": "Richelle Horstman Orthopedagogiek",
@@ -3615,42 +3522,6 @@
       "refreshState": "embedded"
     },
     {
-      "p": "De Korenschoof Samen Groeien",
-      "w": "Speltherapie, behandeling en ambulante jeugdhulp",
-      "a": [
-        "Behandeling",
-        "Begeleiding"
-      ],
-      "l": "Twente / Almelo / Enschede / Oldenzaal",
-      "d": "Jeugd",
-      "e": [
-        "Speltherapie",
-        "PMT / psychomotorische therapie",
-        "Jeugdpsychologie",
-        "Traumaverwerking",
-        "Gedragsproblemen",
-        "Sociale vaardigheden",
-        "Hechting",
-        "Rouw en verlies",
-        "Gezin",
-        "Ambulante hulp"
-      ],
-      "c": "Jeugdwet; toegang/contract controleren",
-      "i": null,
-      "b": null,
-      "k": "unknown",
-      "s": "De Korenschoof Samen Groeien biedt ambulante hulp, jeugdpsychologische hulp en speltherapie. De oude Spel & Therapie-site publiceerde 12 weken (peildatum 1 juli 2025), maar die waarde is te oud om als actuele wachttijd te tonen. Controleer de actuele beschikbaarheid rechtstreeks. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
-      "u": "https://dekorenschoof.nl/samen-groeien/behandeling-therapie/speltherapie/",
-      "date": "2026-08-11",
-      "us": [
-        "https://dekorenschoof.nl/samen-groeien/behandeling-therapie/speltherapie/",
-        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
-      ],
-      "live": false,
-      "checked": false,
-      "refreshState": "embedded"
-    },
-    {
       "p": "De Twentse Zorgcentra",
       "w": "Vaktherapie",
       "a": [
@@ -3669,17 +3540,18 @@
       "c": "Jeugdwet / Wlz; passendheid controleren",
       "i": null,
       "b": null,
-      "k": "unknown",
-      "s": "De Twentse Zorgcentra biedt speltherapie en daarnaast psychomotorische therapie en muziektherapie voor cliënten met een verstandelijke beperking. Geen uniforme actuele openbare wachttijd gevonden. Beschikbaarheidswijzer Twente is aanvullend gecontroleerd; er was geen eenduidig openbaar uitleesbare aanbieder-/productspecifieke wachttijd om verantwoord over te nemen.",
-      "u": "https://www.detwentsezorgcentra.nl/behandeling-en-expertise/speltherapie/",
+      "k": "route",
+      "s": "De Twentse Zorgcentra meldt dat het soms kan duren, maar dat zij cliënten meestal op korte termijn kunnen helpen. Voor een exacte termijn moet het CliëntServiceBureau worden geraadpleegd.",
+      "u": "https://www.detwentsezorgcentra.nl/zorg-regelen/aanmelden/",
       "date": "2026-08-11",
       "us": [
-        "https://www.detwentsezorgcentra.nl/behandeling-en-expertise/speltherapie/",
+        "https://www.detwentsezorgcentra.nl/zorg-regelen/aanmelden/",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
       ],
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "bText": "Meestal korte termijn"
     },
     {
       "p": "Mentaal Losser",
@@ -4155,17 +4027,18 @@
       "c": "Samen14/Jeugd (contractlijst)",
       "i": null,
       "b": null,
-      "k": "unknown",
-      "s": "Oude Egberink PMT behandelt kinderen vanaf 6 jaar en volwassenen. De praktijk vermeldt dat beschikbaarheid maatwerk is en niet altijd vooraf exact kan worden aangegeven. Geen eenduidige actuele wachttijd gevonden op de eigen website. Beschikbaarheidswijzer Twente aanvullend gecontroleerd; geen betrouwbaar openbaar uitleesbare aanbieder-/productspecifieke termijn gevonden.",
-      "u": "https://www.oudeegberinkpmt.nl/",
+      "k": "route",
+      "s": "De praktijk geeft expliciet aan dat PMT maatwerk is en dat niet altijd precies vooraf kan worden aangegeven wanneer er plek is.",
+      "u": "https://www.oudeegberinkpmt.nl/tarieven-en-werkwijze",
       "us": [
-        "https://www.oudeegberinkpmt.nl/",
+        "https://www.oudeegberinkpmt.nl/tarieven-en-werkwijze",
         "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
       ],
       "date": "2026-08-11",
       "live": false,
       "checked": false,
-      "refreshState": "embedded"
+      "refreshState": "embedded",
+      "bText": "Beschikbaarheid maatwerk"
     },
     {
       "p": "Samensterk-PMT",
@@ -4354,6 +4227,427 @@
       "live": false,
       "checked": false,
       "refreshState": "embedded"
+    },
+    {
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded",
+      "p": "De Korenschoof Samen Groeien",
+      "d": "Jeugd",
+      "c": "Samen14/Jeugd",
+      "k": "concrete",
+      "u": "https://dekorenschoof.nl/samen-groeien/voor-verwijzers/praktisch-formeel/",
+      "us": [
+        "https://dekorenschoof.nl/samen-groeien/voor-verwijzers/praktisch-formeel/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "w": "Speltherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Almelo",
+      "e": [
+        "Speltherapie",
+        "Vaktherapie"
+      ],
+      "b": 26,
+      "s": "Actuele wachttijd Speltherapie Almelo: 26 weken."
+    },
+    {
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded",
+      "p": "De Korenschoof Samen Groeien",
+      "d": "Jeugd",
+      "c": "Samen14/Jeugd",
+      "k": "concrete",
+      "u": "https://dekorenschoof.nl/samen-groeien/voor-verwijzers/praktisch-formeel/",
+      "us": [
+        "https://dekorenschoof.nl/samen-groeien/voor-verwijzers/praktisch-formeel/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "w": "Speltherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Enschede",
+      "e": [
+        "Speltherapie",
+        "Vaktherapie"
+      ],
+      "b": 26,
+      "s": "Actuele wachttijd Speltherapie Enschede: 26 weken."
+    },
+    {
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded",
+      "p": "De Korenschoof Samen Groeien",
+      "d": "Jeugd",
+      "c": "Samen14/Jeugd",
+      "k": "concrete",
+      "u": "https://dekorenschoof.nl/samen-groeien/voor-verwijzers/praktisch-formeel/",
+      "us": [
+        "https://dekorenschoof.nl/samen-groeien/voor-verwijzers/praktisch-formeel/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "w": "Speltherapie",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Oldenzaal",
+      "e": [
+        "Speltherapie",
+        "Vaktherapie"
+      ],
+      "b": 12,
+      "s": "Actuele wachttijd Speltherapie Oldenzaal: 12 weken."
+    },
+    {
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded",
+      "p": "De Korenschoof Samen Groeien",
+      "d": "Jeugd",
+      "c": "Samen14/Jeugd",
+      "k": "concrete",
+      "u": "https://dekorenschoof.nl/samen-groeien/voor-verwijzers/praktisch-formeel/",
+      "us": [
+        "https://dekorenschoof.nl/samen-groeien/voor-verwijzers/praktisch-formeel/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "w": "Psychomotorische therapie (PMT)",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Oldenzaal",
+      "e": [
+        "PMT / psychomotorische therapie",
+        "Vaktherapie"
+      ],
+      "b": 12,
+      "s": "Actuele wachttijd PMT Oldenzaal: 12 weken."
+    },
+    {
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded",
+      "p": "De Korenschoof Samen Groeien",
+      "d": "Jeugd",
+      "c": "Samen14/Jeugd",
+      "k": "concrete",
+      "u": "https://dekorenschoof.nl/samen-groeien/voor-verwijzers/praktisch-formeel/",
+      "us": [
+        "https://dekorenschoof.nl/samen-groeien/voor-verwijzers/praktisch-formeel/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "w": "Diagnostiek",
+      "a": [
+        "Diagnostiek"
+      ],
+      "l": "Twente",
+      "e": [
+        "Diagnostiek",
+        "Jeugdpsychologie"
+      ],
+      "b": 21.7,
+      "bText": "4–6 mnd",
+      "s": "De Korenschoof publiceert voor diagnostiek 4–6 maanden."
+    },
+    {
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded",
+      "p": "De Korenschoof Samen Groeien",
+      "d": "Jeugd",
+      "c": "Samen14/Jeugd",
+      "k": "concrete",
+      "u": "https://dekorenschoof.nl/samen-groeien/voor-verwijzers/praktisch-formeel/",
+      "us": [
+        "https://dekorenschoof.nl/samen-groeien/voor-verwijzers/praktisch-formeel/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "w": "Behandeling",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Twente",
+      "e": [
+        "Behandeling",
+        "Jeugdpsychologie"
+      ],
+      "b": 4,
+      "bText": "< 4 wk",
+      "s": "De Korenschoof publiceert voor behandeling minder dan 4 weken."
+    },
+    {
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded",
+      "p": "De Korenschoof Samen Groeien",
+      "d": "Jeugd",
+      "c": "Samen14/Jeugd",
+      "k": "concrete",
+      "u": "https://dekorenschoof.nl/samen-groeien/voor-verwijzers/praktisch-formeel/",
+      "us": [
+        "https://dekorenschoof.nl/samen-groeien/voor-verwijzers/praktisch-formeel/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "w": "Traumabehandeling",
+      "a": [
+        "Behandeling"
+      ],
+      "l": "Twente",
+      "e": [
+        "Trauma / PTSS",
+        "Traumabehandeling"
+      ],
+      "b": 4,
+      "bText": "< 4 wk",
+      "s": "De Korenschoof publiceert voor traumabehandeling minder dan 4 weken."
+    },
+    {
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded",
+      "p": "De Korenschoof Samen Groeien",
+      "d": "Jeugd",
+      "c": "Samen14/Jeugd",
+      "k": "concrete",
+      "u": "https://dekorenschoof.nl/samen-groeien/voor-verwijzers/praktisch-formeel/",
+      "us": [
+        "https://dekorenschoof.nl/samen-groeien/voor-verwijzers/praktisch-formeel/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "w": "Algemene aanmelding / behandelwachttijd",
+      "a": [
+        "Behandeling",
+        "Begeleiding"
+      ],
+      "l": "Twente",
+      "e": [
+        "Ambulante hulp",
+        "Gezin",
+        "Behandeling"
+      ],
+      "i": 4,
+      "b": 7,
+      "bText": "6–8 wk",
+      "s": "Algemene aanmeldwachttijd: 4 weken; behandelwachttijd daarna: 6–8 weken."
+    },
+    {
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded",
+      "p": "InZicht Twente",
+      "l": "Oldenzaal / heel Twente",
+      "d": "Jeugd",
+      "c": "Samen14/Jeugd",
+      "u": "https://www.inzichttwente.nl/voor-gezinnen/",
+      "us": [
+        "https://www.inzichttwente.nl/voor-gezinnen/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "k": "concrete",
+      "w": "Gezinsbehandeling",
+      "a": [
+        "Behandeling"
+      ],
+      "e": [
+        "Gezinsbehandeling",
+        "Gezin",
+        "Ambulante hulp",
+        "Hechting",
+        "Opvoeding"
+      ],
+      "b": 5,
+      "bText": "4–6 wk",
+      "s": "InZicht Twente publiceert voor gezinsbehandeling 4–6 weken."
+    },
+    {
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded",
+      "p": "InZicht Twente",
+      "l": "Oldenzaal / heel Twente",
+      "d": "Jeugd",
+      "c": "Samen14/Jeugd",
+      "u": "https://www.inzichttwente.nl/voor-gezinnen/",
+      "us": [
+        "https://www.inzichttwente.nl/voor-gezinnen/",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "k": "concrete",
+      "w": "Diagnostiek en individuele therapie",
+      "a": [
+        "Diagnostiek",
+        "Behandeling"
+      ],
+      "e": [
+        "Diagnostiek",
+        "Individuele specialistische therapie",
+        "EMDR",
+        "CGT",
+        "NIKA",
+        "Schematherapeutisch werken",
+        "Trauma / PTSS",
+        "Autisme / ASS",
+        "ADHD / ADD",
+        "Angst",
+        "Depressie / stemming",
+        "Dwang / OCD"
+      ],
+      "b": 13,
+      "bText": "3 mnd",
+      "s": "InZicht Twente publiceert voor diagnostiek en therapie circa 3 maanden."
+    },
+    {
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded",
+      "p": "InZicht Twente",
+      "w": "Ambulante spoedhulp / Families First",
+      "a": [
+        "Crisis"
+      ],
+      "cr": true,
+      "l": "Alle 14 Twentse gemeenten",
+      "d": "Jeugd",
+      "e": [
+        "Ambulante spoedhulp",
+        "Families First",
+        "Crisis / veiligheid",
+        "Intensieve gezinsbegeleiding"
+      ],
+      "c": "Samen14/Jeugd",
+      "i": 0,
+      "b": 0,
+      "k": "concrete",
+      "s": "InZicht streeft er bij Ambulante Spoedhulp naar binnen 24 uur te starten.",
+      "u": "https://www.inzichttwente.nl/ambulante-spoedhulp/"
+    },
+    {
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded",
+      "p": "Instituut Nijenkamp",
+      "l": "Almelo / Twente",
+      "d": "Jeugd",
+      "c": "Samen14/Jeugd",
+      "u": "https://www.nijenkamp.nl/?id=54&view=category",
+      "us": [
+        "https://www.nijenkamp.nl/?id=54&view=category",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "k": "concrete",
+      "w": "GGZ behandeling",
+      "a": [
+        "Behandeling"
+      ],
+      "e": [
+        "Behandeling",
+        "Autisme / ASS",
+        "ADHD / ADD",
+        "Gedragsproblemen"
+      ],
+      "b": 8,
+      "s": "Gepubliceerde behandelingswachttijd GGZ: 8 weken."
+    },
+    {
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded",
+      "p": "Instituut Nijenkamp",
+      "l": "Almelo / Twente",
+      "d": "Jeugd",
+      "c": "Samen14/Jeugd",
+      "u": "https://www.nijenkamp.nl/?id=54&view=category",
+      "us": [
+        "https://www.nijenkamp.nl/?id=54&view=category",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "k": "concrete",
+      "w": "GGZ diagnostiek",
+      "a": [
+        "Diagnostiek"
+      ],
+      "e": [
+        "Diagnostiek",
+        "Autisme / ASS",
+        "ADHD / ADD"
+      ],
+      "i": 12,
+      "s": "Gepubliceerde aanmeldingswachttijd diagnostiek: 12 weken."
+    },
+    {
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded",
+      "p": "Instituut Nijenkamp",
+      "l": "Almelo / Twente",
+      "d": "Jeugd",
+      "c": "Samen14/Jeugd",
+      "u": "https://www.nijenkamp.nl/?id=54&view=category",
+      "us": [
+        "https://www.nijenkamp.nl/?id=54&view=category",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "k": "concrete",
+      "w": "Ernstige dyslexiezorg",
+      "a": [
+        "Diagnostiek",
+        "Behandeling"
+      ],
+      "e": [
+        "Dyslexie",
+        "Diagnostiek"
+      ],
+      "i": 4,
+      "b": 6,
+      "bText": "6 wk na diagnostiek",
+      "s": "Screening binnen 4 weken; onderzoek 6 weken na goedkeuring dossier; behandeling 6 weken na afronding diagnostiek."
+    },
+    {
+      "date": "2026-08-11",
+      "live": false,
+      "checked": false,
+      "refreshState": "embedded",
+      "p": "Instituut Nijenkamp",
+      "l": "Almelo / Twente",
+      "d": "Jeugd",
+      "c": "Samen14/Jeugd",
+      "u": "https://www.nijenkamp.nl/?id=54&view=category",
+      "us": [
+        "https://www.nijenkamp.nl/?id=54&view=category",
+        "https://app.beschikbaarheidswijzer.nl/app/v3/dashboard?selregio=bswtwe"
+      ],
+      "k": "concrete",
+      "w": "Orthopedagogische ondersteunende begeleiding",
+      "a": [
+        "Begeleiding"
+      ],
+      "e": [
+        "Begeleiding",
+        "Leerproblemen",
+        "Sociaal-emotionele problemen"
+      ],
+      "i": 2,
+      "b": 4,
+      "s": "Intake binnen 2 weken; begeleiding binnen 4 weken."
     }
   ],
   "summary": "Initiële ingebouwde gegevens gepubliceerd.",
