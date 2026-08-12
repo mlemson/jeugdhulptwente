@@ -16,7 +16,7 @@ const scripts=[...html.matchAll(/<script>([\s\S]*?)<\/script>/gi)];
 if(!scripts.length)throw new Error('Geen inline script gevonden in index.html');
 const code=scripts.at(-1)[1];
 const MAX_BYTES=12*1024*1024;
-const REMOTE_TIMEOUT_MS=8000;
+const REMOTE_TIMEOUT_MS=20000;
 const nativeFetch=globalThis.fetch;
 
 class FakeElement{
@@ -107,9 +107,10 @@ async function fetchRemoteDoc(requestedUrl,outerSignal){
   try{
     const args=[
       '--location','--silent','--show-error','--fail',
-      '--connect-timeout','4','--max-time',String(Math.ceil(REMOTE_TIMEOUT_MS/1000)),
+      '--connect-timeout','10','--max-time',String(Math.ceil(REMOTE_TIMEOUT_MS/1000)),
+      '--retry','2','--retry-delay','1','--retry-all-errors',
       '--max-filesize',String(MAX_BYTES),
-      '--user-agent','Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 WachtlijstenTwente/24',
+      '--user-agent','Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 WachtlijstenTwente/33',
       '--header','Accept: text/html,application/xhtml+xml,application/pdf,text/plain;q=0.9,*/*;q=0.7',
       '--header','Accept-Language: nl-NL,nl;q=0.9,en;q=0.5',
       '--output',temp,
@@ -141,7 +142,7 @@ async function fetchRemoteDoc(requestedUrl,outerSignal){
 
 const wrappedFetch=async(input,init={})=>{
   const raw=typeof input==='string'?input:input.url;
-  if(raw==='/api/health')return jsonResponse({ok:true,version:24});
+  if(raw==='/api/health')return jsonResponse({ok:true,version:33});
   if(raw.startsWith('/api/text?')){
     const requestUrl=new URL(raw,'http://127.0.0.1').searchParams.get('url');
     if(!requestUrl)return jsonResponse({ok:false,error:'URL ontbreekt'},400);
